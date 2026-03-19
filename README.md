@@ -6,6 +6,20 @@ Cleaned, quality-checked air quality measurements from government and independen
 
 ---
 
+## Additional Data (Google Drive)
+
+Larger historical datasets that don't fit in this repository are available on Google Drive:
+
+**[AirData.kz — Historical Archives](https://drive.google.com/drive/folders/1M_GBxFrVUxeL0DsVgCPpxjALyS-MlZfM?usp=share_link)**
+
+| Dataset | Description | Period | Size |
+|:--------|:------------|:-------|:-----|
+| **AirKaz** | Daily PM2.5 from 41 low-cost sensors across Almaty. Per-station readings with coordinates. | 2017–2020 | ~1.2 MB |
+| **EcoGosFond.kz** | Government environmental reports from ecogosfond.kz — annual, quarterly, and monthly pollution statistics for all of Kazakhstan. PDF and original DOC formats. | 2005–2022 | ~2.2 GB |
+| **KGMT Historical** | Hourly air quality data extracted from KazHydroMet Excel archives. 17 cities including Aktau, Aktobe, Atyrau, Karaganda, Kostanay, Pavlodar, Shymkent, and more. CSV format. | 2018–2022 | ~777 MB |
+
+---
+
 ## Directory Structure
 
 ```
@@ -195,24 +209,6 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 | Astana | January 2018 | 11 | 1.9M | 19K |
 | Karaganda | January 2018 | 12 | 1.2M | 23K |
 | Rest of KZ | June 2020 | 9 | 28M | 479K |
-
----
-
-## Additional Data (Google Drive)
-
-Larger historical datasets that don't fit in this repository are available on Google Drive:
-
-**[AirData.kz — Historical Archives](https://drive.google.com/drive/folders/1M_GBxFrVUxeL0DsVgCPpjALyS-MlZfM?usp=share_link)**
-
-This folder contains:
-
-| Dataset | Description | Period | Size |
-|:--------|:------------|:-------|:-----|
-| **AirKaz** | Daily PM2.5 from 41 low-cost sensors across Almaty. Per-station readings with coordinates. | 2017–2020 | ~1.2 MB |
-| **EcoGosFond.kz** | Government environmental reports from ecogosfond.kz — annual, quarterly, and monthly pollution statistics for all of Kazakhstan. PDF and original DOC formats. | 2005–2022 | ~2.2 GB |
-| **KGMT Historical** | Hourly air quality data extracted from KazHydroMet Excel archives. 17 cities including Aktau, Aktobe, Atyrau, Karaganda, Kostanay, Pavlodar, Shymkent, and more. CSV format. | 2018–2022 | ~777 MB |
-
-These datasets are provided as-is from their original sources. The cleaned, quality-checked versions of the data are in this repository.
 
 ---
 
