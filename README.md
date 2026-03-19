@@ -122,7 +122,6 @@ One row per day. City-wide average computed from geographic cluster averages, en
 | Source | Type | Stations | Cities |
 |:-------|:-----|:---------|:-------|
 | `kgmt` | Government reference-grade (KazHydroMet) | 141+ | All Kazakhstan |
-| `kgmt_auto` | Government automated (historical Excel) | 37 | Almaty, Astana, Karaganda |
 | `openaq` | International aggregator (OpenAQ) | 22 | Almaty, Astana |
 | `waqi` | International aggregator (aqicn.org) | 11 | Almaty |
 | `airgradient` | Low-cost sensors (AirGradient) | 139 | Almaty |

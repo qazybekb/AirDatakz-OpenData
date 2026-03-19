@@ -11,7 +11,7 @@ Column-level documentation for all CSV files in this repository.
 | 1 | `datetime_utc` | timestamp | no | Measurement time in UTC (with timezone offset) |
 | 2 | `station_id` | string | no | Unique station identifier (e.g., `kgmt_107`, `waqi_12774`) |
 | 3 | `station_name` | string | yes | Human-readable station name / address |
-| 4 | `source` | string | no | Data source: `kgmt`, `kgmt_auto`, `openaq`, `waqi`, `airgradient`, `airkaz` |
+| 4 | `source` | string | no | Data source: `kgmt`, `openaq`, `waqi`, `airgradient`, `airkaz` |
 | 5 | `lat` | float | yes | Station latitude (WGS84). Null for some historical stations. |
 | 6 | `lon` | float | yes | Station longitude (WGS84) |
 | 7 | `value_ugm3` | float | no | Measured value in harmonized units (see Parameters below) |
