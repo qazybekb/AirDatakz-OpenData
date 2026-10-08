@@ -1,6 +1,7 @@
 # Independent health check for the AirData pipeline, running on GitHub (not on the Mac).
 # Fails — and GitHub emails the maintainer — only when something needs a human:
-# no new data for 48 h, or airdata.kz down / showing data older than 3 days.
+# no new data for 48 h, a city losing more than half of its reporting stations,
+# or airdata.kz down / showing data older than 3 days.
 name: Data freshness
 
 on:
@@ -27,6 +28,28 @@ jobs:
             echo "::error::No new data for ${hours} hours. Check the AirData Mac mini: ./airdata status"
             exit 1
           fi
+
+      - name: Every city still reports from most of its usual stations
+        run: |
+          python3 - <<'PY'
+          import csv, gzip, io, statistics, sys, urllib.request
+          from datetime import date
+          repo, failed = "${{ github.repository }}", False
+          for city in ("almaty", "astana", "karaganda"):
+              url = f"https://raw.githubusercontent.com/{repo}/main/{city}/daily/pm25.csv.gz"
+              with urllib.request.urlopen(url, timeout=60) as resp:
+                  rows = list(csv.DictReader(io.TextIOWrapper(gzip.GzipFile(fileobj=io.BytesIO(resp.read())))))
+              latest = date.fromisoformat(rows[-1]["date"])
+              complete, history = rows[-2], rows[-16:-2]   # the latest day may still be filling up
+              usual = statistics.median(float(r["n_stations"]) for r in history)
+              now = float(complete["n_stations"])
+              print(f"{city}: latest {latest}, stations on {complete['date']}: {now:.0f} (usual {usual:.0f})")
+              if (date.today() - latest).days > 3:
+                  print(f"::error::{city}: newest daily value is {latest}"); failed = True
+              if usual and now < 0.5 * usual:
+                  print(f"::error::{city}: only {now:.0f} stations reported on {complete['date']} (usual {usual:.0f})"); failed = True
+          sys.exit(1 if failed else 0)
+          PY
 
       - name: airdata.kz is up and shows recent data
         run: |

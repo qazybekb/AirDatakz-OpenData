@@ -225,6 +225,25 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 
 ---
 
+## Data Corrections (8 Oct 2026)
+
+All files were regenerated with these fixes; please re-download if you use earlier copies.
+
+- **Daily values use Kazakhstan calendar days.** Daily files and summaries previously
+  grouped hours by America/Los_Angeles days (12–13 h off). They now use local days
+  (Asia/Almaty). Almaty PM2.5 daily values changed by a median of 17%.
+- **Hourly timestamps are written in UTC** (`+00:00`). The instants are unchanged; only the
+  offset notation differs from earlier files (`-07:00` / `-08:00`).
+- **WAQI hourly readings moved to their true hour.** 75,026 WAQI rows (Almaty, 2023–2026)
+  had been stored 12–14 h late; corrected. 3,255 resulting duplicates were dropped.
+- **No double counting of AirGradient sensors.** OpenAQ re-publishes AirGradient sensors;
+  in Almaty they are now taken only from the direct AirGradient feed.
+- **Under review:** KazHydroMet hourly timestamps before 2023 may be offset by several
+  hours, and several KazHydroMet PM2.5 monitors in Almaty disagree strongly with the
+  dense AirGradient network. Daily averages are less affected than hourly patterns.
+
+---
+
 ## Citation
 
 ```
