@@ -178,6 +178,8 @@ Email: airdatakz@gmail.com
 
 Yes, daily. New data is ingested every 20 minutes, cleaned overnight, and published each morning. The GitHub repository is updated automatically after each export.
 
+**Known collection gap.** The pipeline was offline from 25 April 2026 to 8 October 2026. Almaty, Astana and Karaganda have no data for this period; `rest_of_kz` (raw KazHydroMet) has data up to 21 August 2026. Collection resumed on 8 October 2026 and the gap is not backfilled.
+
 **Will older versions continue to be available?**
 
 Historical data is never deleted — the dataset is append-only. Git history preserves previous versions. Quality flags may be updated as the cleaning methodology improves, but raw values are immutable.

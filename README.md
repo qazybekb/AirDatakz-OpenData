@@ -48,10 +48,13 @@ csv/
 │   ├── ...                        (includes CH₄, THC, NH₃)
 │   └── daily/
 │
-└── rest_of_kz/                 All other Kazakhstan cities — 9 parameters, 2020–present
-    ├── pm2_5.csv.gz               5.4M hourly readings
-    ├── ...                        (120+ KGMT government stations)
-    └── daily/
+├── rest_of_kz/                 All other Kazakhstan cities — 9 parameters, 2020–present
+│   ├── pm2_5.csv.gz               5.4M hourly readings
+│   ├── ...                        (120+ KGMT government stations)
+│   └── daily/
+│
+├── stations.csv                Station registry: id, name, city, coordinates, source, operator
+└── stations.geojson            Same registry as GeoJSON points (WGS84)
 ```
 
 ---
@@ -218,6 +221,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **Astana 2019**: Limited to PM2.5 only (other parameters start 2020).
 - **rest_of_kz**: Uses `pm2_5` and `pmtot` codes instead of `pm25` and `tsp` (matches KGMT national naming convention).
 - **Station coordinates**: Some historical stations lack lat/lon coordinates (shown as empty in CSV).
+- **Collection gap (25 Apr – 8 Oct 2026)**: the pipeline was offline. Almaty, Astana and Karaganda have no data for this period; `rest_of_kz` has data up to 21 Aug 2026. Collection resumed on 8 Oct 2026; the gap is not backfilled.
 
 ---
 
