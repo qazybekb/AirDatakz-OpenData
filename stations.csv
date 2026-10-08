@@ -1,0 +1,1165 @@
+station_id,name,city,region,country,lat,lon,timezone,station_type,source,operator,is_active
+ag_166942,"Talǵar, Gagarin atyndaǵy №8 mektep",Almaty,,KZ,43.2938,77.2347,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_166943,Almaty Arena,Almaty,,KZ,43.2639,76.8193,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167207,"Panfilovo, №33 mektep",Almaty,,KZ,43.3838,77.1163,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167209,Köktem şipazhaiy,Almaty,,KZ,43.2018,76.9368,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167210,№193 mektep,Almaty,,KZ,43.373,76.9431,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167213,Şuhov at. skver,Almaty,,KZ,43.2747,76.9808,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167214,Maqataev – Muratbaev,Almaty,,KZ,43.2618,76.9186,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167215,Orbita 1 (Navoi k-si) ,Almaty,,KZ,43.2035,76.8869,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167216,Mega Park,Almaty,,KZ,43.2634,76.9319,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167218,Ermensai (Juldyz – Ortalyq) ,Almaty,,KZ,43.168,76.9163,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167221,Bekmahanov – Süyinbai,Almaty,,KZ,43.3461,76.971271,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167254,Ainabulaq (Jumabayev k-si) ,Almaty,,KZ,43.3238,76.9111,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167255,Almağül (Serkebaev – Strauss),Almaty,,KZ,43.2049,76.8999,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167256,Wellness Club Luxor ,Almaty,,KZ,43.2083,76.96651,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167257,Abai – Seifullin ,Almaty,,KZ,43.241181,76.933831,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167258,"Kókqaınar auyly, №29 mektep",Almaty,,KZ,43.450782,76.943029,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167259,Kerei Janibek k-si – Gornyi t.,Almaty,,KZ,43.2362,76.9652,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167263,Ayajan (Talas k-si),Almaty,,KZ,43.3179,76.9374,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167264,Vagjanov - Jansugurov k-si ,Almaty,,KZ,43.3054,76.9312,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167265,Jas Qanat,Almaty,,KZ,43.3251,76.9866,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167266,"Qyzylqaırat , №19 mektep gimnaziya",Almaty,,KZ,43.303307,77.185303,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167267,№163 litsei,Almaty,,KZ,43.2204,76.9544,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167269,Hunter shooting club,Almaty,,KZ,43.383170386230546,76.98219747156817,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167270,Altai 2,Almaty,,KZ,43.3503,76.9888,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167271,Sharipov St.- Raimbek St. cross,Almaty,,KZ,43.2456,76.8348,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167415,Turğyt Özal – Yesenzhanov,Almaty,,KZ,43.2406,76.8824,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167417,Jambyl – Nurmaqov,Almaty,,KZ,43.2452,76.9075,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167418,№170 Böbekjai balabaqşasy,Almaty,,KZ,43.3115,76.9015,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167419,Tastybulaq (Kazgiprozem),Almaty,,KZ,43.1729,76.8154,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167420,Duman (Arys k-si) ,Almaty,,KZ,43.2777,77.0055,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167422,"Belbulak, №32 mektep",Almaty,,KZ,43.3121,77.098,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167423,Asqarov k-si,Almaty,,KZ,43.1952,76.8645,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167424,5-şi şağyn audan ,Almaty,,KZ,43.2337,76.8642,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167428,Şanyraq 2 (Baldáuren k-si) ,Almaty,,KZ,43.2904,76.8507,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167430,AKPTiT kolledj ,Almaty,,KZ,43.3958,76.9865,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167431,Samğau ş.a. (Kokorai k-si) ,Almaty,,KZ,43.2706,76.8612,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167432,Qazybek bi – Nurmaqov,Almaty,,KZ,43.2537,76.9064,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167433,Sairan (Ötegen batyr k-si),Almaty,,KZ,43.2414,76.8608,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167435,Süyinbai 487,Almaty,,KZ,43.358233,76.97941,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167436,Qazaqfilm (Baiydosov k-si),Almaty,,KZ,43.1933,76.9035,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167437,Aqbulaq (Baiqonyrov k-si) ,Almaty,,KZ,43.2636,76.8336,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167580,№12 Qalalyq emhana,Almaty,,KZ,43.2355,76.9113,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167583,Malaya Stanitsa (Bestujev k-si),Almaty,,KZ,43.281123,76.970665,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167584,GATOB,Almaty,,KZ,43.2497,76.9458,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167585,"QazTSIK, №40 mektep",Almaty,,KZ,43.3782,76.8364,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167586,"Tuıimebaev auyly, №19 mektep ",Almaty,,KZ,43.4134,76.914,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167588,Prezident sayabağı,Almaty,,KZ,43.1944,76.8876,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167589,Qalalyq kardiologiya ortalyğı,Almaty,,KZ,43.2536,76.9283,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167590,№86 mektep-gimnaziya,Almaty,,KZ,43.219879,76.859159,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167591,SDU,Almaty,,KZ,43.208174,76.668446,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167592,Mamyr 1,Almaty,,KZ,43.2114,76.8434,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167593,№4 Qalalyq emhana (Orbita 3),Almaty,,KZ,43.2019,76.8766,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167594,№178 mektep,Almaty,,KZ,43.2499,76.8143,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167595,Narxoz University ,Almaty,,KZ,43.214577,76.871985,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167596,Ońtústik saıabaǵy | MOST hub ,Almaty,,KZ,43.2103,76.9083,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167597,№42 mektep,Almaty,,KZ,43.2373,76.8333,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167598,№116 mektep,Almaty,,KZ,43.2255,76.8685,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167600,"Baıkent, №10 orta mektep",Almaty,,KZ,43.474545,76.807185,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167601,"Kyrgauyldy auyly, Orta mektep",Almaty,,KZ,43.1793,76.7701,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167602,№47 mektep,Almaty,,KZ,43.1919,76.9681,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167604,Almaty oblystyq №1 balalar uyi,Almaty,,KZ,43.201,76.9136,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167605,Qoşmambet orta mektebi,Almaty,,KZ,43.3322,76.6498,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167606,№190 mektep ,Almaty,,KZ,43.1573,76.9017,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167607,"Irgeli, orta mektep",Almaty,,KZ,43.2421,76.7622,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167608,Ermensai (Araily k-si),Almaty,,KZ,43.1885,76.9304,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167610,Alatau kenti (Jetbaev k-si),Almaty,,KZ,43.3615,77.1367,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167613,"Tuzdybastau, №13 mektep ",Almaty,,KZ,43.3239,77.0644,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167614,Al Farabi Universiteti,Almaty,,KZ,43.2267,76.9217,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167615,№7 Su Elektr Stansiäsy,Almaty,,KZ,43.1658,76.8962,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167616,№63 orta mektep,Almaty,,KZ,43.2169,76.8901,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167617,"Gūldala, №21 mektep",Almaty,,KZ,43.3516,77.0573,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167618,Ortalyq demalys sayabağy,Almaty,,KZ,43.2645,76.9727,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167619,Tereńqur ,Almaty,,KZ,43.2179,76.9693,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167620,Perzenthana (Basenov 2a),Almaty,,KZ,43.2221,76.8994,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167621,"Shamalǵan, Tleubaev atyndaǵy mektep",Almaty,,KZ,43.374,76.6266,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167622,"Bereke auyly, Beisebaev atyndaǵy orta mektep",Almaty,,KZ,43.3711,76.7114,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167623,"Qaskelen, Belinskiı atyndaǵy mektep",Almaty,,KZ,43.1952,76.6209,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167630,№153 mektep-gimnaziya,Almaty,,KZ,43.2209,76.8362,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167632,Bökeikhanov – Aerodromnyi t. k-si,Almaty,,KZ,43.274,76.9108,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167633,Raiymbek - Jangeldin,Almaty,,KZ,43.2714,76.9568,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167634,Kensai (Şoqai k-si),Almaty,,KZ,43.2662,76.986,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167635,Jañaturmys (Altynsarin k-si),Almaty,,KZ,43.174919,76.788939,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167637,№142 mektep,Almaty,,KZ,43.3611,76.9966,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167638,"Kiši Baıserke, №40 mektep",Almaty,,KZ,43.4877,77.0611,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167639,№85 mektep ,Almaty,,KZ,43.3549,76.9524,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167641,№61 mektep,Almaty,,KZ,43.3299,76.9477,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167642,Almaty şipazhaiy,Almaty,,KZ,43.1759,76.8726,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167643,№170 mektep,Almaty,,KZ,43.3364,76.9775,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167644,Rahat Konditerlik fabrikasy,Almaty,,KZ,43.263037,76.957877,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167645,№98 mektep,Almaty,,KZ,43.2886,76.9765,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167646,№16 äskeri qalaşıq (Süyinbai d.),Almaty,,KZ,43.3695,76.9869,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167647,№11 orta mektep,Almaty,,KZ,43.3454,76.9588,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167649,Nurtau golf club,Almaty,,KZ,43.1934,76.8186,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167650,№200 mektep-gimnaziya,Almaty,,KZ,43.198,76.7905,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167651,Saiyalı (Avtotsón) ,Almaty,,KZ,43.3038,76.837,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167652,Saudakent (Kazakov k-si),Almaty,,KZ,43.2668,76.8949,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167653, Qurylys bazary (Taraz k-si) ,Almaty,,KZ,43.3052,77.0062,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167654,№31 orta mektep,Almaty,,KZ,43.3253,76.9676,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167655,Jumysşy kenti (Krylov k-si),Almaty,,KZ,43.2735,76.8904,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167656,№162 mektep,Almaty,,KZ,43.3118,76.9557,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167657,Tastybulaq (ST Qanat) ,Almaty,,KZ,43.1636,76.8097,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167658,Tausamaly,Almaty,,KZ,43.1732,76.8317,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167659,Nuriddin (Arystanbab k-si) ,Almaty,,KZ,43.1868,76.8599,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167660,Baým toǵaıy,Almaty,,KZ,43.2939,76.9449,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167661,№206 mektep-gimnaziya,Almaty,,KZ,43.208327,76.819198,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167662,"Ötegen Batyr, №24 litsei",Almaty,,KZ,43.4143,77.0315,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167663,№17 mektep,Almaty,,KZ,43.3144,76.9657,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167664,№44 mektep-gimnaziya,Almaty,,KZ,43.3439,77.0072,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167665,№112 mektep,Almaty,,KZ,43.2937,76.9154,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167667,Aqjar (Medeubekov k-si),Almaty,,KZ,43.1826,76.7916,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167668,№157 mektep,Almaty,,KZ,43.2197,76.8015,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167669,№156 mektep ,Almaty,,KZ,43.3224,76.8863,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167670,Sūltan-Qorǵan (Bespaqov k-si),Almaty,,KZ,43.3167,76.9266,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167672,№168 Balabaqşa,Almaty,,KZ,43.3105,76.8742,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167673,№179 mektep,Almaty,,KZ,43.3382,76.8995,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167674,№166 litsei,Almaty,,KZ,43.2604,76.8725,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167675,№14 mektep ,Almaty,,KZ,43.2607,76.8858,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167676,Ortalyq stadion,Almaty,,KZ,43.2397,76.9241,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167677,"Janatalap, №52 orta mektep",Almaty,,KZ,43.4737,76.9641,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167678,"Talǵar, ortalyq aýdandyq aýrýhana ",Almaty,,KZ,43.3175,77.2293,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167679,Avtomekhanikalyq kolledj ,Almaty,,KZ,43.3049,76.9187,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167680,№151 mektep,Almaty,,KZ,43.2811,76.8806,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167681,№182 mektep-gimnaziya,Almaty,,KZ,43.281,76.824,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167682,Dostyq ş.a. (Muzammil meşiti),Almaty,,KZ,43.2239,76.8291,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167683,№128 Balabaqşasy (Şekspir k-si),Almaty,,KZ,43.3575,76.9354,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167684,Sairan (Qarasai Batyr k-si),Almaty,,KZ,43.2466,76.8681,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167687,№174 mektep-gimnaziya,Almaty,,KZ,43.21574,76.791652,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167688,№198 mektep,Almaty,,KZ,43.3183,76.9783,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167689,№22 Qalalyq emhana,Almaty,,KZ,43.3046,76.853,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167690,Alma City 5,Almaty,,KZ,43.2167,76.7743,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167691,Zhas Qanat aud. (Khmelnitskiy k-si.),Almaty,,KZ,43.3177,76.9839,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167693,Jetisu 2,Almaty,,KZ,43.2227,76.8467,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167694,Aport Mall East,Almaty,,KZ,43.3148,77.0216,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167695,"Abaı auyly, №2 mektep",Almaty,,KZ,43.2015,76.7636,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167700,Qarağaily (Nadirov k-si),Almaty,,KZ,43.1833,76.8416,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167701,"Isaevo auyly, Isaeva atyndaǵy mektep",Almaty,,KZ,43.4012,76.7513,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167702,Bögenbai Batyr – Vereŝagin,Almaty,,KZ,43.2487,76.887,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167706,Kojamqulov - Qarasai batyr,Almaty,,KZ,43.25005,76.9179,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167707,№154 mektep,Almaty,,KZ,43.2509,76.8338,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167709,№171 mektep,Almaty,,KZ,43.2718,76.8449,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_170428,Süıınbai – Musorgskiı,Almaty,,KZ,43.2851,76.9481,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_170429,Duman 2 (Mercur Grad) ,Almaty,,KZ,43.2885,77.004,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_170430,№184 mektep,Almaty,,KZ,43.2465,76.7918,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_171445,Samal 1,Almaty,,KZ,43.2358,76.9518,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_171446,Baitursynov k-si,Almaty,,KZ,43.231494,76.934146,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_171447,Zharokov - Mynbayev st.,Almaty,,KZ,43.2374,76.8995,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_171448,Almalybaq,Almaty,,KZ,43.222398,76.678183,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_171449,Zhambyl,Almaty,,KZ,43.2734,76.6685,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_173261,"Aqbulak, 7",Almaty,,KZ,43.2427,76.8175,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_173265,№107 mektep,Almaty,,KZ,43.2958,76.9374,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_173269,Almaty Museum of Arts ,Almaty,,KZ,43.2267,76.9492,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_173630,Medeu,Almaty,,KZ,43.1642,77.0494,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_180811,"Almaty, Dostyk 300/60",Almaty,,KZ,43.2226,76.9759,Asia/Almaty,low_cost,airgradient,Almaty Air Initiative,True
+ag_186392,Nurly-Tan 37,Almaty,,KZ,43.213101,76.7950629,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+airkaz_1,Сейфуллина - Дулатова (TS225957),Almaty,,KZ,43.313,76.939,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_10,Тулебаева-Джамбула,Almaty,,KZ,43.248,76.949,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_104,Сатпаева-Луганского (TS485314),Almaty,,KZ,43.241,76.96,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_105,Абай,Almaty,,KZ,43.214,76.75,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_106,Шанырак 2,Almaty,,KZ,43.297,76.852,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_108,Жана Кайрат,Almaty,,KZ,43.312,77.001,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_11,Аскарова,Almaty,,KZ,43.189,76.868,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_12,Каменское плато,Almaty,,KZ,43.177,76.966,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_13,Фурманова-Ташкентская,Almaty,,KZ,43.269,76.944,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_14,Мамыр,Almaty,,KZ,43.216,76.848,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_15,"ЖК ""Асыл Арман""",Almaty,,KZ,43.231,76.754,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_16,Жана Куат,Almaty,,KZ,43.397,77.027,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_17,Баганашыл,Almaty,,KZ,43.195,76.915,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_18,Кыргаулды,Almaty,,KZ,43.172,76.736,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_19,Военный городок,Almaty,,KZ,43.369,76.987,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_2,Альфараби - Маркова,Almaty,,KZ,43.224,76.938,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_20,мкрн Карасу,Almaty,,KZ,43.337,76.904,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_3,Абая - Тлендиева,Almaty,,KZ,43.24,76.874,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_30369354,"Тулебаева, 82",Almaty,,KZ,43.2576,76.9484,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_3269728,KazGU2,Almaty,,KZ,43.206,76.9,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_34703847,ул.Туруспекова,Almaty,,KZ,43.178,76.87,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_36200067,Айнабулак-3,Almaty,,KZ,43.324,76.919,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_36671067,Таусамал,Almaty,,KZ,43.202,76.812,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_37052366,ВОАД,Almaty,,KZ,43.248,76.981,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_38834077,Dual1,Almaty,,KZ,43.23,76.9326,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_39168240,Карасу 2,Almaty,,KZ,43.3388,76.9032,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_39379024,Муканова 159,Almaty,,KZ,43.2572,76.914,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_4,Парк Горького,Almaty,,KZ,43.265,76.973,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_4372603,Акан Серы (AUA),Almaty,,KZ,43.31,76.943,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_4438736,Мамыр 1 (AUA),Almaty,,KZ,43.213,76.846,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_4439094,ул.Аскарова (AUA),Almaty,,KZ,43.1855,76.8716,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_4439475,Курчатова 1 (AUA),Almaty,,KZ,43.254,76.855,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_5,ТолеБи - Байзакова,Almaty,,KZ,43.253,76.91,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_5901326,ул. Татибекова,Almaty,,KZ,43.2795,76.9677,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_5917712,KazGU1,Almaty,,KZ,43.223,76.919,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_6,Розыбакиева - Байкадамова,Almaty,,KZ,43.214,76.893,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_7,Кок Кайнар,Almaty,,KZ,43.296,76.844,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_7723955,ул.Камышинская (AUA),Almaty,,KZ,43.3526,76.9993,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_8,Рыскулова - Момышулы,Almaty,,KZ,43.254,76.82,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_9,Ерменсай,Almaty,,KZ,43.174,76.917,Asia/Almaty,low_cost,airkaz,AirKaz,False
+airkaz_city_avg,Almaty city average,Almaty,,KZ,,,Asia/Almaty,low_cost,airkaz,AirKaz,False
+kgmt_10,PCP #3,Ridder,,KZ,50.338934879,83.515869798,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_107,PCP #1,Taldykorgan,,KZ,45.006979,78.360527,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_109,KGMT Station 109,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_11,PCP #2,Oskemen,,KZ,49.945125,82.65275,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_113,KGMT Station 113,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_12,PCP #6,Astana,,KZ,51.181287116,71.465806956,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_128,KGMT Station 128,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_129,KGMT Station 129,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_130,KGMT Station 130,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_131,KGMT Station 131,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_14,PCP #5,Astana,,KZ,51.157371472,71.415058185,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_15,PCP #6,Shymkent,,KZ,42.362713368,69.630918479,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_155,KGMT Station 155,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_156,KGMT Station 156,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_157,KGMT Station 157,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_159,KGMT Station 159,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_163,KGMT Station 163,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_167,KGMT Station 167,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_168,KGMT Station 168,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_169,KGMT Station 169,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_170,KGMT Station 170,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_171,KGMT Station 171,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_172,KGMT Station 172,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_173,KGMT Station 173,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_174,KGMT Station 174,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_175,KGMT Station 175,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_176,KGMT Station 176,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_177,KGMT Station 177,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_178,KGMT Station 178,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_179,KGMT Station 179,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_180,KGMT Station 180,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_181,KGMT Station 181,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_182,KGMT Station 182,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_183,KGMT Station 183,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_184,KGMT Station 184,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_185,KGMT Station 185,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_186,KGMT Station 186,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_187,KGMT Station 187,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_188,KGMT Station 188,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_189,KGMT Station 189,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_190,KGMT Station 190,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_192,KGMT Station 192,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_193,KGMT Station 193,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_194,KGMT Station 194,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_195,KGMT Station 195,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_196,KGMT Station 196,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_197,KGMT Station 197,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_198,KGMT Station 198,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_199,KGMT Station 199,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_2,PCP #1,Semey ,,KZ,50.399262,80.201923,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_200,KGMT Station 200,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_201,KGMT Station 201,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_202,KGMT Station 202,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_203,KGMT Station 203,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_204,KGMT Station 204,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_205,KGMT Station 205,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_206,KGMT Station 206,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_207,KGMT Station 207,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_208,KGMT Station 208,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_209,KGMT Station 209,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_21,PCP #2,Saran,,KZ,49.803843112,72.824840229,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_210,KGMT Station 210,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_211,KGMT Station 211,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_212,KGMT Station 212,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_213,KGMT Station 213,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_214,KGMT Station 214,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_215,KGMT Station 215,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_216,KGMT Station 216,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_217,KGMT Station 217,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_218,KGMT Station 218,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_219,KGMT Station 219,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_22,PCP #6,Aktau,,KZ,43.677764166,51.174961813,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_220,KGMT Station 220,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_221,KGMT Station 221,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_222,KGMT Station 222,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_223,KGMT Station 223,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_224,KGMT Station 224,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_225,KGMT Station 225,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_226,KGMT Station 226,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_227,KGMT Station 227,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_228,KGMT Station 228,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_229,PCP #1,Zharkent,,KZ,44.152841,79.991072,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_23,PCP #5,Aktau,,KZ,43.658540091,51.146762,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_230,PCP #1,Talgar,,KZ,43.302425,77.239448,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_231,PCP #1,Khromtau,,KZ,50.249886,58.436577,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_232,PCP #1,Kandyagash,,KZ,49.472571,57.422103,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_233,PCP #1,Shubarshi vil.,,KZ,48.580153,57.178708,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_234,PCP #1,Kenkiyak vil. ,,KZ,48.604869,57.116446,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_235,PCP #10,Atyrau,,KZ,47.114687,51.860907,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_236,PCP #1,Zhanbai vil.,,KZ,47.047536,50.809153,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_237,PCP #1,Makat vil.,,KZ,47.64487,53.331825,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_238,PCP #1,Inderborsky vil.,,KZ,48.55635,51.735106,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_239,PCP #1,Ganyushkino vil.,,KZ,46.603537,49.270783,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_24,PCP #2,Aktobe,,KZ,50.315857,57.12772,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_240,PCP #4,Oskemen,,KZ,49.948313,82.627857,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_241,PCP #6,Oskemen,,KZ,49.982333,82.572036,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_242,PCP #11,Oskemen,,KZ,49.901193,82.605813,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_243,PCP #1,Oskemen,,KZ,49.978515,82.605507,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_244,PCP #5,Oskemen,,KZ,49.946029,82.624444,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_245,PCP #7,Oskemen,,KZ,50.009364,82.565595,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_246,PCP #8,Oskemen,,KZ,50.02744,82.740084,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_247,PCP #12,Oskemen,,KZ,49.900142,82.622665,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_248,PCP #2,Semey ,,KZ,50.414781,80.248535,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_249,PCP #4,Semey ,,KZ,50.437156,80.240893,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_25,PCP #2,Almaty,,KZ,43.356554,76.87545,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_250,PCP #1,Ayagoz,,KZ,47.965439,80.437081,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_251,PCP #1,Auezov vil.,,KZ,49.716389,81.588794,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_252,PCP #1,Shemonaiha,,KZ,50.627915,81.918053,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_253,PCP #1,Satpayev,,KZ,47.910100001,67.529447918,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_254,PCP #2,Satpayev,,KZ,47.899573798,67.547156701,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_255,PCP #1,Abay town,,KZ,49.633480901,72.854964256,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_256,PCP #1,Lisakovsk,,KZ,52.547538,62.495819,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_257,PCP #1,Arkalyk,,KZ,50.249201,66.921237,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_258,PCP #1,Zhetikara,,KZ,52.189549855,61.197536033,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_259,PCP #1,Aiteke-Bi vil.,,KZ,45.827493,62.138322,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_26,PCP #29,Almaty,,KZ,43.338052,76.952083,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_260,PCP #1,Shieli vil.,,KZ,44.196932,66.729432,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_261,PCP #1,Aral,,KZ,46.808742,61.646597,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_262,PCP #3,Turkestan,,KZ,43.278559,68.204759,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_263,PCP #2,Turkestan,,KZ,43.293362,68.28954,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_264,PCP #4,Kyzylsai vil.,,KZ,42.347694,69.709302,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_265,PCP #1,Sastobe vil.,,KZ,42.552199,70.006528,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_266,KGMT Station 266,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_267,KGMT Station 267,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_268,KGMT Station 268,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_269,KGMT Station 269,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_27,PCP #31,Almaty,,KZ,43.180754,76.888068,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_270,KGMT Station 270,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_271,KGMT Station 271,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_27173,KGMT Station 27173,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_27193,KGMT Station 27193,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_272,KGMT Station 272,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_27297,KGMT Station 27297,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_273,KGMT Station 273,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_274,KGMT Station 274,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_27423,KGMT Station 27423,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_27443,KGMT Station 27443,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_275,KGMT Station 275,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_276,KGMT Station 276,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_277,KGMT Station 277,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_278,KGMT Station 278,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_279,KGMT Station 279,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_28,PCP #30,Almaty,,KZ,43.298778,76.851498,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_280,KGMT Station 280,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_281,KGMT Station 281,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_282,KGMT Station 282,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_283,KGMT Station 283,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_284,KGMT Station 284,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_286,KGMT Station 286,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_287,KGMT Station 287,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_288,KGMT Station 288,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_289,KGMT Station 289,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_29,PCP #6,Petropavl,,KZ,54.923693,69.141221,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_290,KGMT Station 290,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_291,KGMT Station 291,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_292,KGMT Station 292,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_293,KGMT Station 293,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_294,KGMT Station 294,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_295,KGMT Station 295,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_296,KGMT Station 296,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_297,KGMT Station 297,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_298,KGMT Station 298,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_299,KGMT Station 299,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_3,PCP #3,Oskemen,,KZ,49.966638,82.614993,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_30,PCP #1,Stepnogorsk,,KZ,52.340841,71.867344,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_300,KGMT Station 300,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_30063104,KGMT Station 30063104,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_301,KGMT Station 301,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_302,KGMT Station 302,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_303,KGMT Station 303,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_30369354,KGMT Station 30369354,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_304,KGMT Station 304,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_305,KGMT Station 305,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_306,KGMT Station 306,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_307,KGMT Station 307,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_308,KGMT Station 308,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_309,KGMT Station 309,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_30960812,KGMT Station 30960812,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_31,PCP #6,Aktobe,,KZ,50.290375741,57.22209476,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_310,KGMT Station 310,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_311,KGMT Station 311,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_312,KGMT Station 312,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_313,KGMT Station 313,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_314,KGMT Station 314,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_315,KGMT Station 315,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_31596906,KGMT Station 31596906,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_316,KGMT Station 316,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_317,KGMT Station 317,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_318,KGMT Station 318,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_319,KGMT Station 319,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_32,PCP #8,Atyrau,,KZ,47.096617,51.942701,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_320,KGMT Station 320,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_32009929,KGMT Station 32009929,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_321,KGMT Station 321,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_32149779,KGMT Station 32149779,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_322,KGMT Station 322,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_323,KGMT Station 323,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_324,KGMT Station 324,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_325,KGMT Station 325,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_326,KGMT Station 326,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_3269728,KGMT Station 3269728,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_327,KGMT Station 327,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_328,KGMT Station 328,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_329,KGMT Station 329,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_33,PCP #9,Atyrau,,KZ,47.139138,51.96226,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_330,KGMT Station 330,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_331,KGMT Station 331,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_332,KGMT Station 332,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_333,KGMT Station 333,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_334,KGMT Station 334,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_335,KGMT Station 335,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_337,KGMT Station 337,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_338,KGMT Station 338,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_33858988,KGMT Station 33858988,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_339,KGMT Station 339,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_34,PCP #3,Semey ,,KZ,50.420238,80.274296,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_340,KGMT Station 340,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_341,KGMT Station 341,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_342,KGMT Station 342,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_343,KGMT Station 343,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_344,KGMT Station 344,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_34464708,KGMT Station 34464708,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_345,KGMT Station 345,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_346,KGMT Station 346,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_34686208,KGMT Station 34686208,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_347,KGMT Station 347,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_34703847,KGMT Station 34703847,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_348,KGMT Station 348,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_349,KGMT Station 349,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_35,PCP #3,Glubokoe,,KZ,50.134814,82.314013,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_350,KGMT Station 350,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_351,KGMT Station 351,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_35137762,KGMT Station 35137762,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_352,KGMT Station 352,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_353,KGMT Station 353,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_354,KGMT Station 354,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_355,KGMT Station 355,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_356,KGMT Station 356,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_357,KGMT Station 357,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_35742416,KGMT Station 35742416,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_358,KGMT Station 358,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_359,KGMT Station 359,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_36,PCP #5,Karagandy,,KZ,49.7866,73.165714,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_360,KGMT Station 360,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_361,KGMT Station 361,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_362,KGMT Station 362,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_36200067,KGMT Station 36200067,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_363,KGMT Station 363,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_364,KGMT Station 364,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_366,KGMT Station 366,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_36671067,KGMT Station 36671067,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_367,KGMT Station 367,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_368,KGMT Station 368,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_36880579,KGMT Station 36880579,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_369,KGMT Station 369,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_37,PCP #1,Karatau,,KZ,43.179384,70.438509,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_370,KGMT Station 370,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_371,KGMT Station 371,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_372,KGMT Station 372,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_37380840,KGMT Station 37380840,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_375,KGMT Station 375,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_376,KGMT Station 376,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_37647376,KGMT Station 37647376,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_377,KGMT Station 377,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_378,KGMT Station 378,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_379,KGMT Station 379,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_37913486,KGMT Station 37913486,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_37917495,KGMT Station 37917495,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_37984131,KGMT Station 37984131,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_38,PCP #1,Zhanatas,,KZ,43.563946,69.707703,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_381,KGMT Station 381,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_382,KGMT Station 382,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_383,KGMT Station 383,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_384,KGMT Station 384,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_386,KGMT Station 386,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_387,KGMT Station 387,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_388,KGMT Station 388,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_38834077,KGMT Station 38834077,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_38918407,KGMT Station 38918407,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_39,PCP #1,Chu,,KZ,43.610837,73.748418,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_390,KGMT Station 390,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_391,KGMT Station 391,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_39168240,KGMT Station 39168240,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_392,KGMT Station 392,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_393,KGMT Station 393,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_39379024,KGMT Station 39379024,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_394,KGMT Station 394,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_395,KGMT Station 395,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_396,KGMT Station 396,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_397,KGMT Station 397,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_398,KGMT Station 398,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_399,KGMT Station 399,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_4,PCP #7,Astana,,KZ,51.119222952,71.432335527,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_40,PCP #1,Kordai,,KZ,43.079917,74.707292,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_401,KGMT Station 401,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_402,KGMT Station 402,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_403,KGMT Station 403,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_404,KGMT Station 404,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_405,KGMT Station 405,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_406,KGMT Station 406,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_407,KGMT Station 407,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_408,KGMT Station 408,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_409,KGMT Station 409,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_41,PCP #7,Aksai,,KZ,51.159997,52.99708,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_410,KGMT Station 410,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_411,KGMT Station 411,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_412,KGMT Station 412,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_413,KGMT Station 413,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_414,KGMT Station 414,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_415,KGMT Station 415,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_416,KGMT Station 416,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_418,KGMT Station 418,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_419,KGMT Station 419,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_42,PCP #7,Yanvartsevo,,KZ,51.431947,52.712399,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_420,KGMT Station 420,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_421,KGMT Station 421,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_42963368,KGMT Station 42963368,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_43,PCP #1,Zhezkazgan,,KZ,47.910901,67.530281,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_43241,KGMT Station 43241,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_44,PCP #13,Karabalyk,,KZ,53.749503,62.051874,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_44593049,KGMT Station 44593049,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_45,PCP #7,Beyneu,,KZ,45.323674,55.17715,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_45968703,KGMT Station 45968703,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_46,PCP #5,Pavlodar,,KZ,52.281308,76.946696,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_47,PCP #6,Pavlodar,,KZ,52.265335,76.937616,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_48,PCP #7,Pavlodar,,KZ,52.29491,76.94278,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_48548155,KGMT Station 48548155,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_49,PCP #5,Shymkent,,KZ,42.362259436,69.593598709,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_50,PCP #1,Kentau,,KZ,43.513773,68.487668,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_51,PCP #2,Kyzylorda,,KZ,44.847099,65.486961,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_52,PCP #3,Kyzylorda,,KZ,44.794887,65.530228,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_53,PCP #3,Aktobe,,KZ,50.294165115,57.168480685,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_55,PCP #27,Almaty,,KZ,43.271831,76.844818,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_56,PCP #1,Almaty,,KZ,43.237859,76.93394,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_57,PCP #4,Almaty,,KZ,43.374376,76.992008,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_58,PCP #3,Almaty,,KZ,43.258748,76.81706,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_59,PCP #6,Almaty,,KZ,43.301062,76.925444,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_6,PCP #5,Shchuchinsk,,KZ,52.951668976,70.250768748,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60,PCP #5,Almaty,,KZ,43.288125,76.990615,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935dcc9348052e0c5d929,KGMT Station 609935dcc9348052e0c5d929,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935ddc9348052e0c5da5f,KGMT Station 609935ddc9348052e0c5da5f,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935ddc9348052e0c5da61,KGMT Station 609935ddc9348052e0c5da61,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935ddc9348052e0c5da73,KGMT Station 609935ddc9348052e0c5da73,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935dec9348052e0c5da7f,KGMT Station 609935dec9348052e0c5da7f,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935dec9348052e0c5dadd,KGMT Station 609935dec9348052e0c5dadd,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_609935dec9348052e0c5db1d,KGMT Station 609935dec9348052e0c5db1d,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec151f3fdcd35938ff8aa0,KGMT Station 60ec151f3fdcd35938ff8aa0,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec151f3fdcd35938ff8aa8,KGMT Station 60ec151f3fdcd35938ff8aa8,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec151f3fdcd35938ff8aae,KGMT Station 60ec151f3fdcd35938ff8aae,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec151f3fdcd35938ff8b18,KGMT Station 60ec151f3fdcd35938ff8b18,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec151f3fdcd35938ff8b1c,KGMT Station 60ec151f3fdcd35938ff8b1c,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15203fdcd35938ff8bc4,KGMT Station 60ec15203fdcd35938ff8bc4,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15203fdcd35938ff8bfa,KGMT Station 60ec15203fdcd35938ff8bfa,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15203fdcd35938ff8bfe,KGMT Station 60ec15203fdcd35938ff8bfe,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c06,KGMT Station 60ec15213fdcd35938ff8c06,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c08,KGMT Station 60ec15213fdcd35938ff8c08,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c4a,KGMT Station 60ec15213fdcd35938ff8c4a,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c4e,KGMT Station 60ec15213fdcd35938ff8c4e,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c5c,KGMT Station 60ec15213fdcd35938ff8c5c,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c60,KGMT Station 60ec15213fdcd35938ff8c60,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c66,KGMT Station 60ec15213fdcd35938ff8c66,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8c6a,KGMT Station 60ec15213fdcd35938ff8c6a,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8cac,KGMT Station 60ec15213fdcd35938ff8cac,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8cae,KGMT Station 60ec15213fdcd35938ff8cae,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8cc4,KGMT Station 60ec15213fdcd35938ff8cc4,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8cc6,KGMT Station 60ec15213fdcd35938ff8cc6,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15213fdcd35938ff8cce,KGMT Station 60ec15213fdcd35938ff8cce,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8ce8,KGMT Station 60ec15223fdcd35938ff8ce8,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8cec,KGMT Station 60ec15223fdcd35938ff8cec,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8cf0,KGMT Station 60ec15223fdcd35938ff8cf0,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8cfc,KGMT Station 60ec15223fdcd35938ff8cfc,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8d04,KGMT Station 60ec15223fdcd35938ff8d04,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8d7c,KGMT Station 60ec15223fdcd35938ff8d7c,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8d9a,KGMT Station 60ec15223fdcd35938ff8d9a,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8d9e,KGMT Station 60ec15223fdcd35938ff8d9e,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8da6,KGMT Station 60ec15223fdcd35938ff8da6,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15223fdcd35938ff8da8,KGMT Station 60ec15223fdcd35938ff8da8,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15233fdcd35938ff8dde,KGMT Station 60ec15233fdcd35938ff8dde,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15233fdcd35938ff8de2,KGMT Station 60ec15233fdcd35938ff8de2,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_60ec15233fdcd35938ff8de8,KGMT Station 60ec15233fdcd35938ff8de8,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_61,PCP #2,Taldykorgan,,KZ,45.002716,78.34257,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_63,PCP #2,Temirtau,,KZ,50.051568,72.996481,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_64,PCP #6,Karagandy,,KZ,49.878622,73.18969,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_65,PCP #8,Karagandy,,KZ,49.795306,73.165822,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_65242,KGMT Station 65242,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_68,PCP #1,Aksu,,KZ,52.340368,71.867612,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_69,PCP #4,Pavlodar,,KZ,52.24583,76.983057,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_7,PCP #9,Astana,,KZ,51.123120595,71.483370959,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_70,PCP #3,Pavlodar,,KZ,52.264598,76.964236,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_71,PCP #1,SKFM,,KZ,53.002294,70.610058,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_72,PCP #1,Atbasar,,KZ,51.818902,68.346866,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_73,KGMT Station 73,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_74,PCP #2,Burabai,,KZ,53.086033,70.301807,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_75,PCP #2,Kokshetau,,KZ,53.283171,69.425463,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_76,PCP #5,Petropavl,,KZ,54.856896,69.123008,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_77,PCP #2,Kostanay,,KZ,53.228479,63.630099,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_78,PCP #4,Kostanay,,KZ,53.176555,63.607241,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_8,PCP #8,Astana,,KZ,51.18611299,71.343722851,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_80,PCP #6,Rudny,,KZ,52.964293,63.114487,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_81,PCP #5,Rudny,,KZ,52.97374,63.122865,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_82,PCP #4,Aksai,,KZ,51.160033,52.99712,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_83,PCP #3,Uralsk,,KZ,51.212015,51.350379,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_84,PCP #5,Uralsk,,KZ,51.205502,51.383467,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_85,PCP #2,Uralsk,,KZ,51.227619,51.427589,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_86,PCP #6,Atyrau,,KZ,47.156821,51.982406,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_87,PCP #6,Kulsary,,KZ,46.960532,54.006221,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_88,PCP #2,Zhanaozen,,KZ,43.35065,52.846661,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_89,PCP #1,Zhanaozen,,KZ,43.33982,52.854448,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_9,PCP #10,Astana,,KZ,51.158413811,71.467460014,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_90,PCP #1,Toretam,,KZ,45.644234,63.306769,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_91,PCP #1,Akai,,KZ,45.609656,63.282165,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_92,PCP #1,Turkestan,,KZ,43.28667,68.304334,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_93,PCP #6,Taraz,,KZ,42.92105,71.384906,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_94,PCP #1,Zyryanovsk,,KZ,49.727419,84.27164,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_95,PCP #1,Ekibastuz,,KZ,51.705743,75.33749,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_96,PCP #2,Balkhash,,KZ,46.837859,74.970088,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_97,PCP #28,Almaty,,KZ,43.360683,77.006407,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s1,KGMT Station s1,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s2,KGMT Station s2,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s3,KGMT Station s3,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s5,KGMT Station s5,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s6,KGMT Station s6,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s7,KGMT Station s7,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s8,KGMT Station s8,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_s9,KGMT Station s9,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+oaq_14869003,Almaty Arena (new),,,KZ,43.301,76.925,,government,openaq,,True
+oaq_14969424,Jambyl-Nurmaqov,,,KZ,51.128,71.43,,government,openaq,,True
+oaq_14969429,Qazybek bi-Nurmaqov,,,KZ,51.128,71.43,,government,openaq,,True
+oaq_14969444,Almaty 2 t/zh vokzaly,,,KZ,43.338,76.952,,government,openaq,,True
+oaq_14971240,Nurtau golf club,,,KZ,51.128,71.43,,government,openaq,,True
+oaq_15151744,Nuriddin,,,KZ,51.128,71.43,,government,openaq,,True
+oaq_20512,Astana,,,KZ,51.128,71.43,,government,openaq,,True
+oaq_25903,Almaty (US Embassy),,,KZ,43.252855,76.93118,,government,openaq,,True
+oaq_2812550,Almaty Arena,,,KZ,43.26408,76.81688,,government,openaq,Clarity,True
+oaq_2812555,Magnum Besagash,,,KZ,43.29222,77.01218,,government,openaq,Clarity,True
+oaq_2812561,CHP,,,KZ,43.29161,76.80437,,government,openaq,Clarity,True
+oaq_2812563,School 137,,,KZ,43.31676,76.91084,,government,openaq,Clarity,True
+oaq_2812565,Kokzhiyek-63,,,KZ,43.35813,76.9229,,government,openaq,Clarity,True
+oaq_2812576,EkoPost,,,KZ,43.24966,76.8056,,government,openaq,Clarity,True
+oaq_2812620,Alatau,,,KZ,43.17658,76.89771,,government,openaq,Clarity,True
+oaq_2812632,Elaman 105 St.,,,KZ,43.36861,76.94705,,government,openaq,Clarity,True
+oaq_2812635,Atyrau 54,,,KZ,43.29678,76.99159,,government,openaq,Clarity,True
+oaq_2812649,Shamiyeva St.,,,KZ,43.28323,76.92753,,government,openaq,Clarity,True
+oaq_2812651,Kokkainar Micro,,,KZ,43.29076,76.84123,,government,openaq,Clarity,True
+oaq_2812676,Suiynbay-55,,,KZ,43.37664,76.99055,,government,openaq,Clarity,True
+oaq_2812687,KBTU,,,KZ,43.25348,76.94537,,government,openaq,Clarity,True
+oaq_2812689,Iliyski trakt,,,KZ,43.34158,76.98193,,government,openaq,Clarity,True
+oaq_2812690,School 187,,,KZ,43.18579,76.82848,,government,openaq,Clarity,True
+oaq_2812691,169 School,,,KZ,43.29713,76.8611,,government,openaq,Clarity,True
+oaq_2812716,Ritz Palace,,,KZ,43.22833,76.96028,,government,openaq,Clarity,True
+oaq_2812717,Mamyr-3,,,KZ,43.21431,76.8555,,government,openaq,Clarity,True
+oaq_2812718,Gymnasium 39,,,KZ,43.34819,76.8433,,government,openaq,Clarity,True
+oaq_2812726,Hospital-7,,,KZ,43.23396,76.80013,,government,openaq,Clarity,True
+oaq_2812749,Ryskulova 81,,,KZ,43.27865,76.90347,,government,openaq,Clarity,True
+oaq_2812751,School 77,,,KZ,43.21846,76.94964,,government,openaq,Clarity,True
+oaq_2812753,School 190,,,KZ,43.15476,76.8992,,government,openaq,Clarity,True
+oaq_2812756,School 175,,,KZ,43.19957,76.85428,,government,openaq,Clarity,True
+oaq_2812769,Nicolas International chain of wineries,,,KZ,43.19365,76.90963,,government,openaq,Clarity,True
+oaq_2812775,School 192,,,KZ,43.17203,76.85234,,government,openaq,Clarity,True
+oaq_2812784,Respublika 4,,,KZ,43.2368,76.94481,,government,openaq,Clarity,True
+oaq_2812788,Magnum-273,,,KZ,43.25074,76.82301,,government,openaq,Clarity,True
+oaq_2812792,Kotelnikova St.,,,KZ,43.3104,76.94217,,government,openaq,Clarity,True
+oaq_2812809,AsiaFood,,,KZ,43.24283,76.82872,,government,openaq,Clarity,True
+oaq_2812821,School 160,,,KZ,43.33584,76.91287,,government,openaq,Clarity,True
+oaq_2812826,Zhetysu 47,,,KZ,43.29171,76.9898,,government,openaq,Clarity,True
+oaq_2812831,"Road, Almaty Industrial Zone",,,KZ,43.31652,76.80429,,government,openaq,Clarity,True
+oaq_2812833,DIS-7,,,KZ,43.20533,76.77692,,government,openaq,Clarity,True
+oaq_2819013,Nurly street,,,KZ,43.2288,76.77749,,government,openaq,Clarity,True
+oaq_2819078,Shkola-Gimnaziya 152,,,KZ,43.30173,76.87217,,government,openaq,Clarity,True
+oaq_3088452,Ipswich Mass. USA,,,KZ,42.7028239,70.7994946,,government,openaq,AirGradient,True
+oaq_3124030,Ippodrom,,,KZ,43.30778,76.92324,,government,openaq,Clarity,True
+oaq_3126921,School 186,,,KZ,43.19148,76.80284,,government,openaq,Clarity,True
+oaq_3243331,Qapparov köşesı (akbota.info),,,KZ,43.210652653212826,76.94650052599252,,government,openaq,AirGradient,True
+oaq_5473573,Roxanne,,,KZ,43.245455,76.955559,,government,openaq,AirGradient,True
+oaq_6142363,Almaty,,,KZ,43.2269,76.8834,,government,openaq,AirGradient,True
+oaq_6146720,Pavlodar,,,KZ,52.2914884,76.9280297,,government,openaq,AirGradient,True
+oaq_6152135,Almaty,,,KZ,43.232633,76.878267,,government,openaq,AirGradient,True
+oaq_6158096,№182 mektep-gimnaziya,,,KZ,43.281,76.824,,government,openaq,AirGradient,True
+oaq_6161924,Almaty Arena,,,KZ,43.2639,76.8193,,government,openaq,AirGradient,True
+oaq_6174362,Abai – Seifullin ,,,KZ,43.241181,76.933831,,government,openaq,AirGradient,True
+oaq_6174363,GATOB,,,KZ,43.2497,76.9458,,government,openaq,AirGradient,True
+oaq_6174364,Alma City,,,KZ,43.2213,76.7846,,government,openaq,AirGradient,True
+oaq_6175359,"Talǵar, Gagarin atyndaǵy №8 mektep",,,KZ,43.2938,77.2347,,government,openaq,AirGradient,True
+oaq_6175360,"Panfilovo, №33 mektep",,,KZ,43.3838,77.1163,,government,openaq,AirGradient,True
+oaq_6175361,Altai 2,,,KZ,43.3503,76.9888,,government,openaq,AirGradient,True
+oaq_6175362,AKPTiT kolledj ,,,KZ,43.3958,76.9865,,government,openaq,AirGradient,True
+oaq_6175363,№170 mektep,,,KZ,43.3364,76.9775,,government,openaq,AirGradient,True
+oaq_6175364,№16 äskeri qalaşıq (Süyinbai d.),,,KZ,43.3695,76.9869,,government,openaq,AirGradient,True
+oaq_6175365,№11 orta mektep,,,KZ,43.3454,76.9588,,government,openaq,AirGradient,True
+oaq_6175366,№31 orta mektep,,,KZ,43.3253,76.9676,,government,openaq,AirGradient,True
+oaq_6175367,№44 mektep-gimnaziya,,,KZ,43.3439,77.0072,,government,openaq,AirGradient,True
+oaq_6175368,№168 Balabaqşa,,,KZ,43.3105,76.8742,,government,openaq,AirGradient,True
+oaq_6175369,№179 mektep,,,KZ,43.3382,76.8995,,government,openaq,AirGradient,True
+oaq_6175370,"Talǵar, ortalyq aýdandyq aýrýhana ",,,KZ,43.3175,77.2293,,government,openaq,AirGradient,True
+oaq_6175371,№128 Balabaqşasy (Şekspir k-si),,,KZ,43.3575,76.9354,,government,openaq,AirGradient,True
+oaq_6175385,Ainabulaq (Jumabayev k-si) ,,,KZ,43.3238,76.9111,,government,openaq,AirGradient,True
+oaq_6175386,Jas Qanat,,,KZ,43.3251,76.9866,,government,openaq,AirGradient,True
+oaq_6175387,Jambyl – Nurmaqov,,,KZ,43.2452,76.9075,,government,openaq,AirGradient,True
+oaq_6175388,Qazybek bi – Nurmaqov,,,KZ,43.2537,76.9064,,government,openaq,AirGradient,True
+oaq_6175389,Sairan (Ötegen batyr k-si),,,KZ,43.2414,76.8608,,government,openaq,AirGradient,True
+oaq_6175390,Qalalyq kardiologiya ortalyğı,,,KZ,43.2536,76.9283,,government,openaq,AirGradient,True
+oaq_6175391,Almaty 2 t/zh vokzaly,,,KZ,43.2734,76.939,,government,openaq,AirGradient,True
+oaq_6175392,№153 mektep-gimnaziya,,,KZ,43.2209,76.8362,,government,openaq,AirGradient,True
+oaq_6175393,Bökeikhanov – Aerodromnyi t. k-si,,,KZ,43.274,76.9108,,government,openaq,AirGradient,True
+oaq_6175394,№157 mektep,,,KZ,43.2197,76.8015,,government,openaq,AirGradient,True
+oaq_6175395,№166 litsei,,,KZ,43.2604,76.8725,,government,openaq,AirGradient,True
+oaq_6175396,№151 mektep,,,KZ,43.2811,76.8806,,government,openaq,AirGradient,True
+oaq_6175397,Sairan (Qarasai Batyr k-si),,,KZ,43.2466,76.8681,,government,openaq,AirGradient,True
+oaq_6175398,№174 mektep-gimnaziya,,,KZ,43.21574,76.791652,,government,openaq,AirGradient,True
+oaq_6175399,Jetisu 2,,,KZ,43.2227,76.8467,,government,openaq,AirGradient,True
+oaq_6175400,№154 mektep,,,KZ,43.2509,76.8338,,government,openaq,AirGradient,True
+oaq_6175401,"Aqbulak, 7",,,KZ,43.2427,76.8175,,government,openaq,AirGradient,True
+oaq_6175485,Köktem şipazhaiy,,,KZ,43.2018,76.9368,,government,openaq,AirGradient,True
+oaq_6175486,Mega Park,,,KZ,43.2634,76.9319,,government,openaq,AirGradient,True
+oaq_6175487,Ermensai (Juldyz – Ortalyq) ,,,KZ,43.168,76.9163,,government,openaq,AirGradient,True
+oaq_6175488,"Kókqaınar auyly, №29 mektep",,,KZ,43.450782,76.943029,,government,openaq,AirGradient,True
+oaq_6175489,Kerei Janibek k-si – Gornyi t.,,,KZ,43.2362,76.9652,,government,openaq,AirGradient,True
+oaq_6175490,"Qyzylqaırat , №19 mektep gimnaziya",,,KZ,43.303307,77.185303,,government,openaq,AirGradient,True
+oaq_6175491,№163 litsei,,,KZ,43.2204,76.9544,,government,openaq,AirGradient,True
+oaq_6175492,Tastybulaq (Kazgiprozem),,,KZ,43.1729,76.8154,,government,openaq,AirGradient,True
+oaq_6175493,Duman (Arys k-si) ,,,KZ,43.2777,77.0055,,government,openaq,AirGradient,True
+oaq_6175494,Asqarov k-si,,,KZ,43.1952,76.8645,,government,openaq,AirGradient,True
+oaq_6175495,Respublika saraiy,,,KZ,43.24293,76.957006,,government,openaq,AirGradient,True
+oaq_6175496,Qazaqfilm (Baiydosov k-si),,,KZ,43.1933,76.9035,,government,openaq,AirGradient,True
+oaq_6175497,№12 Qalalyq emhana,,,KZ,43.2355,76.9113,,government,openaq,AirGradient,True
+oaq_6175498,"QazTSIK, №40 mektep",,,KZ,43.3782,76.8364,,government,openaq,AirGradient,True
+oaq_6175499,"Tuıimebaev auyly, №19 mektep ",,,KZ,43.4134,76.914,,government,openaq,AirGradient,True
+oaq_6175500,№86 mektep-gimnaziya,,,KZ,43.219879,76.859159,,government,openaq,AirGradient,True
+oaq_6175501,SDU,,,KZ,43.208174,76.668446,,government,openaq,AirGradient,True
+oaq_6175502,Mamyr 1,,,KZ,43.2114,76.8434,,government,openaq,AirGradient,True
+oaq_6175503,Narxoz University ,,,KZ,43.214577,76.871985,,government,openaq,AirGradient,True
+oaq_6175504,Ońtústik saıabaǵy | MOST hub ,,,KZ,43.2103,76.9083,,government,openaq,AirGradient,True
+oaq_6175505,№116 mektep,,,KZ,43.2255,76.8685,,government,openaq,AirGradient,True
+oaq_6175506,"Baıkent, №10 orta mektep",,,KZ,43.474545,76.807185,,government,openaq,AirGradient,True
+oaq_6175507,№47 mektep,,,KZ,43.1919,76.9681,,government,openaq,AirGradient,True
+oaq_6175508,Almaty oblystyq №1 balalar uyi,,,KZ,43.201,76.9136,,government,openaq,AirGradient,True
+oaq_6175509,Qoşmambet orta mektebi,,,KZ,43.3322,76.6498,,government,openaq,AirGradient,True
+oaq_6175510,№190 mektep ,,,KZ,43.1573,76.9017,,government,openaq,AirGradient,True
+oaq_6175511,"Irgeli, orta mektep",,,KZ,43.2421,76.7622,,government,openaq,AirGradient,True
+oaq_6175512,Ermensai (Araily k-si),,,KZ,43.1885,76.9304,,government,openaq,AirGradient,True
+oaq_6175513,Alatau kenti (Jetbaev k-si),,,KZ,43.3615,77.1367,,government,openaq,AirGradient,True
+oaq_6175514,№7 Su Elektr Stansiäsy,,,KZ,43.1658,76.8962,,government,openaq,AirGradient,True
+oaq_6175515,Ortalyq demalys sayabağy,,,KZ,43.2645,76.9727,,government,openaq,AirGradient,True
+oaq_6175516,Perzenthana (Basenov 2a),,,KZ,43.2221,76.8994,,government,openaq,AirGradient,True
+oaq_6175517,"Shamalǵan, Tleubaev atyndaǵy mektep",,,KZ,43.374,76.6266,,government,openaq,AirGradient,True
+oaq_6175518,"Bereke auyly, Beisebaev atyndaǵy orta mektep",,,KZ,43.3711,76.7114,,government,openaq,AirGradient,True
+oaq_6175519,"Qaskelen, Belinskiı atyndaǵy mektep",,,KZ,43.1952,76.6209,,government,openaq,AirGradient,True
+oaq_6175520,Raiymbek - Jangeldin,,,KZ,43.2714,76.9568,,government,openaq,AirGradient,True
+oaq_6175521,Almaty şipazhaiy,,,KZ,43.1759,76.8726,,government,openaq,AirGradient,True
+oaq_6175522,Rahat Konditerlik fabrikasy,,,KZ,43.263037,76.957877,,government,openaq,AirGradient,True
+oaq_6175523,№200 mektep-gimnaziya,,,KZ,43.198,76.7905,,government,openaq,AirGradient,True
+oaq_6175524,№206 mektep-gimnaziya,,,KZ,43.208327,76.819198,,government,openaq,AirGradient,True
+oaq_6175525,"Ötegen Batyr, №24 litsei",,,KZ,43.4143,77.0315,,government,openaq,AirGradient,True
+oaq_6175526,Qarağaily (Nadirov k-si),,,KZ,43.1833,76.8416,,government,openaq,AirGradient,True
+oaq_6175527,"Isaevo auyly, Isaeva atyndaǵy mektep",,,KZ,43.4012,76.7513,,government,openaq,AirGradient,True
+oaq_6175528,Samal 1,,,KZ,43.2358,76.9518,,government,openaq,AirGradient,True
+oaq_6175529,Baitursynov k-si,,,KZ,43.231494,76.934146,,government,openaq,AirGradient,True
+oaq_6175530,Zharokov - Mynbayev st.,,,KZ,43.2374,76.8995,,government,openaq,AirGradient,True
+oaq_6175531,Almalybaq,,,KZ,43.222398,76.678183,,government,openaq,AirGradient,True
+oaq_6175532,Zhambyl,,,KZ,43.2734,76.6685,,government,openaq,AirGradient,True
+oaq_6175533,Medeu,,,KZ,43.1642,77.0494,,government,openaq,AirGradient,True
+oaq_6175707,Orbita 1 (Navoi k-si) ,,,KZ,43.2035,76.8869,,government,openaq,AirGradient,True
+oaq_6175708,№170 Böbekjai balabaqşasy,,,KZ,43.3115,76.9015,,government,openaq,AirGradient,True
+oaq_6175709,"Belbulak, №32 mektep",,,KZ,43.3121,77.098,,government,openaq,AirGradient,True
+oaq_6175710,Prezident sayabağı,,,KZ,43.1944,76.8876,,government,openaq,AirGradient,True
+oaq_6175711,"Kyrgauyldy auyly, Orta mektep",,,KZ,43.1793,76.7701,,government,openaq,AirGradient,True
+oaq_6175712,"Tuzdybastau, №13 mektep ",,,KZ,43.3239,77.0644,,government,openaq,AirGradient,True
+oaq_6175713,"Gūldala, №21 mektep",,,KZ,43.3516,77.0573,,government,openaq,AirGradient,True
+oaq_6175714,Tereńqur ,,,KZ,43.2179,76.9693,,government,openaq,AirGradient,True
+oaq_6175715,Jañaturmys (Altynsarin k-si),,,KZ,43.174919,76.788939,,government,openaq,AirGradient,True
+oaq_6175716,№98 mektep,,,KZ,43.2886,76.9765,,government,openaq,AirGradient,True
+oaq_6175717,Nurtau golf club,,,KZ,43.1934,76.8186,,government,openaq,AirGradient,True
+oaq_6175718,Saiyalı (Avtotsón) ,,,KZ,43.3038,76.837,,government,openaq,AirGradient,True
+oaq_6175719,№162 mektep,,,KZ,43.3118,76.9557,,government,openaq,AirGradient,True
+oaq_6175720,№112 mektep,,,KZ,43.2937,76.9154,,government,openaq,AirGradient,True
+oaq_6175721,№171 mektep,,,KZ,43.2718,76.8449,,government,openaq,AirGradient,True
+oaq_6175722,№184 mektep,,,KZ,43.2465,76.7918,,government,openaq,AirGradient,True
+oaq_6175723,№107 mektep,,,KZ,43.2958,76.9374,,government,openaq,AirGradient,True
+oaq_6175837,Duman 2 (Mercur Grad) ,,,KZ,43.2885,77.004,,government,openaq,AirGradient,True
+oaq_6186958,"Almaty, Dostyk 300/60",,,KZ,43.2226,76.9759,,government,openaq,AirGradient,True
+oaq_6198159,Almaty Museum of Arts ,,,KZ,43.2267,76.9492,,government,openaq,AirGradient,True
+oaq_6199332,Al Farabi Universiteti,,,KZ,43.2267,76.9217,,government,openaq,AirGradient,True
+oaq_6199784,Almağül (Serkebaev – Strauss),,,KZ,43.2049,76.8999,,government,openaq,AirGradient,True
+oaq_6199785,5-şi şağyn audan ,,,KZ,43.2337,76.8642,,government,openaq,AirGradient,True
+oaq_6199786,Aqbulaq (Baiqonyrov k-si) ,,,KZ,43.2636,76.8336,,government,openaq,AirGradient,True
+oaq_6199787,Äskeri qalaşıq,,,KZ,43.3615,76.9653,,government,openaq,AirGradient,True
+oaq_6199788,Aqjar (Medeubekov k-si),,,KZ,43.1826,76.7916,,government,openaq,AirGradient,True
+oaq_6199789,Aport Mall East,,,KZ,43.3148,77.0216,,government,openaq,AirGradient,True
+oaq_6199790,"Abaı auyly, №2 mektep",,,KZ,43.2015,76.7636,,government,openaq,AirGradient,True
+oaq_6199865,№193 mektep,,,KZ,43.373,76.9431,,government,openaq,AirGradient,True
+oaq_6199866,Maqataev – Muratbaev,,,KZ,43.2618,76.9186,,government,openaq,AirGradient,True
+oaq_6199867,Bekmahanov – Süyinbai,,,KZ,43.3461,76.971271,,government,openaq,AirGradient,True
+oaq_6199868,Ayajan (Talas k-si),,,KZ,43.3179,76.9374,,government,openaq,AirGradient,True
+oaq_6199869,№4 Qalalyq emhana (Orbita 3),,,KZ,43.2019,76.8766,,government,openaq,AirGradient,True
+oaq_6199870,№178 mektep,,,KZ,43.2499,76.8143,,government,openaq,AirGradient,True
+oaq_6199871,№42 mektep,,,KZ,43.2373,76.8333,,government,openaq,AirGradient,True
+oaq_6199872,№63 orta mektep,,,KZ,43.2169,76.8901,,government,openaq,AirGradient,True
+oaq_6199873,Kensai (Şoqai k-si),,,KZ,43.2662,76.986,,government,openaq,AirGradient,True
+oaq_6199874,№142 mektep,,,KZ,43.3611,76.9966,,government,openaq,AirGradient,True
+oaq_6199875,"Kiši Baıserke, №40 mektep",,,KZ,43.4877,77.0611,,government,openaq,AirGradient,True
+oaq_6199876,№85 mektep ,,,KZ,43.3549,76.9524,,government,openaq,AirGradient,True
+oaq_6199877,№61 mektep,,,KZ,43.3299,76.9477,,government,openaq,AirGradient,True
+oaq_6199878,Jumysşy kenti (Krylov k-si),,,KZ,43.2735,76.8904,,government,openaq,AirGradient,True
+oaq_6199879,Nuriddin (Arystanbab k-si) ,,,KZ,43.1868,76.8599,,government,openaq,AirGradient,True
+oaq_6199880,Baým toǵaıy,,,KZ,43.2939,76.9449,,government,openaq,AirGradient,True
+oaq_6199881,№17 mektep,,,KZ,43.3144,76.9657,,government,openaq,AirGradient,True
+oaq_6199882,№156 mektep ,,,KZ,43.3224,76.8863,,government,openaq,AirGradient,True
+oaq_6199883,№14 mektep ,,,KZ,43.2607,76.8858,,government,openaq,AirGradient,True
+oaq_6199884,Ortalyq stadion,,,KZ,43.2397,76.9241,,government,openaq,AirGradient,True
+oaq_6199885,"Janatalap, №52 orta mektep",,,KZ,43.4737,76.9641,,government,openaq,AirGradient,True
+oaq_6199886,Avtomekhanikalyq kolledj ,,,KZ,43.3049,76.9187,,government,openaq,AirGradient,True
+oaq_6199887,Dostyq ş.a. (Muzammil meşiti),,,KZ,43.2239,76.8291,,government,openaq,AirGradient,True
+oaq_6199888,№198 mektep,,,KZ,43.3183,76.9783,,government,openaq,AirGradient,True
+oaq_6199889,№22 Qalalyq emhana,,,KZ,43.3046,76.853,,government,openaq,AirGradient,True
+oaq_6199890,Bögenbai Batyr – Vereŝagin,,,KZ,43.2487,76.887,,government,openaq,AirGradient,True
+oaq_6199891,Kojamqulov - Qarasai batyr,,,KZ,43.25005,76.9179,,government,openaq,AirGradient,True
+oaq_6199892,"Boraldai, №212 Mektep",,,KZ,43.3247,76.8394,,government,openaq,AirGradient,True
+oaq_6237373,Şuhov at. skver,,,KZ,43.2747,76.9808,,government,openaq,AirGradient,True
+oaq_6237374,Sharipov St.- Raimbek St. cross,,,KZ,43.2456,76.8348,,government,openaq,AirGradient,True
+oaq_6237375,Şanyraq 2 (Baldáuren k-si) ,,,KZ,43.2904,76.8507,,government,openaq,AirGradient,True
+oaq_6237376,Samğau ş.a. (Kokorai k-si) ,,,KZ,43.2706,76.8612,,government,openaq,AirGradient,True
+oaq_6237377,Süyinbai 487,,,KZ,43.358233,76.97941,,government,openaq,AirGradient,True
+oaq_6237378,Saudakent (Kazakov k-si),,,KZ,43.2668,76.8949,,government,openaq,AirGradient,True
+oaq_6237379,Sūltan-Qorǵan (Bespaqov k-si),,,KZ,43.3167,76.9266,,government,openaq,AirGradient,True
+oaq_6237380,Süıınbai – Musorgskiı,,,KZ,43.2851,76.9481,,government,openaq,AirGradient,True
+oaq_6237427,Vagjanov - Jansugurov k-si ,,,KZ,43.3054,76.9312,,government,openaq,AirGradient,True
+oaq_6237428,Turğyt Özal – Yesenzhanov,,,KZ,43.2406,76.8824,,government,openaq,AirGradient,True
+oaq_6237429,Tastybulaq (ST Qanat) ,,,KZ,43.1636,76.8097,,government,openaq,AirGradient,True
+oaq_6237430,Tausamaly,,,KZ,43.1732,76.8317,,government,openaq,AirGradient,True
+oaq_6237431,Zhas Qanat aud. (Khmelnitskiy k-si.),,,KZ,43.3177,76.9839,,government,openaq,AirGradient,True
+oaq_6249730,Wellness Club Luxor ,,,KZ,43.2083,76.96651,,government,openaq,AirGradient,True
+oaq_6253643,Nurly-Tan 37,,,KZ,43.213101,76.7950629,,government,openaq,AirGradient,True
+oaq_6255304,Duisenova 25,,,KZ,43.25586,76.88555,,government,openaq,AirGradient,True
+oaq_6353999,Alma City 5,,,KZ,43.2167,76.7743,,government,openaq,AirGradient,True
+oaq_6367666,Malaya Stanitsa (Bestujev k-si),,,KZ,43.281123,76.970665,,government,openaq,AirGradient,True
+oaq_6398066, Qurylys bazary (Taraz k-si) ,,,KZ,43.3052,77.0062,,government,openaq,AirGradient,True
+oaq_6439740,Saryarka,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,True
+oaq_6465557,Hunter shooting club,,,KZ,43.383170386230546,76.98219747156817,,government,openaq,AirGradient,True
+oaq_6465558,№82 mektep,,,KZ,43.25083615665919,76.84691125082725,,government,openaq,AirGradient,True
+oaq_6470061,Astana,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,True
+oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,True
+oaq_6480195,"Seguin, Ontario",,,KZ,45.3789,79.7542,,government,openaq,AirGradient,True
+oaq_6484978,Mukanova,,,KZ,49.786599,73.163057,,government,openaq,AirGradient,True
+oaq_6485121,Satybaldina,,,KZ,49.780182,73.138677,,government,openaq,AirGradient,True
+oaq_6485441,Erubaeva,,,KZ,49.811882547269164,73.08911947608608,,government,openaq,AirGradient,True
+oaq_7094,Astana,,,KZ,51.125287,71.467217,,government,openaq,AirNow,True
+oaq_8876,Almaty,,,KZ,43.252855,76.93118,,government,openaq,AirNow,True
+oaq_8967269,Almaty Arena,,,KZ,43.301,76.925,,government,openaq,,True
+oaq_8967421,"Road, Almaty Industrial Zone",,,KZ,43.353,76.999,,government,openaq,,True
+oaq_9012318,Nurly street,,,KZ,51.128,71.43,,government,openaq,,True
+waqi_-114487,Розыбакиева - Байкадамова,,,KZ,43.214,76.893,,government,waqi,AirKaz.org,True
+waqi_-114496,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,True
+waqi_-114514,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,True
+waqi_-114523,Темиртау (СШ 16),,,KZ,50.052,72.942,,government,waqi,AirKaz.org,True
+waqi_-114556,"Ташенова, 8",,,KZ,51.1514,71.4342,,government,waqi,AirKaz.org,True
+waqi_-115249,Карасу 2,,,KZ,43.3388,76.9032,,government,waqi,AirKaz.org,True
+waqi_-132529,Темиртау (Правый берег),,,KZ,50.102,72.9,,government,waqi,AirKaz.org,True
+waqi_-162757,ул.Туруспекова,,,KZ,43.178,76.87,,government,waqi,NASA CSESP / RTI,True
+waqi_-174748,Совет ветеранов,,,KZ,44.141,52.155,,government,waqi,AirKaz.org,True
+waqi_-182719,Герцена улица,,,KZ,42.872,74.622,,government,waqi,Citizen Science project sensor.community,True
+waqi_-209305,п.Курык,,,KZ,43.17,51.678,,government,waqi,AirKaz.org,True
+waqi_-224707,Есенова,,,KZ,43.293,76.951,,government,waqi,AirKaz.org,True
+waqi_-364051,Баялинова улица,,,KZ,42.816,74.648,,government,waqi,Citizen Science project sensor.community,True
+waqi_-366844,Звездная поляна,,,KZ,43.1333,76.8695,,government,waqi,AirKaz.org,True
+waqi_-370492,Dostyk Avenue,,,KZ,43.24740500169,76.95690894212,,government,waqi,Citizen Science project sensor.community,True
+waqi_-402925,Индер,,,KZ,48.5558,51.735,,government,waqi,AirKaz.org,True
+waqi_-410893,Алматы санаторий,,,KZ,43.176,76.872,,government,waqi,Citizen Science project sensor.community,True
+waqi_-464161,Жунисова улица,,,KZ,43.218,76.79,,government,waqi,Citizen Science project sensor.community,True
+waqi_-506290,Майқұдық,,,KZ,49.89696663495,73.21133762598,,government,waqi,Citizen Science project sensor.community,True
+waqi_-506392,улица Терешковой,,,KZ,49.82555957034,73.12215149403,,government,waqi,Citizen Science project sensor.community,True
+waqi_-517408,шағын аудан 32А,,,KZ,43.687244722222,51.160561111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517411,"Р. Зорге көшесі, 14",,,KZ,43.338122222222,76.952136111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517414,"«Орбита» ықшам ауданы, «Зендстрой» АҚ Дендропарк аумағында",,,KZ,43.193546388889,76.883063611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517417,"Шаңырақ 2 шағын ауданы, Жанқожа батыр көш.26",,,KZ,43.298601388889,76.851854444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517420,"Жанкожа батыр көшесі, 89",,,KZ,50.290383055556,57.222110833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517423,"Мұқанов көшесі,57/3",,,KZ,49.786533888889,73.168150833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517426,Шуя қалалық ауруханасынан 10 метр. Макаренко,,,KZ,43.612483055556,73.744909444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517441,"Түрксіб ауданы, ауданы, №32 жалпы білім беретін мектеп",,,KZ,43.373304166667,76.992638888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517444,"Алатау ауданы, Момышұлы көшесіндегі «Алматы аренасы» мұз айдыны",,,KZ,43.263798333333,76.8147375,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517447,"Жетісу ауданы, аум. Жетісу ауданының ""Құлагер""ықшам ауданы",,,KZ,43.3007925,76.925219444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517456,Набиева 26 көшесі,,,KZ,52.46618,71.987578055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517459,"Бурабай кенті, Кенесары көшесі, 45 (мектеп аумағы. С. Сейфуллин)",,,KZ,53.085925,70.301633055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517465,"Ахметов көшесі, 50",,,KZ,43.3637,77.004377222222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517471,"Панфилов ауданы, Жаркент қаласы, Ы.Кошкунова, № 7/5",,,KZ,44.153527222222,79.990333333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517474,"Гагарина көшесі, 76",,,KZ,43.302221944444,77.239166388889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517483,"Мақат аудандық Мәдениет үйі, Алаш көшесі, 23",,,KZ,47.645055277778,53.33225,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517486,"Т. Нысанов көшесі, 96",,,KZ,47.049283055556,50.804605,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517489,"МҮ, Құрманғазы ауданы, Абай көшесі, 50 үй",,,KZ,46.602721944444,49.270610833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517510,"Егоров көшесі, 6",,,KZ,50.028606111111,82.741423611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517522,"Абай Бульвары, 14",,,KZ,47.965388333333,80.437361111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517525,"Мир к-сі, 90 в",,,KZ,49.708666111111,81.57325,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517528,"Анатолий Иванов көшесі, 59",,,KZ,50.628027777778,81.9182775,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517537,Абай көшесі әкімдік ауданы,,,KZ,49.633610833333,72.855277222222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517543,2 шағын аудан,,,KZ,52.189221944444,61.1980275,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517546,"Шиелі ауданы, Ш.Есенов көшесі №8, № 127 им. Ш. Уәлиханов",,,KZ,44.196944166667,66.729471944444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517555,қала орталығында,,,KZ,43.293388611111,68.289555277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517558,"Қаратау ауданы, Қызылсай тұрғын алабы, Омарташы көшесі, 1",,,KZ,42.347777777778,69.71,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517561,"Ғ. Мұратбаев көшесі, 1А",,,KZ,42.5518325,70.006693888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517573,"Водниково-2 ықм., 5 көше, 27 учаскесі",,,KZ,47.051999444444,51.900666111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517582,Абая (Островского) 13,,,KZ,50.0,83.503052777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517585,"Клинка, 7",,,KZ,50.0,83.0,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517675,"Гоголь көшесі, 9, №13 орта мектеп",,,KZ,47.791340555556,67.6865075,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517678,Нагорная 15,,,KZ,47.779762222222,67.715738888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517684,"Қ. Сәтпаев даңғылы, 12",,,KZ,49.900590277778,82.6219325,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517702,"Есет батыр көшесі, 109 ""А""",,,KZ,50.294493611111,57.168719166667,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517714,Утвинская к-сі 17,,,KZ,51.160195277778,52.997263611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517726,"К. А. Байтұрсынов, 25",,,KZ,51.123243888889,71.484431388889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517732," Затон к-сі, 39",,,KZ,52.265217222222,76.937730555556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517735,"343 квартал көшесі, 13/2",,,KZ,50.436745555556,80.243555833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517765,"Құсайынова көшесі, 9",,,KZ,47.901361111111,67.532777777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517771,Гагарин көшесі 216,,,KZ,45.006943055556,78.360648055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-517939,"Жылыой ауданы,  «МГӨБ» индустриалды аймағы ауданы",,,KZ,46.942026666667,53.98525,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-518224,"Тынышпаева көшесі, 126",,,KZ,50.009248888889,82.564545277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-518458,Шуақты көшесі 91-де,,,KZ,52.4892025,73.096111111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-519196,"Жамбыл Жабаев көшесі 64 ""А""",,,KZ,49.471694444444,57.422832777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-520300,Abay avenue,,,KZ,43.226,76.862,,government,waqi,Citizen Science project sensor.community,True
+waqi_-521803,"Сырдария көшесі, 3",,,KZ,47.097383055556,51.944210555556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-525592,"Балықшы, А. Байжігітов к-сі, 59, «Судоремонтник» стадионы",,,KZ,47.083833055556,51.875083333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-525652,"Дамба елді мекені, балық инспекциясының аумағы",,,KZ,46.953111111111,51.735194444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-527422,"Бородин к-сі, №144 үйдің ауданы",,,KZ,53.228382222222,63.630640277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-531421,"Горький көшесі, 9",,,KZ,50.249612222222,58.4366875,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-534346,"Ақтөбе облысы Темір ауданы Шұбарши ауылдық округі әкімінің аппараты"" ММ Геоллог к-сі 25д",,,KZ,48.579916666667,57.178694444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-538447,к. Б. Даумова (ауданы мәдениет және демалыс саябағының),,,KZ,51.212033888889,51.348908333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-539074," 3-ші шағын аудан, 23В құрылыс",,,KZ,52.547555,62.494832777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-557107,Sodiq Azimov Street,,,UZ,41.30198058008,69.28678840399,,government,waqi,Citizen Science project sensor.community,True
+waqi_-561904,Маяковский және Волынов көш. Қиылысы,,,KZ,53.176315277778,63.607446944444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-572143,Navoi,,,KZ,43.197819050850285,76.88850673561348,,government,waqi,Gaia realtime air quality monitoring network,True
+waqi_-700999,улица Таджикская,,,KZ,43.26,76.878,,government,waqi,Citizen Science project sensor.community,True
+waqi_-82948,Кара-Балтинская улица,,,KZ,42.8852634775,74.55434883468,,government,waqi,Citizen Science project sensor.community,True
+waqi_1001,Кенсай,,,KZ,43.2554,77.0193,,government,waqi,AirKaz.org,True
+waqi_100156,almaty,,,KZ,43.226230279805,76.862601904544,,government,waqi,AirNet - aiqcn.org - waqi.info,True
+waqi_1002,Тау самал,,,KZ,43.2058,76.981,,government,waqi,AirKaz.org,True
+waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia realtime air quality monitoring network,True
+waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,True
+waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,True
+waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,Dushanbe Air Quality Monitor - US Embassy,True
+waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,True
+waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
+waqi_13da00ff,Microdistrict 7,,,KZ,43.22623028,76.8626019,,government,waqi,uRad Monitor,True
+waqi_14,"Тұран даңғылы 2/1, орталық құтқару станциясы",,,KZ,51.158041944444,71.415435,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_14722,"Tashkent Chilanzar, Uzbekistan",,,UZ,41.31086,69.24074,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_155,НИИ астрофизики им. В.Г. Фесенкова,,,KZ,43.177126944444,76.966099722222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_157,"Розыбакиева, 270",,,KZ,43.214014722222,76.893050833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_159,"Карасу, 6-я, 122",,,KZ,43.338995555556,76.903238611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_2,Альфараби - Маркова,,,KZ,43.224,76.938,,government,waqi,AirKaz.org,True
+waqi_200,№19 мектеп,,,KZ,50.0579875,72.956545555556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_2001,Восток 5,,,KZ,42.8763,74.6889,,government,waqi,AirKaz.org,True
+waqi_208,"Анарқұлова көшесі, 21, №8 Гимназия",,,KZ,47.807914444444,67.706343888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_209,"Гоголь көшесі, 9, №13 орта мектеп",,,KZ,47.791340555556,67.6865075,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_210,Нагорная 15,,,KZ,47.779762222222,67.715738888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_22,шағын аудан 32А,,,KZ,43.687244722222,51.160561111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_225,"Тынышпаева көшесі, 126",,,KZ,50.009248888889,82.564545277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_226,"Қ. Сәтпаев даңғылы, 12",,,KZ,49.900590277778,82.6219325,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_229,"Панфилов ауданы, Жаркент қаласы, Ы.Кошкунова, № 7/5",,,KZ,44.153527222222,79.990333333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_230,"Гагарина көшесі, 76",,,KZ,43.302221944444,77.239166388889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_231,"Горький көшесі, 9",,,KZ,50.249612222222,58.4366875,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_232,"Ақтөбе облысы Темір ауданы Шұбарши ауылдық округі әкімінің аппараты"" ММ Геоллог к-сі 25д",,,KZ,48.579916666667,57.178694444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_233,"Жамбыл Жабаев көшесі 64 ""А""",,,KZ,49.471694444444,57.422832777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_234,"Ы.Алтынсарин 11 Б ""Зере"" балабақшасы МКҚК",,,KZ,48.604972222222,57.116666666667,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_235,Индербор ауданының МҮ Н. Меңдіғалиев көшесі 47,,,KZ,48.555999444444,51.735083333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_237,"Мақат аудандық Мәдениет үйі, Алаш көшесі, 23",,,KZ,47.645055277778,53.33225,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_238,"Т. Нысанов көшесі, 96",,,KZ,47.049283055556,50.804605,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_239,"МҮ, Құрманғазы ауданы, Абай көшесі, 50 үй",,,KZ,46.602721944444,49.270610833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_245,"М. Тынышпаев к-сі, 126",,,KZ,50.009261944444,82.564498888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_246,"Егоров көшесі, 6",,,KZ,50.028606111111,82.741423611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_248,"Рысқұлов көшесі, 27",,,KZ,50.3990475,80.201463333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_249,"343 квартал көшесі, 13/2",,,KZ,50.3990475,80.201463333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_250,"Абай Бульвары, 14",,,KZ,47.965388333333,80.437361111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_251,"Мир к-сі, 90 в",,,KZ,49.708666111111,81.57325,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_252,"Анатолий Иванов көшесі, 59",,,KZ,50.628027777778,81.9182775,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_254," 3-ші шағын аудан, 23В құрылыс",,,KZ,52.547555,62.494832777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_255,Абай көшесі әкімдік ауданы,,,KZ,49.633610833333,72.855277222222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_256," 3-ші шағын аудан, 23В құрылыс",,,KZ,52.547555,62.494832777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_258,2 шағын аудан,,,KZ,52.189221944444,61.1980275,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_26,"Р. Зорге көшесі, 14",,,KZ,43.338122222222,76.952136111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_260,"Шиелі ауданы, Ш.Есенов көшесі №8, № 127 им. Ш. Уәлиханов",,,KZ,44.196944166667,66.729471944444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_263,қала орталығында,,,KZ,43.293388611111,68.289555277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_264,"Қаратау ауданы, Қызылсай тұрғын алабы, Омарташы көшесі, 1",,,KZ,42.347777777778,69.71,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_265,"Ғ. Мұратбаев көшесі, 1А",,,KZ,42.5518325,70.006693888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_27,"«Орбита» ықшам ауданы, «Зендстрой» АҚ Дендропарк аумағында",,,KZ,43.193546388889,76.883063611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_27173,Novi Mir,,,KZ,43.226665,76.95659,,government,waqi,Purple Air,True
+waqi_27193,Park Palace,,,KZ,43.258007,76.957054,,government,waqi,Purple Air,True
+waqi_27297,Zholdasbekova 97,,,KZ,43.233925,76.9549,,government,waqi,Purple Air,True
+waqi_27423,Dostyk,,,KZ,43.204712,76.97411,,government,waqi,Purple Air,True
+waqi_27443,Esentai,,,KZ,43.220303,76.92978,,government,waqi,Purple Air,True
+waqi_28,"Шаңырақ 2 шағын ауданы, Жанқожа батыр көш.26",,,KZ,43.298601388889,76.851854444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_280,"Есет батыр көшесі, 109 ""А""",,,KZ,50.294493611111,57.168719166667,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_284,"Химпоселок ауд., Сырдария №3, (арнайы.сөйлеу қабілеті бұзылған балаларға арналған мектеп)",,,KZ,47.097383055556,51.944210555556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_299, Есенов үйі. №221 Рысқұлова ,,,KZ,43.291511111111,76.951184444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_300, Ерменсай Шие үйі. №3,,,KZ,43.177869444444,76.918204722222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_30063104,Школа №22,,,KZ,43.645,51.175,,government,waqi,AirKaz.org,True
+waqi_30369354,"Тулебаева, 82",,,KZ,43.2576,76.9484,,government,waqi,AirKaz.org,True
+waqi_304,к. Б. Даумова (ауданы мәдениет және демалыс саябағының),,,KZ,51.212033888889,51.348908333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_308,Утвинская к-сі 17,,,KZ,51.160195277778,52.997263611111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_30960812,КазГУ,,,KZ,43.22,76.9264,,government,waqi,AirKaz.org,True
+waqi_31,"Жанкожа батыр көшесі, 89",,,KZ,50.290383055556,57.222110833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_311,Шуақты көшесі 91-де,,,KZ,52.4892025,73.096111111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_314,"Жылыой ауданы,  «МГӨБ» индустриалды аймағы ауданы",,,KZ,46.942026666667,53.98525,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_31596906,Есет Батыра 109А,,,KZ,50.294,57.169,,government,waqi,AirKaz.org,True
+waqi_316,"Дамба елді мекені, балық инспекциясының аумағы",,,KZ,46.953111111111,51.735194444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_318,"Балықшы, А. Байжігітов к-сі, 59, «Судоремонтник» стадионы",,,KZ,47.083833055556,51.875083333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_319,"Водниково-2 ықм., 5 көше, 27 учаскесі",,,KZ,47.051999444444,51.900666111111,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_32,"Сырдария көшесі, 3",,,KZ,47.097383055556,51.944210555556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_32009929,Школа №3,,,KZ,43.634,51.179,,government,waqi,AirKaz.org,True
+waqi_32149779,"Ташенова, 8",,,KZ,51.1514,71.4342,,government,waqi,AirKaz.org,True
+waqi_3218686,Темиртау (СШ 16),,,KZ,50.052,72.942,,government,waqi,AirKaz.org,True
+waqi_324,Абая (Островского) 13,,,KZ,50.0,83.503052777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_325,"Клинка, 7",,,KZ,50.0,83.0,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_32621512,ул. Улы-Дала,,,KZ,51.0917,71.4498,,government,waqi,AirKaz.org,True
+waqi_3269728,KazGU2,,,KZ,43.206,76.9,,government,waqi,AirKaz.org,True
+waqi_33016,Колхозная улица,,,KZ,42.92308116289,74.60585027933,,government,waqi,Citizen Science project sensor.community,True
+waqi_33642900,Посольство - 1,,,KZ,42.827,74.583,,government,waqi,AirKaz.org,True
+waqi_33858988,Толстого 95,,,KZ,52.275,76.962,,government,waqi,AirKaz.org,True
+waqi_34313,Кара-Балтинская улица,,,KZ,42.8852634775,74.55434883468,,government,waqi,Citizen Science project sensor.community,True
+waqi_34320142,Депутатский городок,,,KZ,51.1055,71.489,,government,waqi,AirKaz.org,True
+waqi_34395304,Совет ветеранов,,,KZ,44.141,52.155,,government,waqi,AirKaz.org,True
+waqi_34464708,Школа №41,,,KZ,52.288,77.007,,government,waqi,AirKaz.org,True
+waqi_34686208,ПНЗ №3,,,KZ,51.212,51.349,,government,waqi,AirKaz.org,True
+waqi_34703847,ул.Туруспекова,,,KZ,43.178,76.87,,government,waqi,AirKaz.org,True
+waqi_35093702,Химпоселок,,,KZ,47.096,51.941,,government,waqi,AirKaz.org,True
+waqi_35137762,ПНЗ №4 (Аксай),,,KZ,51.16,52.997,,government,waqi,AirKaz.org,True
+waqi_35142770,Индер,,,KZ,48.5558,51.735,,government,waqi,AirKaz.org,True
+waqi_35742416,п.Курык,,,KZ,43.17,51.678,,government,waqi,AirKaz.org,True
+waqi_35745,Аалы Токомбаева улица,,,KZ,42.812,74.628,,government,waqi,Citizen Science project sensor.community,True
+waqi_35948681,Талгар,,,KZ,43.3039,77.2139,,government,waqi,AirKaz.org,True
+waqi_36,"Мұқанов көшесі,57/3",,,KZ,49.786533888889,73.168150833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_36078378,ДосКредоБанк Алкан,,,KZ,42.94,74.622,,government,waqi,AirKaz.org,True
+waqi_36200067,Айнабулак-3,,,KZ,43.324,76.919,,government,waqi,AirKaz.org,True
+waqi_36254881,Темиртау (Правый берег),,,KZ,50.102,72.9,,government,waqi,AirKaz.org,True
+waqi_36671067,Таусамал,,,KZ,43.202,76.812,,government,waqi,AirKaz.org,True
+waqi_36880579,Белинского 5,,,KZ,50.318,57.142,,government,waqi,AirKaz.org,True
+waqi_37380840,ул.Дулати,,,KZ,43.17,76.899,,government,waqi,AirKaz.org,True
+waqi_37647376,ПНЗ №5,,,KZ,51.2055,51.383,,government,waqi,AirKaz.org,True
+waqi_37913486,Рыскулова 4Г,,,KZ,50.316,57.126,,government,waqi,AirKaz.org,True
+waqi_37917495,Есенова,,,KZ,43.293,76.951,,government,waqi,AirKaz.org,True
+waqi_37984131,ПНЗ №2,,,KZ,51.227,51.427,,government,waqi,AirKaz.org,True
+waqi_386,"Т. Нысанов көшесі, 96",,,KZ,47.049283055556,50.871266666667,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_388,Гагарин көшесі 216,,,KZ,45.006943055556,78.360648055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_38834077,Dual1,,,KZ,43.23,76.9326,,government,waqi,AirKaz.org,True
+waqi_38918407,КВД,,,KZ,52.253,76.97,,government,waqi,AirKaz.org,True
+waqi_39,Шуя қалалық ауруханасынан 10 метр. Макаренко,,,KZ,43.612483055556,73.744909444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_391,Индербор ауданының МҮ Н. Меңдіғалиев көшесі 47,,,KZ,48.555999444444,51.735083333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_39168240,Карасу 2,,,KZ,43.3388,76.9032,,government,waqi,AirKaz.org,True
+waqi_39379024,Муканова 159,,,KZ,43.2572,76.914,,government,waqi,AirKaz.org,True
+waqi_396,"К. А. Байтұрсынов, 25",,,KZ,51.123243888889,71.484431388889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_39681949,ж/м Ала-Тоо,,,KZ,42.8573,74.478,,government,waqi,AirKaz.org,True
+waqi_399," Затон к-сі, 39",,,KZ,52.265217222222,76.937730555556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_404,"343 квартал көшесі, 13/2",,,KZ,50.436745555556,80.243555833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_408,"Широкая көшесі, 44",,,KZ,49.978388333333,82.635583055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_412,"Алашахан даңғылы, 43Д",,,KZ,47.807519722222,67.686633888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_414,"Бабыр би көшесі, 5",,,KZ,47.89399,67.542160833333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_415,Ұлытау 108,,,KZ,47.900828333333,67.521771388889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_419,Әуежай маңындағы дачалар,,,KZ,47.722166666667,67.714888888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_421,"Құсайынова көшесі, 9",,,KZ,47.901361111111,67.532777777778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_42963368,Курсай,,,KZ,47.067,51.886,,government,waqi,AirKaz.org,True
+waqi_43241,Kazakhstan International School,,,KZ,43.206642,76.922905,,government,waqi,Purple Air,True
+waqi_44593049,ПНЗ №5,,,KZ,51.158,71.415,,government,waqi,AirKaz.org,True
+waqi_45,Қосай ата көшесі 15 (Ы.Алтынсарин),,,KZ,45.324271666667,55.186155277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_45968703,ПНЗ №2,,,KZ,51.171,71.424,,government,waqi,AirKaz.org,True
+waqi_48,  Торайғыров генералы Дүйсенов көшесі,,,KZ,52.294865277778,76.942828333333,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_48548155,ПИМК,,,KZ,52.287,76.983,,government,waqi,AirKaz.org,True
+waqi_51,"Берденов көш.,6",,,KZ,44.846771111111,65.486767222222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_52798,Герцена улица,,,KZ,42.872,74.622,,government,waqi,Citizen Science project sensor.community,True
+waqi_55837,microrayon Kok-Jar,,,KZ,42.8500560033,74.63297009468,,government,waqi,Citizen Science project sensor.community,True
+waqi_57,"Түрксіб ауданы, ауданы, №32 жалпы білім беретін мектеп",,,KZ,43.373304166667,76.992638888889,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_58,"Алатау ауданы, Момышұлы көшесіндегі «Алматы аренасы» мұз айдыны",,,KZ,43.263798333333,76.8147375,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_59,"Жетісу ауданы, аум. Жетісу ауданының ""Құлагер""ықшам ауданы",,,KZ,43.3007925,76.925219444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_6,Розыбакиева - Байкадамова,,,KZ,43.214,76.893,,government,waqi,AirKaz.org,True
+waqi_60,"Медеу ауданы, «Халық аренасы» мұз айдыны, «Думан» шағын ауданы",,,KZ,43.288378333333,76.991639166667,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_65242,улица Жамакаева,,,KZ,43.21126910743,76.94824486971,,government,waqi,Citizen Science project sensor.community,True
+waqi_73,Набиева 26 көшесі,,,KZ,52.46618,71.987578055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_74,"Бурабай кенті, Кенесары көшесі, 45 (мектеп аумағы. С. Сейфуллин)",,,KZ,53.085925,70.301633055556,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_76617,Баялинова улица,,,KZ,42.816,74.648,,government,waqi,Citizen Science project sensor.community,True
+waqi_77,"Бородин к-сі, №144 үйдің ауданы",,,KZ,53.228382222222,63.630640277778,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_78,Маяковский және Волынов көш. Қиылысы,,,KZ,53.176315277778,63.607446944444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_78340,Dostyk Avenue,,,KZ,43.24740500169,76.95690894212,,government,waqi,Citizen Science project sensor.community,True
+waqi_82475,Алматы санаторий,,,KZ,43.176,76.872,,government,waqi,Citizen Science project sensor.community,True
+waqi_82729,улица Монтажная,,,KZ,43.33317095357,76.98168933392,,government,waqi,Citizen Science project sensor.community,True
+waqi_84862,Жунисова улица,,,KZ,43.218,76.79,,government,waqi,Citizen Science project sensor.community,True
+waqi_89403,Майкудук,,,KZ,49.89694734144,73.21129202843,,government,waqi,Citizen Science project sensor.community,True
+waqi_89417,улица Терешковой,,,KZ,49.824,73.122,,government,waqi,Citizen Science project sensor.community,True
+waqi_89748,Проспект Нурсултана Назарбаева,,,KZ,49.81513369921,73.10452669859,,government,waqi,Citizen Science project sensor.community,True
+waqi_9,Ерменсай,,,KZ,43.174,76.917,,government,waqi,AirKaz.org,True
+waqi_90941,Abay avenue,,,KZ,43.226,76.862,,government,waqi,Citizen Science project sensor.community,True
+waqi_93571,Майқұдық,,,KZ,49.85318928967,73.18899750611,,government,waqi,Citizen Science project sensor.community,True
+waqi_97,"Ахметов көшесі, 50",,,KZ,43.3637,77.004377222222,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_97584,улица Таджикская,,,KZ,43.26,76.878,,government,waqi,Citizen Science project sensor.community,True
+waqi_999,Звездная поляна,,,KZ,43.1333,76.8695,,government,waqi,AirKaz.org,True
+waqi_airkaz/34703847,ул.Туруспекова,,,KZ,43.178,76.87,,government,waqi,NASA CSESP / RTI,True
+waqi_dadkd2421,"ул.Касымбека/ул.Слиева, р-н ТЭЦ",,,UZ,40.56844,72.80311,,government,waqi,Clarity,True
+waqi_daevk9013,Alatau,,,KZ,43.176578104286946,76.89770583884861,,government,waqi,Clarity,True
+waqi_dafsv7846,"Молодежный квартал 263, Токтоналивева",,,KZ,42.825257,74.590842,,government,waqi,Clarity,True
+waqi_daiey0809,Mamyr-3,,,KZ,43.21431008497455,76.85549980598847,,government,waqi,Clarity,True
+waqi_daifk5203,Kokkainar Micro,,,KZ,43.290757,76.841229,,government,waqi,Clarity,True
+waqi_dbzww0990,парк Им. А.Боталиева,,,KZ,42.9069472,74.5856928,,government,waqi,Clarity,True
+waqi_dcahw9133,с.Байтик ,,,KZ,42.740494,74.553609,,government,waqi,Clarity,True
+waqi_dcbmw8482,Институт Физической культуры (КГАФКиС),,,KZ,42.845159,74.615772,,government,waqi,Clarity,True
+waqi_dcbvw2970,Elaman 105 St.,,,KZ,43.368606872490815,76.94705072701963,,government,waqi,Clarity,True
+waqi_dcdex9834,ж/м Рухий Мурас,,,KZ,42.859203,74.696642,,government,waqi,Clarity,True
+waqi_dchry4320,Gymnasium 39,,,KZ,43.3481851029586,76.843300856246,,government,waqi,Clarity,True
+waqi_dchth6363,Ататюрк парк,,,KZ,42.8412637,74.5950722,,government,waqi,Clarity,True
+waqi_dckiz5597,ж/м Дордой. ПНЗ-7,,,KZ,42.9292579,74.6118202,,government,waqi,Clarity,True
+waqi_dcmhe1990,ж/м Бакай-Ата,,,KZ,42.8993262,74.6449596,,government,waqi,Clarity,True
+waqi_dcrrq3470,169 School,,,KZ,43.29713287788326,76.86110376445615,,government,waqi,Clarity,True
+waqi_ddskf8176,Учкун ж/м,,,KZ,42.868384,74.691533,,government,waqi,Clarity,True
+waqi_dflpk7368,"мкр.Джал, Кыргыз-Түрк ""Манас"" университети",,,KZ,42.8353206,74.5700062,,government,waqi,Clarity,True
+waqi_dfnzg1414,"ж/м Ак-Орго, Школа 77",,,KZ,42.840507,74.518771,,government,waqi,Clarity,True
+waqi_dfqnj9727,ТЭЦ Бишкек,,,KZ,42.875313,74.654148,,government,waqi,Clarity,True
+waqi_dfvgp0935,Кыргыз-Түрк Манас университети,,,KZ,42.8353206,74.5700062,,government,waqi,Clarity,True
+waqi_dgzte1275,"ул.Салиева 53, ПНЗ-3",,,KZ,42.8840071,74.6469541,,government,waqi,Clarity,True
+waqi_dhdbp2791,s. Orto - Say,,,KZ,42.803709,74.591334,,government,waqi,Clarity,True
+waqi_dhyvp4159,Рабочий городок,,,KZ,42.851912,74.568435,,government,waqi,Clarity,True
+waqi_dibru2953,"ж/м Ак-Ордо, ул.Кошой-Коргон 2",,,KZ,42.852604,74.506801,,government,waqi,Clarity,True
+waqi_diilm8041,Гос.резиденция,,,KZ,42.805435,74.626845,,government,waqi,Clarity,True
+waqi_diiwf2739,Detsad School,,,KZ,43.31276134876108,76.87604335791103,,government,waqi,Clarity,True
+waqi_dimhw7507,"ул,Юлиуса Фучика/пер. Сергея Лазо",,,KZ,42.8909495,74.5469496,,government,waqi,Clarity,True
+waqi_diwev3860,School 190,,,KZ,43.15475667376976,76.89920068011332,,government,waqi,Clarity,True
+waqi_djrcu0330,School 160,,,KZ,43.335836109307266,76.91287406657065,,government,waqi,Clarity,True
+waqi_dkike9668,12-микрорайон,,,KZ,42.8117197,74.6409131,,government,waqi,Clarity,True
+waqi_dkitu2463,AsiaFood,,,KZ,43.24283186562071,76.82871773078021,,government,waqi,Clarity,True
+waqi_dkqkp7937,Zhetysu 47,,,KZ,43.29170729096677,76.98979982475333,,government,waqi,Clarity,True
+waqi_dkwgl5134,Respublika 4,,,KZ,43.23680399999999,76.94481400000001,,government,waqi,Clarity,True
+waqi_dlfsj5393,"7-мкр, дом 12/1",,,KZ,42.8290004,74.6170793,,government,waqi,Clarity,True
+waqi_dlhip6221,Atyrau 54,,,KZ,43.29677960017615,76.99158959609676,,government,waqi,Clarity,True
+waqi_dlnau6990,Ryskulova 81,,,KZ,43.27865455271868,76.90347457672107,,government,waqi,Clarity,True
+waqi_dlwxy0745,Переустановленный в ОБСЕ,,,KZ,42.8786776,74.5907455,,government,waqi,Clarity,True
+waqi_dmkzm8328,Iliyski trakt,,,KZ,43.34158170973398,76.98192511971963,,government,waqi,Clarity,True
+waqi_dmmmh0420,Nicolas International chain of wineries,,,KZ,43.19364967260028,76.90962542469542,,government,waqi,Clarity,True
+waqi_dmxjp3458,парк Сейил,,,KZ,42.7703795,74.581002,,government,waqi,Clarity,True
+waqi_dnbkw4153,CHP,,,KZ,43.29161420999885,76.80436756266862,,government,waqi,Clarity,True
+waqi_dnkdc3171,"Военная прокуратура, ул.Токтоналиева 2/1",,,KZ,42.853156,74.592345,,government,waqi,Clarity,True
+waqi_dpflr0020,KBTU,,,KZ,43.25347876621724,76.94536842109201,,government,waqi,Clarity,True
+waqi_dpprq5844,"пр.Манаса, с.Манас, ул.Матисакова ",,,KZ,42.809674,74.574246,,government,waqi,Clarity,True
+waqi_dqhid8779,"ж/м Токолдош, ул.Октябрьская 188",,,KZ,42.8647842,74.6415326,,government,waqi,Clarity,True
+waqi_dqihb6321,Almaty Arena,,,KZ,43.26407854761793,76.81687957488205,,government,waqi,Clarity,True
+waqi_drgxk4758,School 77,,,KZ,43.218464378811994,76.94964360143646,,government,waqi,Clarity,True
+waqi_drpmz6176,ул.Ибраимова ПНЗ-4,,,KZ,42.884661,74.6164748,,government,waqi,Clarity,True
+waqi_drvsv9570,EkoPost,,,KZ,43.249658504741106,76.80559998147626,,government,waqi,Clarity,True
+waqi_drxhw5169,School 137,,,KZ,43.31676494629688,76.91083701308452,,government,waqi,Clarity,True
+waqi_dscqs5741,School 175,,,KZ,43.19957298448716,76.85428363117835,,government,waqi,Clarity,True
+waqi_dsezc5147,Kokzhiyek-63,,,KZ,43.35813359109591,76.92289958238688,,government,waqi,Clarity,True
+waqi_dskmy5521,s. Chon-Aryk,,,KZ,42.795343,74.574835,,government,waqi,Clarity,True
+waqi_dsppd2123,DIS-7,,,KZ,43.205327130825815,76.7769168478819,,government,waqi,Clarity,True
+waqi_dswcq1976,с.Новопокровка 3,,,KZ,42.879912,74.711066,,government,waqi,Clarity,True
+waqi_dthvz4764,School 187,,,KZ,43.18579430712143,76.82847702612057,,government,waqi,Clarity,True
+waqi_dtiut3440,Magnum-273,,,KZ,43.25074042971093,76.82301292953345,,government,waqi,Clarity,True
+waqi_dtnyu5087,с. Чоң -Таш,,,KZ,42.7482592,74.5982767,,government,waqi,Clarity,True
+waqi_ducdw6700,Suiynbay-55,,,KZ,43.37664309140991,76.99055491708968,,government,waqi,Clarity,True
+waqi_dupqc2139,"ж/м Арча-Бешик, ул.Садабакасова",,,KZ,42.8353206,74.5493073,,government,waqi,Clarity,True
+waqi_dvpax1933,Kotelnikova St.,,,KZ,43.31039688071044,76.94216898220436,,government,waqi,Clarity,True
+waqi_dvtzn9901,"Ошский рынок, ТЦ Беш-Сары",,,KZ,42.876283,74.571118,,government,waqi,Clarity,True
+waqi_dwcqw1712,"Кызыл-Аскер, ПНЗ-6",,,KZ,42.873227,74.542899,,government,waqi,Clarity,True
+waqi_dwdjg0191, Карагачевая роща,,,KZ,42.904486,74.618076,,government,waqi,Clarity,True
+waqi_dweum2128,Hospital-7,,,KZ,43.23396107591564,76.80012719631037,,government,waqi,Clarity,True
+waqi_dwfhv6078,"ж/м Касым, школа 83",,,KZ,42.882766,74.523842,,government,waqi,Clarity,True
+waqi_dwgii9341,Ritz Palace,,,KZ,43.22832883695745,76.9602836930437,,government,waqi,Clarity,True
+waqi_dwuuk8731,"МЧС КР, ул.Жумабека 180",,,KZ,42.8829141,74.5911172,,government,waqi,Clarity,True
+waqi_dwynl0126,"с. Заречное, ул. Ала-Арча пер. Юбилейное",,,KZ,42.7579014,74.5731129,,government,waqi,Clarity,True
+waqi_dxiux1869,School 192,,,KZ,43.172031,76.852339,,government,waqi,Clarity,True
+waqi_dxkuv4229,"Road, Almaty Industrial Zone",,,KZ,43.316523,76.804295,,government,waqi,Clarity,True
+waqi_dxzdt2208,с.Арчалы,,,KZ,42.7261384,74.507675,,government,waqi,Clarity,True
+waqi_dxzxj3551,Кок-Жар ж/м,,,KZ,42.8457268,74.6374993,,government,waqi,Clarity,True
+waqi_dysmw5694,Magnum Besagash,,,KZ,43.29222281590885,77.0121766907784,,government,waqi,Clarity,True
+waqi_dyviw2129," с.Орок, ул.Семетей 186",,,KZ,42.8087178,74.5552253,,government,waqi,Clarity,True
+waqi_dzbpd6527,Shamiyeva St.,,,KZ,43.283229322033016,76.92753219053208,,government,waqi,Clarity,True
+waqi_dzsft0997,Shkola-Gimnaziya 152,,,KZ,43.30173409474243,76.87217086857771,,government,waqi,Clarity,True
+waqi_nan,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
