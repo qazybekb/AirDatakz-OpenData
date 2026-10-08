@@ -69,7 +69,7 @@ One row per station per hour. Only measurements that passed all quality checks a
 
 | Column | Type | Description |
 |:-------|:-----|:------------|
-| `datetime_utc` | timestamp | Measurement time (UTC with timezone offset) |
+| `datetime_utc` | timestamp | Measurement time in UTC, e.g. `2026-10-08 15:00:00+00:00` |
 | `station_id` | string | Unique station identifier |
 | `station_name` | string | Station name / location |
 | `source` | string | Data source (see Sources below) |
