@@ -33,21 +33,29 @@ jobs:
         run: |
           python3 - <<'PY'
           import csv, gzip, io, statistics, sys, urllib.request
-          from datetime import date
+          from datetime import date, timedelta
           repo, failed = "${{ github.repository }}", False
           for city in ("almaty", "astana", "karaganda"):
               url = f"https://raw.githubusercontent.com/{repo}/main/{city}/daily/pm25.csv.gz"
               with urllib.request.urlopen(url, timeout=60) as resp:
                   rows = list(csv.DictReader(io.TextIOWrapper(gzip.GzipFile(fileobj=io.BytesIO(resp.read())))))
-              latest = date.fromisoformat(rows[-1]["date"])
-              complete, history = rows[-2], rows[-16:-2]   # the latest day may still be filling up
-              usual = statistics.median(float(r["n_stations"]) for r in history)
-              now = float(complete["n_stations"])
-              print(f"{city}: latest {latest}, stations on {complete['date']}: {now:.0f} (usual {usual:.0f})")
+              by_day = {date.fromisoformat(r["date"]): float(r["n_stations"]) for r in rows}
+              latest = max(by_day)
+              print(f"{city}: newest daily value {latest}")
               if (date.today() - latest).days > 3:
                   print(f"::error::{city}: newest daily value is {latest}"); failed = True
-              if usual and now < 0.5 * usual:
-                  print(f"::error::{city}: only {now:.0f} stations reported on {complete['date']} (usual {usual:.0f})"); failed = True
+                  continue
+              # Coverage: the last complete day vs the two calendar weeks before it.
+              # Skipped right after an outage/restart, when there is no recent history yet.
+              complete = latest - timedelta(days=1)
+              history = [n for d, n in by_day.items() if complete - timedelta(days=15) <= d < complete]
+              if complete not in by_day or len(history) < 5:
+                  print(f"  coverage check skipped (not enough recent history)")
+                  continue
+              usual, now = statistics.median(history), by_day[complete]
+              print(f"  stations on {complete}: {now:.0f} (usual {usual:.0f})")
+              if now < 0.5 * usual:
+                  print(f"::error::{city}: only {now:.0f} stations reported on {complete} (usual {usual:.0f})"); failed = True
           sys.exit(1 if failed else 0)
           PY
 
