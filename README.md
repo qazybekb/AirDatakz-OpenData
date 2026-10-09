@@ -69,7 +69,7 @@ One row per station per hour. Only measurements that passed all quality checks a
 
 | Column | Type | Description |
 |:-------|:-----|:------------|
-| `datetime_utc` | timestamp | Measurement time in UTC, e.g. `2026-10-08 15:00:00+00:00` |
+| `datetime_utc` | timestamp | Start of the measured hour in UTC, e.g. `2026-10-08 15:00:00+00:00` (all sources) |
 | `station_id` | string | Unique station identifier |
 | `station_name` | string | Station name / location |
 | `source` | string | Data source (see Sources below) |
@@ -225,7 +225,27 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 
 ---
 
-## Data Corrections (8 Oct 2026)
+## Data Corrections
+
+### 9 Oct 2026 — Hourly timestamps of KazHydroMet data corrected
+
+Hourly KazHydroMet values (the `kgmt` source in the `almaty`, `astana` and `karaganda` files, and all of `rest_of_kz`) now
+use the same convention as every other source: `datetime_utc` is the **start** of the measured hour, in UTC.
+
+- Values loaded from the historical archive (2020-06 → 2025-12) were stamped **6 hours late**; they were moved back by 6 hours.
+- KazHydroMet stamps every value with the **end** of its hour; all KazHydroMet hours were additionally moved back by 1 hour.
+  In total, history before 2023-10-29 moved back by 7 hours and later data by 1 hour.
+- Duplicate measurements created by the old error were removed (about 27,000 hourly values in the city files; about 670,000
+  raw readings behind `rest_of_kz`).
+- With the duplicates gone, several stuck or constant KazHydroMet sensors (e.g. TSP readings of 0.00 µg/m³) became visible;
+  quality control now excludes those hours, so some hourly files have fewer rows.
+- Daily values change little (median 0.6–3.7% by city and pollutant); hourly profiles such as the daily NO2 cycle are now aligned
+  with the other sources.
+- `raw_value` is now written with at most 6 decimals (values in `value_ugm3` are unchanged by this).
+
+If you downloaded these files before this date, please download them again.
+
+### 8 Oct 2026
 
 All files were regenerated with these fixes; please re-download if you use earlier copies.
 
@@ -238,9 +258,8 @@ All files were regenerated with these fixes; please re-download if you use earli
   had been stored 12–14 h late; corrected. 3,255 resulting duplicates were dropped.
 - **No double counting of AirGradient sensors.** OpenAQ re-publishes AirGradient sensors;
   in Almaty they are now taken only from the direct AirGradient feed.
-- **Under review:** KazHydroMet hourly timestamps before 2023 may be offset by several
-  hours, and several KazHydroMet PM2.5 monitors in Almaty disagree strongly with the
-  dense AirGradient network. Daily averages are less affected than hourly patterns.
+- **Under review:** several KazHydroMet PM2.5 monitors in Almaty disagree strongly with the
+  dense AirGradient network. (The KazHydroMet timestamp question noted here was resolved on 9 Oct 2026, see above.)
 
 ---
 
