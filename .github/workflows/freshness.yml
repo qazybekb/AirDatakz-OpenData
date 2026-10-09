@@ -1,7 +1,8 @@
 # Independent health check for the AirData pipeline, running on GitHub (not on the Mac).
 # Fails — and GitHub emails the maintainer — only when something needs a human:
 # no new data for 48 h, a city losing more than half of its reporting stations,
-# or airdata.kz down / showing data older than 3 days.
+# a source in a city losing more than half of its usual stations, or airdata.kz
+# down / showing data older than 3 days.
 name: Data freshness
 
 on:
@@ -34,28 +35,115 @@ jobs:
           python3 - <<'PY'
           import csv, gzip, io, statistics, sys, urllib.request
           from datetime import date, timedelta
+
           repo, failed = "${{ github.repository }}", False
+
           for city in ("almaty", "astana", "karaganda"):
+              # Existing daily summary check: newest local daily value and city-wide station coverage.
               url = f"https://raw.githubusercontent.com/{repo}/main/{city}/daily/pm25.csv.gz"
               with urllib.request.urlopen(url, timeout=60) as resp:
                   rows = list(csv.DictReader(io.TextIOWrapper(gzip.GzipFile(fileobj=io.BytesIO(resp.read())))))
+
               by_day = {date.fromisoformat(r["date"]): float(r["n_stations"]) for r in rows}
               latest = max(by_day)
               print(f"{city}: newest daily value {latest}")
+
               if (date.today() - latest).days > 3:
-                  print(f"::error::{city}: newest daily value is {latest}"); failed = True
+                  print(f"::error::{city}: newest daily value is {latest}")
+                  failed = True
                   continue
+
               # Coverage: the last complete day vs the two calendar weeks before it.
               # Skipped right after an outage/restart, when there is no recent history yet.
               complete = latest - timedelta(days=1)
               history = [n for d, n in by_day.items() if complete - timedelta(days=15) <= d < complete]
+
               if complete not in by_day or len(history) < 5:
-                  print(f"  coverage check skipped (not enough recent history)")
+                  print("  coverage check skipped (not enough recent history)")
                   continue
+
               usual, now = statistics.median(history), by_day[complete]
               print(f"  stations on {complete}: {now:.0f} (usual {usual:.0f})")
+
               if now < 0.5 * usual:
-                  print(f"::error::{city}: only {now:.0f} stations reported on {complete} (usual {usual:.0f})"); failed = True
+                  print(f"::error::{city}: only {now:.0f} stations reported on {complete} (usual {usual:.0f})")
+                  failed = True
+
+              # Source-level coverage from the hourly file.
+              # The hourly file is read once per city and used for all sources.
+              hourly_url = f"https://raw.githubusercontent.com/{repo}/main/{city}/pm25.csv.gz"
+              day_hours = {}
+              day_source_stations = {}
+
+              with urllib.request.urlopen(hourly_url, timeout=60) as resp:
+                  reader = csv.DictReader(io.TextIOWrapper(gzip.GzipFile(fileobj=resp), encoding="utf-8"))
+                  for row in reader:
+                      try:
+                          d = date.fromisoformat(row["datetime_utc"][:10])
+                      except (ValueError, KeyError):
+                          continue
+
+                      hour = row.get("datetime_utc")
+                      station_id = row.get("station_id")
+                      source = row.get("source")
+
+                      if hour:
+                          day_hours.setdefault(d, set()).add(hour)
+
+                      if station_id and source:
+                          day_source_stations.setdefault(d, {}).setdefault(source, set()).add(station_id)
+
+              if not day_source_stations:
+                  print("  source coverage check skipped (no hourly station rows)")
+                  continue
+
+              # Latest complete UTC day in the hourly file.
+              # A complete day is preferred to have at least 24 distinct hour stamps.
+              # If no such day is present, fall back to the day before the newest day,
+              # mirroring the existing daily-summary behaviour for a partial newest day.
+              complete_days = [d for d, hours in day_hours.items() if len(hours) >= 24]
+              if complete_days:
+                  complete_utc = max(complete_days)
+              else:
+                  newest = max(day_source_stations)
+                  complete_utc = newest - timedelta(days=1)
+
+              if complete_utc not in day_source_stations:
+                  print("  source coverage check skipped (no complete UTC day)")
+                  continue
+
+              # Compare each source on the latest complete UTC day with the median of the 14 days before.
+              window_start = complete_utc - timedelta(days=14)
+              window_days = [window_start + timedelta(days=i) for i in range(14)]
+
+              sources = set(day_source_stations.get(complete_utc, {}))
+              for d in window_days:
+                  sources.update(day_source_stations.get(d, {}))
+
+              for source in sorted(sources):
+                  history = [
+                      len(day_source_stations.get(d, {}).get(source, ()))
+                      for d in window_days
+                  ]
+
+                  # Keep the existing "not enough recent history" style: require some
+                  # non-zero recent days before judging a source as broken.
+                  if sum(1 for n in history if n > 0) < 5:
+                      print(f"  source {source}: coverage check skipped (not enough recent history)")
+                      continue
+
+                  usual = statistics.median(history)
+                  now = len(day_source_stations.get(complete_utc, {}).get(source, ()))
+
+                  print(f"  source {source}: stations on {complete_utc}: {now} (usual {usual:.0f})")
+
+                  if usual > 0 and (now == 0 or now < 0.5 * usual):
+                      print(
+                          f"::error::{city}: source {source} reported {now} stations on {complete_utc} "
+                          f"(usual {usual:.0f})"
+                      )
+                      failed = True
+
           sys.exit(1 if failed else 0)
           PY
 
@@ -66,11 +154,17 @@ jobs:
           python3 - <<'PY'
           import json, sys
           from datetime import date
+
           cal = json.load(open("calendar.json"))
-          latest = max(date(int(y), int(d[:2]), int(d[3:]))
-                       for years in cal.values() for y, v in years.items() for d in v["days"])
+          latest = max(
+              date(int(y), int(d[:2]), int(d[3:]))
+              for years in cal.values()
+              for y, v in years.items()
+              for d in v["days"]
+          )
           age = (date.today() - latest).days
           print(f"Latest day on airdata.kz: {latest} ({age} days ago)")
+
           if age > 3:
               print(f"::error::airdata.kz shows data that is {age} days old")
               sys.exit(1)
