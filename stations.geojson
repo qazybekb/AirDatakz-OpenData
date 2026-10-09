@@ -4671,7 +4671,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -4815,7 +4815,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -5079,7 +5079,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -5319,7 +5319,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -5607,7 +5607,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -6087,7 +6087,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -6615,7 +6615,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -12999,7 +12999,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13047,7 +13047,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13071,7 +13071,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13095,7 +13095,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13119,7 +13119,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13142,8 +13142,8 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "NASA CSESP / RTI",
-    "is_active": true
+    "operator": "AirKaz.org",
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13167,7 +13167,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13215,7 +13215,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13239,7 +13239,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13263,7 +13263,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13335,7 +13335,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13359,7 +13359,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13383,7 +13383,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13575,7 +13575,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13623,7 +13623,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13647,7 +13647,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13839,7 +13839,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14199,7 +14199,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14223,7 +14223,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14247,7 +14247,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14271,7 +14271,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14295,7 +14295,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14319,7 +14319,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14343,7 +14343,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14367,7 +14367,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14391,7 +14391,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14415,7 +14415,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14463,7 +14463,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14703,7 +14703,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14727,7 +14727,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14751,7 +14751,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14823,7 +14823,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14871,7 +14871,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14895,7 +14895,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirNet - aiqcn.org - waqi.info",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14919,7 +14919,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14943,7 +14943,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Gaia realtime air quality monitoring network",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14967,7 +14967,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14991,7 +14991,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15038,7 +15038,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Dushanbe Air Quality Monitor - US Embassy",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
@@ -15063,7 +15063,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15111,7 +15111,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "uRad Monitor",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15135,7 +15135,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15182,7 +15182,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
     "is_active": true
    },
    "geometry": {
@@ -15207,7 +15207,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15231,7 +15231,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15255,7 +15255,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15279,7 +15279,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15303,7 +15303,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15327,7 +15327,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15351,7 +15351,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15375,7 +15375,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15399,7 +15399,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15423,7 +15423,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15447,7 +15447,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15471,7 +15471,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15495,7 +15495,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15519,7 +15519,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15543,7 +15543,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15567,7 +15567,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15591,7 +15591,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15615,7 +15615,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15639,7 +15639,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15663,7 +15663,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15687,7 +15687,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15711,7 +15711,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15735,7 +15735,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15759,7 +15759,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15783,7 +15783,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15807,7 +15807,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15831,7 +15831,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15855,7 +15855,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15879,7 +15879,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15903,7 +15903,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15927,7 +15927,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15951,7 +15951,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15975,7 +15975,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15999,7 +15999,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16023,7 +16023,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16047,7 +16047,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16071,7 +16071,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16095,7 +16095,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16119,7 +16119,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16143,7 +16143,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Purple Air",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16167,7 +16167,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Purple Air",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16191,7 +16191,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Purple Air",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16215,7 +16215,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Purple Air",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16239,7 +16239,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Purple Air",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16263,7 +16263,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16287,7 +16287,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16311,7 +16311,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16335,7 +16335,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16359,7 +16359,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16383,7 +16383,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16407,7 +16407,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16431,7 +16431,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16455,7 +16455,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16479,7 +16479,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16503,7 +16503,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16527,7 +16527,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16551,7 +16551,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16575,7 +16575,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16599,7 +16599,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16623,7 +16623,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16647,7 +16647,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16671,7 +16671,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16695,7 +16695,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16719,7 +16719,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16743,7 +16743,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16767,7 +16767,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16791,7 +16791,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16815,7 +16815,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16839,7 +16839,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16863,7 +16863,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16887,7 +16887,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16911,7 +16911,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16935,7 +16935,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16959,7 +16959,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16983,7 +16983,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17007,7 +17007,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17031,7 +17031,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17055,7 +17055,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17079,7 +17079,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17103,7 +17103,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17127,7 +17127,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17151,7 +17151,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17175,7 +17175,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17199,7 +17199,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17223,7 +17223,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17247,7 +17247,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17271,7 +17271,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17295,7 +17295,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17319,7 +17319,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17343,7 +17343,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17367,7 +17367,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17391,7 +17391,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17415,7 +17415,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17439,7 +17439,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17463,7 +17463,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17487,7 +17487,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17511,7 +17511,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17535,7 +17535,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17559,7 +17559,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17583,7 +17583,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17607,7 +17607,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17631,7 +17631,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17655,7 +17655,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17679,7 +17679,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17703,7 +17703,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17727,7 +17727,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17751,7 +17751,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17775,7 +17775,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17799,7 +17799,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17823,7 +17823,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17847,7 +17847,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17871,7 +17871,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17895,7 +17895,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17919,7 +17919,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17943,7 +17943,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Purple Air",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17967,7 +17967,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -17991,7 +17991,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18015,7 +18015,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18039,7 +18039,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18063,7 +18063,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18087,7 +18087,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18111,7 +18111,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18135,7 +18135,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18159,7 +18159,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18183,7 +18183,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18207,7 +18207,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18231,7 +18231,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18255,7 +18255,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18279,7 +18279,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18303,7 +18303,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18327,7 +18327,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18351,7 +18351,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18375,7 +18375,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18399,7 +18399,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18423,7 +18423,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18447,7 +18447,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18471,7 +18471,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18495,7 +18495,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18519,7 +18519,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18543,7 +18543,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18567,7 +18567,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18591,7 +18591,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18615,7 +18615,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18639,7 +18639,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18663,7 +18663,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18687,7 +18687,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18711,7 +18711,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18735,7 +18735,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "NASA CSESP / RTI",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18759,7 +18759,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18783,7 +18783,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18807,7 +18807,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18831,7 +18831,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18855,7 +18855,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18879,7 +18879,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18903,7 +18903,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18927,7 +18927,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18951,7 +18951,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18975,7 +18975,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -18999,7 +18999,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19023,7 +19023,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19047,7 +19047,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19071,7 +19071,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19095,7 +19095,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19119,7 +19119,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19143,7 +19143,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19167,7 +19167,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19191,7 +19191,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19215,7 +19215,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19239,7 +19239,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19263,7 +19263,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19287,7 +19287,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19311,7 +19311,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19335,7 +19335,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19359,7 +19359,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19383,7 +19383,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19407,7 +19407,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19431,7 +19431,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19455,7 +19455,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19479,7 +19479,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19503,7 +19503,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19527,7 +19527,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19551,7 +19551,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19575,7 +19575,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19599,7 +19599,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19623,7 +19623,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19647,7 +19647,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19671,7 +19671,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19695,7 +19695,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19719,7 +19719,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19743,7 +19743,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19767,7 +19767,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19791,7 +19791,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19815,7 +19815,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19839,7 +19839,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19863,7 +19863,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19887,7 +19887,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19911,7 +19911,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19935,7 +19935,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19959,7 +19959,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -19983,7 +19983,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20007,7 +20007,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20031,7 +20031,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20055,7 +20055,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20079,7 +20079,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20103,7 +20103,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20127,7 +20127,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20151,7 +20151,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20175,7 +20175,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20199,7 +20199,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20223,7 +20223,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20247,7 +20247,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20271,7 +20271,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20295,7 +20295,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20319,7 +20319,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20343,7 +20343,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20367,7 +20367,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20391,7 +20391,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20415,7 +20415,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20439,7 +20439,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20463,7 +20463,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20487,7 +20487,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20511,7 +20511,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20535,7 +20535,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20559,7 +20559,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20583,7 +20583,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Clarity",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -20607,7 +20607,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Almaty Air Quality Monitor - US Embassy",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
