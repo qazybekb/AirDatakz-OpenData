@@ -48,7 +48,7 @@ ag_167586,"Tuıimebaev auyly, №19 mektep ",Almaty,,KZ,43.4134,76.914,Asia/Tash
 ag_167588,Prezident sayabağı,Almaty,,KZ,43.1944,76.8876,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167589,Qalalyq kardiologiya ortalyğı,Almaty,,KZ,43.2536,76.9283,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167590,№86 mektep-gimnaziya,Almaty,,KZ,43.219879,76.859159,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_167591,SDU,Almaty,,KZ,43.208174,76.668446,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167591,SDU,Almaty,,KZ,43.208174,76.668446,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_167592,Mamyr 1,Almaty,,KZ,43.2114,76.8434,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167593,№4 Qalalyq emhana (Orbita 3),Almaty,,KZ,43.2019,76.8766,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167594,№178 mektep,Almaty,,KZ,43.2499,76.8143,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
@@ -99,7 +99,7 @@ ag_167653, Qurylys bazary (Taraz k-si) ,Almaty,,KZ,43.3052,77.0062,Asia/Tashkent
 ag_167654,№31 orta mektep,Almaty,,KZ,43.3253,76.9676,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167655,Jumysşy kenti (Krylov k-si),Almaty,,KZ,43.2735,76.8904,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167656,№162 mektep,Almaty,,KZ,43.3118,76.9557,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_167657,Tastybulaq (ST Qanat) ,Almaty,,KZ,43.1636,76.8097,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167657,Tastybulaq (ST Qanat) ,Almaty,,KZ,43.1636,76.8097,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_167658,Tausamaly,Almaty,,KZ,43.1732,76.8317,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167659,Nuriddin (Arystanbab k-si) ,Almaty,,KZ,43.1868,76.8599,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167660,Baým toǵaıy,Almaty,,KZ,43.2939,76.9449,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
@@ -148,7 +148,7 @@ ag_171447,Zharokov - Mynbayev st.,Almaty,,KZ,43.2374,76.8995,Asia/Tashkent,low_c
 ag_171448,Almalybaq,Almaty,,KZ,43.222398,76.678183,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_171449,Zhambyl,Almaty,,KZ,43.2734,76.6685,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_173261,"Aqbulak, 7",Almaty,,KZ,43.2427,76.8175,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_173265,№107 mektep,Almaty,,KZ,43.2958,76.9374,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_173265,№107 mektep,Almaty,,KZ,43.2958,76.9374,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_173269,Almaty Museum of Arts ,Almaty,,KZ,43.2267,76.9492,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_173630,Medeu,Almaty,,KZ,43.1642,77.0494,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_180811,"Almaty, Dostyk 300/60",Almaty,,KZ,43.2226,76.9759,Asia/Almaty,low_cost,airgradient,Almaty Air Initiative,True
@@ -619,58 +619,58 @@ kgmt_s6,KGMT Station s6,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_s7,KGMT Station s7,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_s8,KGMT Station s8,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_s9,KGMT Station s9,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
-oaq_14869003,Almaty Arena (new),,,KZ,43.301,76.925,,government,openaq,,True
-oaq_14969424,Jambyl-Nurmaqov,,,KZ,51.128,71.43,,government,openaq,,True
-oaq_14969429,Qazybek bi-Nurmaqov,,,KZ,51.128,71.43,,government,openaq,,True
-oaq_14969444,Almaty 2 t/zh vokzaly,,,KZ,43.338,76.952,,government,openaq,,True
-oaq_14971240,Nurtau golf club,,,KZ,51.128,71.43,,government,openaq,,True
-oaq_15151744,Nuriddin,,,KZ,51.128,71.43,,government,openaq,,True
-oaq_20512,Astana,,,KZ,51.128,71.43,,government,openaq,,True
-oaq_25903,Almaty (US Embassy),,,KZ,43.252855,76.93118,,government,openaq,,True
-oaq_2812550,Almaty Arena,,,KZ,43.26408,76.81688,,government,openaq,Clarity,True
-oaq_2812555,Magnum Besagash,,,KZ,43.29222,77.01218,,government,openaq,Clarity,True
-oaq_2812561,CHP,,,KZ,43.29161,76.80437,,government,openaq,Clarity,True
-oaq_2812563,School 137,,,KZ,43.31676,76.91084,,government,openaq,Clarity,True
-oaq_2812565,Kokzhiyek-63,,,KZ,43.35813,76.9229,,government,openaq,Clarity,True
-oaq_2812576,EkoPost,,,KZ,43.24966,76.8056,,government,openaq,Clarity,True
-oaq_2812620,Alatau,,,KZ,43.17658,76.89771,,government,openaq,Clarity,True
-oaq_2812632,Elaman 105 St.,,,KZ,43.36861,76.94705,,government,openaq,Clarity,True
-oaq_2812635,Atyrau 54,,,KZ,43.29678,76.99159,,government,openaq,Clarity,True
-oaq_2812649,Shamiyeva St.,,,KZ,43.28323,76.92753,,government,openaq,Clarity,True
-oaq_2812651,Kokkainar Micro,,,KZ,43.29076,76.84123,,government,openaq,Clarity,True
-oaq_2812676,Suiynbay-55,,,KZ,43.37664,76.99055,,government,openaq,Clarity,True
-oaq_2812687,KBTU,,,KZ,43.25348,76.94537,,government,openaq,Clarity,True
-oaq_2812689,Iliyski trakt,,,KZ,43.34158,76.98193,,government,openaq,Clarity,True
-oaq_2812690,School 187,,,KZ,43.18579,76.82848,,government,openaq,Clarity,True
-oaq_2812691,169 School,,,KZ,43.29713,76.8611,,government,openaq,Clarity,True
-oaq_2812716,Ritz Palace,,,KZ,43.22833,76.96028,,government,openaq,Clarity,True
-oaq_2812717,Mamyr-3,,,KZ,43.21431,76.8555,,government,openaq,Clarity,True
-oaq_2812718,Gymnasium 39,,,KZ,43.34819,76.8433,,government,openaq,Clarity,True
-oaq_2812726,Hospital-7,,,KZ,43.23396,76.80013,,government,openaq,Clarity,True
-oaq_2812749,Ryskulova 81,,,KZ,43.27865,76.90347,,government,openaq,Clarity,True
-oaq_2812751,School 77,,,KZ,43.21846,76.94964,,government,openaq,Clarity,True
-oaq_2812753,School 190,,,KZ,43.15476,76.8992,,government,openaq,Clarity,True
-oaq_2812756,School 175,,,KZ,43.19957,76.85428,,government,openaq,Clarity,True
-oaq_2812769,Nicolas International chain of wineries,,,KZ,43.19365,76.90963,,government,openaq,Clarity,True
-oaq_2812775,School 192,,,KZ,43.17203,76.85234,,government,openaq,Clarity,True
-oaq_2812784,Respublika 4,,,KZ,43.2368,76.94481,,government,openaq,Clarity,True
-oaq_2812788,Magnum-273,,,KZ,43.25074,76.82301,,government,openaq,Clarity,True
-oaq_2812792,Kotelnikova St.,,,KZ,43.3104,76.94217,,government,openaq,Clarity,True
-oaq_2812809,AsiaFood,,,KZ,43.24283,76.82872,,government,openaq,Clarity,True
-oaq_2812821,School 160,,,KZ,43.33584,76.91287,,government,openaq,Clarity,True
-oaq_2812826,Zhetysu 47,,,KZ,43.29171,76.9898,,government,openaq,Clarity,True
-oaq_2812831,"Road, Almaty Industrial Zone",,,KZ,43.31652,76.80429,,government,openaq,Clarity,True
-oaq_2812833,DIS-7,,,KZ,43.20533,76.77692,,government,openaq,Clarity,True
-oaq_2819013,Nurly street,,,KZ,43.2288,76.77749,,government,openaq,Clarity,True
-oaq_2819078,Shkola-Gimnaziya 152,,,KZ,43.30173,76.87217,,government,openaq,Clarity,True
-oaq_3088452,Ipswich Mass. USA,,,KZ,42.7028239,70.7994946,,government,openaq,AirGradient,True
-oaq_3124030,Ippodrom,,,KZ,43.30778,76.92324,,government,openaq,Clarity,True
-oaq_3126921,School 186,,,KZ,43.19148,76.80284,,government,openaq,Clarity,True
-oaq_3243331,Qapparov köşesı (akbota.info),,,KZ,43.210652653212826,76.94650052599252,,government,openaq,AirGradient,True
-oaq_5473573,Roxanne,,,KZ,43.245455,76.955559,,government,openaq,AirGradient,True
-oaq_6142363,Almaty,,,KZ,43.2269,76.8834,,government,openaq,AirGradient,True
-oaq_6146720,Pavlodar,,,KZ,52.2914884,76.9280297,,government,openaq,AirGradient,True
-oaq_6152135,Almaty,,,KZ,43.232633,76.878267,,government,openaq,AirGradient,True
+oaq_14869003,Almaty Arena (new),,,KZ,43.301,76.925,,government,openaq,,False
+oaq_14969424,Jambyl-Nurmaqov,,,KZ,51.128,71.43,,government,openaq,,False
+oaq_14969429,Qazybek bi-Nurmaqov,,,KZ,51.128,71.43,,government,openaq,,False
+oaq_14969444,Almaty 2 t/zh vokzaly,,,KZ,43.338,76.952,,government,openaq,,False
+oaq_14971240,Nurtau golf club,,,KZ,51.128,71.43,,government,openaq,,False
+oaq_15151744,Nuriddin,,,KZ,51.128,71.43,,government,openaq,,False
+oaq_20512,Astana,,,KZ,51.128,71.43,,government,openaq,,False
+oaq_25903,Almaty (US Embassy),,,KZ,43.252855,76.93118,,government,openaq,,False
+oaq_2812550,Almaty Arena,,,KZ,43.26408,76.81688,,government,openaq,Clarity,False
+oaq_2812555,Magnum Besagash,,,KZ,43.29222,77.01218,,government,openaq,Clarity,False
+oaq_2812561,CHP,,,KZ,43.29161,76.80437,,government,openaq,Clarity,False
+oaq_2812563,School 137,,,KZ,43.31676,76.91084,,government,openaq,Clarity,False
+oaq_2812565,Kokzhiyek-63,,,KZ,43.35813,76.9229,,government,openaq,Clarity,False
+oaq_2812576,EkoPost,,,KZ,43.24966,76.8056,,government,openaq,Clarity,False
+oaq_2812620,Alatau,,,KZ,43.17658,76.89771,,government,openaq,Clarity,False
+oaq_2812632,Elaman 105 St.,,,KZ,43.36861,76.94705,,government,openaq,Clarity,False
+oaq_2812635,Atyrau 54,,,KZ,43.29678,76.99159,,government,openaq,Clarity,False
+oaq_2812649,Shamiyeva St.,,,KZ,43.28323,76.92753,,government,openaq,Clarity,False
+oaq_2812651,Kokkainar Micro,,,KZ,43.29076,76.84123,,government,openaq,Clarity,False
+oaq_2812676,Suiynbay-55,,,KZ,43.37664,76.99055,,government,openaq,Clarity,False
+oaq_2812687,KBTU,,,KZ,43.25348,76.94537,,government,openaq,Clarity,False
+oaq_2812689,Iliyski trakt,,,KZ,43.34158,76.98193,,government,openaq,Clarity,False
+oaq_2812690,School 187,,,KZ,43.18579,76.82848,,government,openaq,Clarity,False
+oaq_2812691,169 School,,,KZ,43.29713,76.8611,,government,openaq,Clarity,False
+oaq_2812716,Ritz Palace,,,KZ,43.22833,76.96028,,government,openaq,Clarity,False
+oaq_2812717,Mamyr-3,,,KZ,43.21431,76.8555,,government,openaq,Clarity,False
+oaq_2812718,Gymnasium 39,,,KZ,43.34819,76.8433,,government,openaq,Clarity,False
+oaq_2812726,Hospital-7,,,KZ,43.23396,76.80013,,government,openaq,Clarity,False
+oaq_2812749,Ryskulova 81,,,KZ,43.27865,76.90347,,government,openaq,Clarity,False
+oaq_2812751,School 77,,,KZ,43.21846,76.94964,,government,openaq,Clarity,False
+oaq_2812753,School 190,,,KZ,43.15476,76.8992,,government,openaq,Clarity,False
+oaq_2812756,School 175,,,KZ,43.19957,76.85428,,government,openaq,Clarity,False
+oaq_2812769,Nicolas International chain of wineries,,,KZ,43.19365,76.90963,,government,openaq,Clarity,False
+oaq_2812775,School 192,,,KZ,43.17203,76.85234,,government,openaq,Clarity,False
+oaq_2812784,Respublika 4,,,KZ,43.2368,76.94481,,government,openaq,Clarity,False
+oaq_2812788,Magnum-273,,,KZ,43.25074,76.82301,,government,openaq,Clarity,False
+oaq_2812792,Kotelnikova St.,,,KZ,43.3104,76.94217,,government,openaq,Clarity,False
+oaq_2812809,AsiaFood,,,KZ,43.24283,76.82872,,government,openaq,Clarity,False
+oaq_2812821,School 160,,,KZ,43.33584,76.91287,,government,openaq,Clarity,False
+oaq_2812826,Zhetysu 47,,,KZ,43.29171,76.9898,,government,openaq,Clarity,False
+oaq_2812831,"Road, Almaty Industrial Zone",,,KZ,43.31652,76.80429,,government,openaq,Clarity,False
+oaq_2812833,DIS-7,,,KZ,43.20533,76.77692,,government,openaq,Clarity,False
+oaq_2819013,Nurly street,,,KZ,43.2288,76.77749,,government,openaq,Clarity,False
+oaq_2819078,Shkola-Gimnaziya 152,,,KZ,43.30173,76.87217,,government,openaq,Clarity,False
+oaq_3088452,Ipswich Mass. USA,,,KZ,42.7028239,70.7994946,,government,openaq,AirGradient,False
+oaq_3124030,Ippodrom,,,KZ,43.30778,76.92324,,government,openaq,Clarity,False
+oaq_3126921,School 186,,,KZ,43.19148,76.80284,,government,openaq,Clarity,False
+oaq_3243331,Qapparov köşesı (akbota.info),,,KZ,43.210652653212826,76.94650052599252,,government,openaq,AirGradient,False
+oaq_5473573,Roxanne,,,KZ,43.245455,76.955559,,government,openaq,AirGradient,False
+oaq_6142363,Almaty,,,KZ,43.2269,76.8834,,government,openaq,AirGradient,False
+oaq_6146720,Pavlodar,,,KZ,52.2914884,76.9280297,,government,openaq,AirGradient,False
+oaq_6152135,Almaty,,,KZ,43.232633,76.878267,,government,openaq,AirGradient,False
 oaq_6158096,№182 mektep-gimnaziya,,,KZ,43.281,76.824,,government,openaq,AirGradient,True
 oaq_6161924,Almaty Arena,,,KZ,43.2639,76.8193,,government,openaq,AirGradient,True
 oaq_6174362,Abai – Seifullin ,,,KZ,43.241181,76.933831,,government,openaq,AirGradient,True
@@ -722,7 +722,7 @@ oaq_6175497,№12 Qalalyq emhana,,,KZ,43.2355,76.9113,,government,openaq,AirGrad
 oaq_6175498,"QazTSIK, №40 mektep",,,KZ,43.3782,76.8364,,government,openaq,AirGradient,True
 oaq_6175499,"Tuıimebaev auyly, №19 mektep ",,,KZ,43.4134,76.914,,government,openaq,AirGradient,True
 oaq_6175500,№86 mektep-gimnaziya,,,KZ,43.219879,76.859159,,government,openaq,AirGradient,True
-oaq_6175501,SDU,,,KZ,43.208174,76.668446,,government,openaq,AirGradient,True
+oaq_6175501,SDU,,,KZ,43.208174,76.668446,,government,openaq,AirGradient,False
 oaq_6175502,Mamyr 1,,,KZ,43.2114,76.8434,,government,openaq,AirGradient,True
 oaq_6175503,Narxoz University ,,,KZ,43.214577,76.871985,,government,openaq,AirGradient,True
 oaq_6175504,Ońtústik saıabaǵy | MOST hub ,,,KZ,43.2103,76.9083,,government,openaq,AirGradient,True
@@ -771,7 +771,7 @@ oaq_6175719,№162 mektep,,,KZ,43.3118,76.9557,,government,openaq,AirGradient,Tr
 oaq_6175720,№112 mektep,,,KZ,43.2937,76.9154,,government,openaq,AirGradient,True
 oaq_6175721,№171 mektep,,,KZ,43.2718,76.8449,,government,openaq,AirGradient,True
 oaq_6175722,№184 mektep,,,KZ,43.2465,76.7918,,government,openaq,AirGradient,True
-oaq_6175723,№107 mektep,,,KZ,43.2958,76.9374,,government,openaq,AirGradient,True
+oaq_6175723,№107 mektep,,,KZ,43.2958,76.9374,,government,openaq,AirGradient,False
 oaq_6175837,Duman 2 (Mercur Grad) ,,,KZ,43.2885,77.004,,government,openaq,AirGradient,True
 oaq_6186958,"Almaty, Dostyk 300/60",,,KZ,43.2226,76.9759,,government,openaq,AirGradient,True
 oaq_6198159,Almaty Museum of Arts ,,,KZ,43.2267,76.9492,,government,openaq,AirGradient,True
@@ -821,7 +821,7 @@ oaq_6237379,Sūltan-Qorǵan (Bespaqov k-si),,,KZ,43.3167,76.9266,,government,ope
 oaq_6237380,Süıınbai – Musorgskiı,,,KZ,43.2851,76.9481,,government,openaq,AirGradient,True
 oaq_6237427,Vagjanov - Jansugurov k-si ,,,KZ,43.3054,76.9312,,government,openaq,AirGradient,True
 oaq_6237428,Turğyt Özal – Yesenzhanov,,,KZ,43.2406,76.8824,,government,openaq,AirGradient,True
-oaq_6237429,Tastybulaq (ST Qanat) ,,,KZ,43.1636,76.8097,,government,openaq,AirGradient,True
+oaq_6237429,Tastybulaq (ST Qanat) ,,,KZ,43.1636,76.8097,,government,openaq,AirGradient,False
 oaq_6237430,Tausamaly,,,KZ,43.1732,76.8317,,government,openaq,AirGradient,True
 oaq_6237431,Zhas Qanat aud. (Khmelnitskiy k-si.),,,KZ,43.3177,76.9839,,government,openaq,AirGradient,True
 oaq_6249730,Wellness Club Luxor ,,,KZ,43.2083,76.96651,,government,openaq,AirGradient,True
@@ -830,20 +830,20 @@ oaq_6255304,Duisenova 25,,,KZ,43.25586,76.88555,,government,openaq,AirGradient,T
 oaq_6353999,Alma City 5,,,KZ,43.2167,76.7743,,government,openaq,AirGradient,True
 oaq_6367666,Malaya Stanitsa (Bestujev k-si),,,KZ,43.281123,76.970665,,government,openaq,AirGradient,True
 oaq_6398066, Qurylys bazary (Taraz k-si) ,,,KZ,43.3052,77.0062,,government,openaq,AirGradient,True
-oaq_6439740,Saryarka,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,True
+oaq_6439740,Saryarka,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,False
 oaq_6465557,Hunter shooting club,,,KZ,43.383170386230546,76.98219747156817,,government,openaq,AirGradient,True
 oaq_6465558,№82 mektep,,,KZ,43.25083615665919,76.84691125082725,,government,openaq,AirGradient,True
-oaq_6470061,Astana,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,True
-oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,True
-oaq_6480195,"Seguin, Ontario",,,KZ,45.3789,79.7542,,government,openaq,AirGradient,True
+oaq_6470061,Astana,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,False
+oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,False
+oaq_6480195,"Seguin, Ontario",,,KZ,45.3789,79.7542,,government,openaq,AirGradient,False
 oaq_6484978,Mukanova,,,KZ,49.786599,73.163057,,government,openaq,AirGradient,True
 oaq_6485121,Satybaldina,,,KZ,49.780182,73.138677,,government,openaq,AirGradient,True
-oaq_6485441,Erubaeva,,,KZ,49.811882547269164,73.08911947608608,,government,openaq,AirGradient,True
-oaq_7094,Astana,,,KZ,51.125287,71.467217,,government,openaq,AirNow,True
-oaq_8876,Almaty,,,KZ,43.252855,76.93118,,government,openaq,AirNow,True
-oaq_8967269,Almaty Arena,,,KZ,43.301,76.925,,government,openaq,,True
-oaq_8967421,"Road, Almaty Industrial Zone",,,KZ,43.353,76.999,,government,openaq,,True
-oaq_9012318,Nurly street,,,KZ,51.128,71.43,,government,openaq,,True
+oaq_6485441,Erubaeva,,,KZ,49.811882547269164,73.08911947608608,,government,openaq,AirGradient,False
+oaq_7094,Astana,,,KZ,51.125287,71.467217,,government,openaq,AirNow,False
+oaq_8876,Almaty,,,KZ,43.252855,76.93118,,government,openaq,AirNow,False
+oaq_8967269,Almaty Arena,,,KZ,43.301,76.925,,government,openaq,,False
+oaq_8967421,"Road, Almaty Industrial Zone",,,KZ,43.353,76.999,,government,openaq,,False
+oaq_9012318,Nurly street,,,KZ,51.128,71.43,,government,openaq,,False
 waqi_-114487,Розыбакиева - Байкадамова,,,KZ,43.214,76.893,,government,waqi,AirKaz.org,True
 waqi_-114496,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,True
 waqi_-114514,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,True
