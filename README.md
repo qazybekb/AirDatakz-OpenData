@@ -43,7 +43,7 @@ csv/
 │   ├── ...
 │   └── daily/
 │
-├── karaganda/                  Karaganda region — 12 parameters, 2018–present
+├── karaganda/                  Karaganda region (KazHydroMet monitors in Karaganda, Temirtau, Saran, Balkhash, Zhezkazgan) — 12 parameters, 2018–present
 │   ├── pm25.csv.gz                123K hourly readings
 │   ├── ...                        (includes CH₄, THC, NH₃)
 │   └── daily/
@@ -221,11 +221,27 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **Astana 2019**: Limited to PM2.5 only (other parameters start 2020).
 - **rest_of_kz**: Uses `pm2_5` and `pmtot` codes instead of `pm25` and `tsp` (matches KGMT national naming convention).
 - **Station coordinates**: Some historical stations lack lat/lon coordinates (shown as empty in CSV).
+- **KazHydroMet gap (22 Dec 2025 – 17 Mar 2026)**: KazHydroMet data was not collected in this period; it cannot be backfilled because the KazHydroMet API serves only the latest hour.
+- **Almaty OpenAQ**: since March 2026 the only OpenAQ provider left in Almaty is AirGradient, whose sensors are taken directly from AirGradient (source `airgradient`), so the `openaq` source has no Almaty rows after 18 Mar 2026.
+- **US Embassy (WAQI)**: the US Embassy feed in Almaty has reported no PM2.5 since December 2025.
+- **KazHydroMet PM2.5 levels**: several KazHydroMet PM2.5 monitors read far below the other networks in the same city; under review.
 - **Collection gap (25 Apr – 8 Oct 2026)**: the pipeline was offline. Almaty, Astana and Karaganda have no data for this period; `rest_of_kz` has data up to 21 Aug 2026. Collection resumed on 8 Oct 2026; the gap is not backfilled.
 
 ---
 
 ## Data Corrections
+
+### 10 Oct 2026 — Karaganda city stations, Almaty WAQI, KazHydroMet revisions and cleanup
+
+All files were regenerated; please re-download the `almaty`, `karaganda` and `rest_of_kz` files if you use earlier copies.
+
+- **Karaganda city monitors are now in the `karaganda` files.** Three KazHydroMet monitors inside Karaganda city (stations 36, 64, 65 — spelled "Karagandy" in the source) had been filed under `rest_of_kz` since 2021; about 654,000 hourly values moved. The `karaganda` files cover the KazHydroMet monitors of Karaganda city, Temirtau, Saran, Balkhash and Zhezkazgan; the city daily value averages these stations.
+- **Almaty WAQI.** Six independent WAQI stations in Almaty were collected but never used because the routing relied on station names; they are now in the `almaty` files from 17 Mar 2026 (about 12,000 hourly values). WAQI stations that re-publish KazHydroMet monitors are excluded to avoid double counting.
+- **One row per station and hour for WAQI.** Older WAQI data in the `almaty` files had several readings per station-hour; each station-hour is now one row with the average (244,000 rows → 70,000).
+- **AirGradient hourly values.** The newest hour of each nightly run was stored as a partial average and never completed; 4,536 such hours were recomputed from the full hour, and new data is completed automatically.
+- **KazHydroMet revisions.** KazHydroMet revises hourly values shortly after publishing them (in our measurement about 45% of values changed, by a median of 3%, within 20 minutes). From 9 Oct 2026 the revised values are stored; earlier hours keep the first published value.
+- **Values exactly at a hard cap are invalid** (instrument ceilings or placeholders, e.g. 2000 µg/m³ SO₂).
+- **Removed non-KazHydroMet rows:** 49,793 sub-hourly points of a unit-mislabelled stream from the Astana KazHydroMet data, and about 820,000 WAQI-derived and mislabelled rows from `rest_of_kz` (mostly `pm2_5`).
 
 ### 9 Oct 2026 — Hourly timestamps of KazHydroMet data corrected
 
