@@ -4804,6 +4804,78 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_155",
+    "name": "НИИ астрофизики им. В.Г. Фесенкова",
+    "city": "Almaty",
+    "region": null,
+    "country": "KZ",
+    "lat": 43.177127,
+    "lon": 76.9661,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.9661,
+     43.177127
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_157",
+    "name": "Розыбакиева, 270",
+    "city": "Almaty",
+    "region": null,
+    "country": "KZ",
+    "lat": 43.214015,
+    "lon": 76.893051,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.893051,
+     43.214015
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_159",
+    "name": "Карасу, 6-я, 122",
+    "city": "Almaty",
+    "region": null,
+    "country": "KZ",
+    "lat": 43.338996,
+    "lon": 76.903239,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.903239,
+     43.338996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_2",
     "name": "PCP #1",
     "city": "Semey",
@@ -4828,6 +4900,78 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_200",
+    "name": "№19 мектеп",
+    "city": "Temirtau",
+    "region": null,
+    "country": "KZ",
+    "lat": 50.057988,
+    "lon": 72.956546,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.956546,
+     50.057988
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_208",
+    "name": "Анарқұлова көшесі, 21, №8 Гимназия",
+    "city": "Zhezkazgan",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.807914,
+    "lon": 67.706344,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.706344,
+     47.807914
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_209",
+    "name": "Гоголь көшесі, 9, №13 орта мектеп",
+    "city": "Zhezkazgan",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.791341,
+    "lon": 67.686508,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.686508,
+     47.791341
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_21",
     "name": "PCP #2",
     "city": "Saran",
@@ -4846,6 +4990,30 @@
     "coordinates": [
      72.824840229,
      49.803843112
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_210",
+    "name": "Нагорная 15",
+    "city": "Zhezkazgan",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.779762,
+    "lon": 67.715739,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.715739,
+     47.779762
     ]
    }
   },
@@ -6052,6 +6220,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_299",
+    "name": "Есенов үйі. №221 Рысқұлова",
+    "city": "Almaty",
+    "region": null,
+    "country": "KZ",
+    "lat": 43.291511,
+    "lon": 76.951184,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.951184,
+     43.291511
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_3",
     "name": "PCP #3",
     "city": "Oskemen",
@@ -6094,6 +6286,30 @@
     "coordinates": [
      71.867344,
      52.340841
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_300",
+    "name": "Ерменсай Шие үйі. №3",
+    "city": "Almaty",
+    "region": null,
+    "country": "KZ",
+    "lat": 43.177869,
+    "lon": 76.918205,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.918205,
+     43.177869
     ]
    }
   },
@@ -6580,6 +6796,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_396",
+    "name": "К. А. Байтұрсынов, 25",
+    "city": "Astana",
+    "region": null,
+    "country": "KZ",
+    "lat": 51.123244,
+    "lon": 71.484431,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.484431,
+     51.123244
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_399",
     "name": "Затон к-сі, 39",
     "city": "Pavlodar",
@@ -6724,6 +6964,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_412",
+    "name": "Алашахан даңғылы, 43Д",
+    "city": "Zhezkazgan",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.80752,
+    "lon": 67.686634,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.686634,
+     47.80752
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_414",
     "name": "Бабыр би көшесі, 5",
     "city": "Satpayev",
@@ -6766,6 +7030,30 @@
     "coordinates": [
      67.521771,
      47.900828
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_419",
+    "name": "Әуежай маңындағы дачалар",
+    "city": "Zhezkazgan",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.722167,
+    "lon": 67.714889,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.714889,
+     47.722167
     ]
    }
   },
@@ -15590,7 +15878,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Dushanbe Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
@@ -15734,7 +16022,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
@@ -21142,30 +21430,6 @@
     "coordinates": [
      76.87217086857771,
      43.30173409474243
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "waqi_nan",
-    "name": "Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 43.222,
-    "lon": 76.851,
-    "timezone": null,
-    "station_type": "government",
-    "source": "waqi",
-    "operator": "Almaty Air Quality Monitor - US Embassy",
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     76.851,
-     43.222
     ]
    }
   }
