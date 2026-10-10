@@ -56,7 +56,7 @@ Daily summary records contain city-wide averages computed from cluster averages,
 
 **Is there a label or target associated with each instance?**
 
-No. This is an observational dataset, not a labeled dataset for supervised learning. Each measurement has passed a 7-stage quality control pipeline, but there is no target variable.
+No. This is an observational dataset, not a labeled dataset for supervised learning. Each measurement has passed the quality-control rules described below, but there is no target variable.
 
 **Is any information missing?**
 
@@ -64,7 +64,7 @@ Yes. Common sources of missing data include: sensor downtime, network outages, g
 
 **Are there errors, sources of noise, or redundancies?**
 
-Yes, extensively documented. Known issues include sensor drift (especially low-cost sensors), stuck sensors, sudden spikes from electromagnetic interference, and government station unit changes. The 7-stage cleaning pipeline specifically targets these issues.
+Yes, extensively documented. Known issues include sensor drift (especially low-cost sensors), stuck sensors, sudden spikes from electromagnetic interference, and government station unit changes. The cleaning rules described below target stuck and dead sensors, implausible values and stations that disagree with their neighbourhood; isolated one-hour spikes are not removed.
 
 **Is the dataset self-contained?**
 
@@ -106,19 +106,22 @@ Earliest records: March 2017 (AirKaz PM2.5 sensors in Almaty). Collection is con
 
 **Was any preprocessing/cleaning done?**
 
-Yes, extensively. Every measurement passes a 7-stage cleaning pipeline:
+Yes. Every measurement passes automated cleaning rules.
 
-| Stage | Check | Action |
-|:------|:------|:-------|
-| S1 | Negative values and nulls | Rejected at ingestion |
-| S2 | Hard cap (physically impossible values) | Flagged invalid |
-| S3 | Constant/dead sensor detection | Flagged suspect |
-| S4 | Statistical outlier (robust Z-score > 10 with partial pooling) | Flagged invalid |
-| S5 | Singleton spike (isolated >10x jump) | Flagged invalid |
-| S6 | Stuck sensor (identical value for 6+ hours) | Flagged suspect |
-| S7 | Cluster outlier (station daily avg >3 robust-Z from cluster) | Flagged invalid |
+City files (`almaty`, `astana`, `karaganda`):
 
-Only measurements that pass all stages are included in these files.
+| Rule | Check | Action |
+|:-----|:------|:-------|
+| Range | Negative values and nulls | Rejected at ingestion |
+| Hard cap | Value at or above a physical limit | Flagged invalid |
+| Constant station | One value makes up ≥ 70% of a station-month | Flagged suspect |
+| Stuck sensor | Identical value for 6+ consecutive hours | Flagged suspect |
+| Cluster outlier | Station daily average > 3 robust standard deviations from its cluster median | Flagged invalid |
+| Duplicate sources | Same station and hour from two sources | One value kept |
+
+`rest_of_kz` (single-monitor towns; applied from 10 Oct 2026): range, the same hard caps, the PM10 analyser ceiling (exactly 1,000 µg/m³), flatlines of 24+ identical consecutive hours, and zero particulates for 6+ consecutive hours. Shorter runs at an analyser's detection limit and one-hour peaks are kept.
+
+Only measurements that pass all rules are included in these files. Earlier versions of this datasheet listed statistical-outlier (robust Z-score) and spike-detection stages; those were never applied to the published files.
 
 Unit harmonization is also performed: KGMT mg/m³ → µg/m³ (×1000), WAQI AQI index → µg/m³ (EPA breakpoint reverse conversion).
 
