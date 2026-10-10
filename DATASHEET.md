@@ -116,10 +116,11 @@ City files (`almaty`, `astana`, `karaganda`):
 | Hard cap | Value at or above a physical limit | Flagged invalid |
 | Constant station | One value makes up ≥ 70% of a station-month | Flagged suspect |
 | Stuck sensor | Identical value for 6+ consecutive hours | Flagged suspect |
+| Dead dust channel | PM2.5, PM10 or TSP: daily median below 2 µg/m³ on 10+ days within 30 days | Flagged suspect |
 | Cluster outlier | Station daily average > 3 robust standard deviations from its cluster median | Flagged invalid |
 | Duplicate sources | Same station and hour from two sources | One value kept |
 
-`rest_of_kz` (single-monitor towns; applied from 10 Oct 2026): range, the same hard caps, the PM10 analyser ceiling (exactly 1,000 µg/m³), flatlines of 24+ identical consecutive hours, and zero particulates for 6+ consecutive hours. Shorter runs at an analyser's detection limit and one-hour peaks are kept.
+`rest_of_kz` (single-monitor towns; applied from 10 Oct 2026): range, the same hard caps, the PM10 analyser ceiling (exactly 1,000 µg/m³), flatlines of 24+ identical consecutive hours, zero particulates for 6+ consecutive hours, and the dead dust channel rule of the city files. Shorter runs at an analyser's detection limit and one-hour peaks are kept.
 
 Only measurements that pass all rules are included in these files. Earlier versions of this datasheet listed statistical-outlier (robust Z-score) and spike-detection stages; those were never applied to the published files.
 
