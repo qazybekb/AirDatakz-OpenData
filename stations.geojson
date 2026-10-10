@@ -4806,7 +4806,7 @@
    "properties": {
     "station_id": "kgmt_2",
     "name": "PCP #1",
-    "city": "Semey ",
+    "city": "Semey",
     "region": null,
     "country": "KZ",
     "lat": 50.399262,
@@ -5022,7 +5022,7 @@
    "properties": {
     "station_id": "kgmt_234",
     "name": "PCP #1",
-    "city": "Kenkiyak vil. ",
+    "city": "Kenkiyak vil.",
     "region": null,
     "country": "KZ",
     "lat": 48.604869,
@@ -5382,7 +5382,7 @@
    "properties": {
     "station_id": "kgmt_248",
     "name": "PCP #2",
-    "city": "Semey ",
+    "city": "Semey",
     "region": null,
     "country": "KZ",
     "lat": 50.414781,
@@ -5406,7 +5406,7 @@
    "properties": {
     "station_id": "kgmt_249",
     "name": "PCP #4",
-    "city": "Semey ",
+    "city": "Semey",
     "region": null,
     "country": "KZ",
     "lat": 50.437156,
@@ -6054,7 +6054,7 @@
    "properties": {
     "station_id": "kgmt_34",
     "name": "PCP #3",
-    "city": "Semey ",
+    "city": "Semey",
     "region": null,
     "country": "KZ",
     "lat": 50.420238,
@@ -15182,7 +15182,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {

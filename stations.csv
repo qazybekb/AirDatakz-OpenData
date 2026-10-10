@@ -243,7 +243,7 @@ kgmt_196,KGMT Station 196,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_197,KGMT Station 197,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_198,KGMT Station 198,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_199,KGMT Station 199,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_2,PCP #1,Semey ,,KZ,50.399262,80.201923,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_2,PCP #1,Semey,,KZ,50.399262,80.201923,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_200,KGMT Station 200,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_201,KGMT Station 201,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_202,KGMT Station 202,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -281,7 +281,7 @@ kgmt_230,PCP #1,Talgar,,KZ,43.302425,77.239448,Asia/Almaty,reference,kgmt,KazHyd
 kgmt_231,PCP #1,Khromtau,,KZ,50.249886,58.436577,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_232,PCP #1,Kandyagash,,KZ,49.472571,57.422103,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_233,PCP #1,Shubarshi vil.,,KZ,48.580153,57.178708,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_234,PCP #1,Kenkiyak vil. ,,KZ,48.604869,57.116446,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_234,PCP #1,Kenkiyak vil.,,KZ,48.604869,57.116446,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_235,PCP #10,Atyrau,,KZ,47.114687,51.860907,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_236,PCP #1,Zhanbai vil.,,KZ,47.047536,50.809153,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_237,PCP #1,Makat vil.,,KZ,47.64487,53.331825,Asia/Almaty,reference,kgmt,KazHydroMet,True
@@ -296,8 +296,8 @@ kgmt_244,PCP #5,Oskemen,,KZ,49.946029,82.624444,Asia/Almaty,reference,kgmt,KazHy
 kgmt_245,PCP #7,Oskemen,,KZ,50.009364,82.565595,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_246,PCP #8,Oskemen,,KZ,50.02744,82.740084,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_247,PCP #12,Oskemen,,KZ,49.900142,82.622665,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_248,PCP #2,Semey ,,KZ,50.414781,80.248535,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_249,PCP #4,Semey ,,KZ,50.437156,80.240893,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_248,PCP #2,Semey,,KZ,50.414781,80.248535,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_249,PCP #4,Semey,,KZ,50.437156,80.240893,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_25,PCP #2,Almaty,,KZ,43.356554,76.87545,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_250,PCP #1,Ayagoz,,KZ,47.965439,80.437081,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_251,PCP #1,Auezov vil.,,KZ,49.716389,81.588794,Asia/Almaty,reference,kgmt,KazHydroMet,True
@@ -409,7 +409,7 @@ kgmt_337,KGMT Station 337,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_338,KGMT Station 338,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_33858988,KGMT Station 33858988,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_339,KGMT Station 339,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_34,PCP #3,Semey ,,KZ,50.420238,80.274296,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_34,PCP #3,Semey,,KZ,50.420238,80.274296,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_340,KGMT Station 340,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_341,KGMT Station 341,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_342,KGMT Station 342,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -936,7 +936,7 @@ waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшіліг�
 waqi_13da00ff,Microdistrict 7,,,KZ,43.22623028,76.8626019,,government,waqi,uRad Monitor,False
 waqi_14,"Тұран даңғылы 2/1, орталық құтқару станциясы",,,KZ,51.158041944444,71.415435,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_14722,"Tashkent Chilanzar, Uzbekistan",,,UZ,41.31086,69.24074,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
-waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan,True
+waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_155,НИИ астрофизики им. В.Г. Фесенкова,,,KZ,43.177126944444,76.966099722222,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_157,"Розыбакиева, 270",,,KZ,43.214014722222,76.893050833333,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_159,"Карасу, 6-я, 122",,,KZ,43.338995555556,76.903238611111,,government,waqi,Қазгидромет - Kazhydromet,False
