@@ -133,7 +133,7 @@ Daily (`rest_of_kz/daily/{parameter}.csv.gz`), one row per city per day:
 
 | Source | Type | Stations | Cities |
 |:-------|:-----|:---------|:-------|
-| `kgmt` | Government reference-grade (KazHydroMet), collected hourly from its API | 340+ | All Kazakhstan |
+| `kgmt` | Government reference-grade (KazHydroMet), collected hourly from its API | 420+ | All Kazakhstan |
 | `kgmt_auto` | The same KazHydroMet monitors: the hourly archive 2018–2022 that KazHydroMet delivered as Excel files | 20 | Almaty, Astana, Karaganda |
 | `openaq` | International aggregator (OpenAQ) | 22 | Almaty, Astana |
 | `waqi` | International aggregator (aqicn.org) | 11 | Almaty |
@@ -278,7 +278,7 @@ Please re-download the `almaty`, `astana` and `karaganda` files.
   published — the archive's, because the hourly collection stored KazHydroMet's first published value and the archive has the
   revised one; if quality control rejected the archive value, the collected one is used.
 - **Same quality control.** The archive contains the same instrument faults as the later data (dead dust channels, PM2.5 repeating
-  PM10, frozen readings); 290,000 of its 1.9 million values are not published.
+  PM10, frozen readings); 323,000 of its 1.9 million values are not published.
 - **New coverage**: Astana 2018 and 2020 complete (2019: December only); Karaganda 2018 and November 2020 onwards; Almaty's gases
   from January 2021 instead of December 2021; `nh3`, `ch4`, `thc` and four more years of `o3` for Karaganda, `nh3` for Astana, `h2s`
   for Almaty.
