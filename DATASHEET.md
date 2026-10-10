@@ -29,13 +29,13 @@ Each instance is a single air quality or meteorological measurement: one paramet
 **How many instances are there?**
 
 As of 10 October 2026, the dataset contains approximately:
-- 2.1 million cleaned hourly readings for Almaty (8 parameters)
-- 1.1 million for Astana (9 parameters)
-- 0.55 million for Karaganda city (9 parameters)
+- 2.4 million cleaned hourly readings for Almaty (9 parameters)
+- 1.8 million for Astana (10 parameters)
+- 0.8 million for Karaganda city (12 parameters)
 - 22.7 million for the rest of Kazakhstan (9 parameters; 321 stations — 130 in 68 named towns, 191 without metadata)
 - 1,160 monitoring stations in the registry
 
-The 2018–2022 hourly archive that KazHydroMet provided as Excel files is not included at present (it is being re-imported with checked station assignments).
+This includes 1.58 million values of the 2018–2022 hourly archive that KazHydroMet provided as Excel files (source `kgmt_auto`, 20 monitors in Almaty, Astana and Karaganda; each archive series was assigned to the monitor whose hourly collection it matches in the months both cover). Where the archive and the hourly collection (`kgmt`) cover the same station-hour, one value is published — the archive's.
 
 The dataset grows daily as new data is ingested every 20 minutes from active sources.
 
