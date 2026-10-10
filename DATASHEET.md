@@ -32,7 +32,7 @@ As of 10 October 2026, the dataset contains approximately:
 - 2.1 million cleaned hourly readings for Almaty (8 parameters)
 - 1.1 million for Astana (9 parameters)
 - 0.55 million for Karaganda city (9 parameters)
-- 22.7 million for the rest of Kazakhstan (9 parameters, 321 stations in 68 named towns and 191 stations without metadata)
+- 22.7 million for the rest of Kazakhstan (9 parameters; 321 stations — 130 in 68 named towns, 191 without metadata)
 - 1,160 monitoring stations in the registry
 
 The 2018–2022 hourly archive that KazHydroMet provided as Excel files is not included at present (it is being re-imported with checked station assignments).
