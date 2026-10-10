@@ -49,8 +49,8 @@ csv/
 │   └── daily/
 │
 ├── rest_of_kz/                 All other Kazakhstan cities — 9 parameters, 2020–present
-│   ├── pm2_5.csv.gz               5.4M hourly readings
-│   ├── ...                        (120+ KGMT government stations)
+│   ├── pm2_5.csv.gz               4.3M hourly readings
+│   ├── ...                        (KazHydroMet government stations)
 │   └── daily/
 │
 ├── stations.csv                Station registry: id, name, city, coordinates, source, operator
@@ -97,6 +97,15 @@ One row per day. City-wide average computed from geographic cluster averages, en
 | `n_clusters` | integer | Number of reporting clusters |
 | `n_stations` | integer | Total reporting stations |
 
+### `rest_of_kz` files
+
+Hourly (`rest_of_kz/{parameter}.csv.gz`), one row per station per hour, clean values only:
+`datetime_utc`, `station_id`, `station_name`, `city`, `lat`, `lon`, `value_ugm3`, `raw_value`, `raw_unit`
+(`station_name`, `city`, `lat`, `lon` are empty for stations we have no metadata for).
+
+Daily (`rest_of_kz/daily/{parameter}.csv.gz`), one row per city per day:
+`date`, `city`, `avg_ugm3` (mean of the clean hourly values of the city's stations), `n_stations`.
+
 ---
 
 ## Parameters
@@ -134,17 +143,30 @@ One row per day. City-wide average computed from geographic cluster averages, en
 
 ## Data Quality
 
-Every measurement passes a 7-stage automated cleaning pipeline before inclusion:
+Every measurement passes automated cleaning rules before inclusion.
 
-| Stage | Check | What it catches |
-|:------|:------|:----------------|
-| S1 | Negative/null filter | Impossible values |
-| S2 | Hard cap | Physically implausible readings (e.g., PM2.5 > 1,000 µg/m³) |
-| S3 | Constant/dead sensor | Frozen or malfunctioning instruments |
-| S4 | Statistical outlier | Robust Z-score > 10 with partial pooling |
-| S5 | Spike detection | Isolated jumps > 10x from neighbors |
-| S6 | Stuck sensor | Identical value for 6+ consecutive hours |
-| S7 | Cluster outlier | Station daily avg > 3 robust-Z from cluster median |
+**City files (`almaty`, `astana`, `karaganda`)**
+
+| Rule | Check | What it catches |
+|:-----|:------|:----------------|
+| Range | Negative or missing values | Impossible values |
+| Hard cap | Value at or above a physical limit (e.g. PM2.5 ≥ 1,000 µg/m³) | Implausible readings, instrument ceilings |
+| Constant station | One value makes up ≥ 70% of a station-month | Frozen or dead instruments |
+| Stuck sensor | Identical value for 6+ consecutive hours | Frozen readings |
+| Cluster outlier | Station daily average > 3 robust standard deviations from its cluster median | A station that disagrees with its neighbourhood |
+| Duplicate sources | Same station and hour from two sources | Double counting |
+
+**`rest_of_kz`** (most towns have a single monitor, so a station is compared only with itself; applied from 10 Oct 2026)
+
+| Rule | Check | What it catches |
+|:-----|:------|:----------------|
+| Range | Negative values, or ≥ 100 mg/m³ | Corrupt readings |
+| Hard cap | Same limits as the city files | Implausible readings |
+| Instrument ceiling | PM10 exactly 1,000 µg/m³ | Saturated analyser |
+| Flatline | Identical value for 24+ consecutive hours | Frozen or dead channel |
+| Zero flatline | Particulates (PM2.5, PM10, PMtot) at zero for 6+ consecutive hours | Dead channel |
+
+Shorter runs of identical values are kept in `rest_of_kz`: most are readings at the analyser's detection limit (e.g. H₂S 0.001 mg/m³), i.e. real "below detection" hours. One-hour peaks are kept as well — near industry they are real plumes, and a single station cannot tell an event from a glitch. Earlier versions of this page listed statistical-outlier and spike-detection stages; they were never applied to the published files.
 
 Measurements flagged as suspect or invalid are **excluded** from these files. The full methodology is documented at [airdata.kz/methodology](https://airdata.kz/en/methodology/).
 
@@ -210,7 +232,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 | Almaty | March 2017 | 9 | 2.9M | 15K |
 | Astana | January 2018 | 11 | 1.9M | 19K |
 | Karaganda | January 2018 | 12 | 1.2M | 23K |
-| Rest of KZ | June 2020 | 9 | 28M | 479K |
+| Rest of KZ | June 2020 | 9 | 23.8M | 433K |
 
 ---
 
@@ -221,6 +243,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **Astana 2019**: Limited to PM2.5 only (other parameters start 2020).
 - **rest_of_kz**: Uses `pm2_5` and `pmtot` codes instead of `pm25` and `tsp` (matches KGMT national naming convention).
 - **Station coordinates**: Some historical stations lack lat/lon coordinates (shown as empty in CSV).
+- **rest_of_kz stations without a city**: KazHydroMet's API gives no station metadata, and our station list covers 97 of the 323 stations in `rest_of_kz`. The others appear in the hourly files with an empty `city`, `lat` and `lon`, and are not part of the daily files (a daily value is a per-city average).
 - **KazHydroMet gap (22 Dec 2025 – 17 Mar 2026)**: KazHydroMet data was not collected in this period; it cannot be backfilled because the KazHydroMet API serves only the latest hour.
 - **Almaty OpenAQ**: since March 2026 the only OpenAQ provider left in Almaty is AirGradient, whose sensors are taken directly from AirGradient (source `airgradient`), so the `openaq` source has no Almaty rows after 18 Mar 2026.
 - **US Embassy (WAQI)**: the US Embassy feed in Almaty has reported no PM2.5 since December 2025.
@@ -230,6 +253,15 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 ---
 
 ## Data Corrections
+
+### 10 Oct 2026 — Quality control for `rest_of_kz`
+
+Until now `rest_of_kz` was published with a range filter only. The rules in "Data Quality" above now apply; please re-download the `rest_of_kz` files.
+
+- **3.43 million of 27.3 million hourly values removed (12.6%)**: 112,000 at or above a hard cap (PM2.5 up to 99,790 µg/m³), 46,000 PM10 values at the analyser's ceiling of exactly 1,000 µg/m³, 2.36 million in flatlines of 24 hours or longer, and 910,000 zero-dust hours of dead channels (nearly half of `pmtot`). No remaining value was changed.
+- **Effect on averages** (all published values): PM2.5 44.5 → 23.8 µg/m³, PM10 52.7 → 27.9, O₃ 370 → 31.5 (thousands of placeholder values of 20,000), SO₂ 46.9 → 35.0.
+- **Daily files are per city only.** Stations whose city we do not know (226 of 323) were averaged into one line per day with an empty city name — a mean over dozens of unrelated towns. Those lines are gone (about 12,600); the stations remain in the hourly files. About 49,600 city-days were dropped because no clean reading was left.
+- Two city names lost a trailing space (`Semey`, `Kenkiyak vil.`).
 
 ### 10 Oct 2026 — Karaganda city stations, Almaty WAQI, KazHydroMet revisions and cleanup
 
