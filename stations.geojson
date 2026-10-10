@@ -4876,6 +4876,54 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_225",
+    "name": "Тынышпаева көшесі, 126",
+    "city": "Oskemen",
+    "region": null,
+    "country": "KZ",
+    "lat": 50.009249,
+    "lon": 82.564545,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.564545,
+     50.009249
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_226",
+    "name": "Қ. Сәтпаев даңғылы, 12",
+    "city": "Oskemen",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.90059,
+    "lon": 82.621932,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.621932,
+     49.90059
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_229",
     "name": "PCP #1",
     "city": "Zharkent",
@@ -5908,6 +5956,54 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_280",
+    "name": "Есет батыр көшесі, 109 \"А\"",
+    "city": "Aktobe",
+    "region": null,
+    "country": "KZ",
+    "lat": 50.294494,
+    "lon": 57.168719,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.168719,
+     50.294494
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_284",
+    "name": "Химпоселок ауд., Сырдария №3, (арнайы.сөйлеу қабілеті бұзылған балаларға арналған мектеп)",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.097383,
+    "lon": 51.944211,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.944211,
+     47.097383
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_29",
     "name": "PCP #6",
     "city": "Petropavl",
@@ -5926,6 +6022,30 @@
     "coordinates": [
      69.141221,
      54.923693
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_290",
+    "name": "Школа №3",
+    "city": "Aktau",
+    "region": null,
+    "country": "KZ",
+    "lat": 43.634,
+    "lon": 51.179,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.179,
+     43.634
     ]
    }
   },
@@ -5980,6 +6100,78 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_304",
+    "name": "к. Б. Даумова (ауданы мәдениет және демалыс саябағының)",
+    "city": "Uralsk",
+    "region": null,
+    "country": "KZ",
+    "lat": 51.212034,
+    "lon": 51.348908,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.348908,
+     51.212034
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_305",
+    "name": "ПНЗ №2",
+    "city": "Uralsk",
+    "region": null,
+    "country": "KZ",
+    "lat": 51.227,
+    "lon": 51.427,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.427,
+     51.227
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_308",
+    "name": "Утвинская к-сі 17",
+    "city": "Aksai",
+    "region": null,
+    "country": "KZ",
+    "lat": 51.160195,
+    "lon": 52.997264,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     52.997264,
+     51.160195
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_31",
     "name": "PCP #6",
     "city": "Aktobe",
@@ -5998,6 +6190,126 @@
     "coordinates": [
      57.22209476,
      50.290375741
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_311",
+    "name": "Шуақты көшесі 91-де",
+    "city": "Bestobe vil.",
+    "region": null,
+    "country": "KZ",
+    "lat": 52.489202,
+    "lon": 73.096111,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.096111,
+     52.489202
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_314",
+    "name": "Жылыой ауданы, «МГӨБ» индустриалды аймағы ауданы",
+    "city": "Kulsary",
+    "region": null,
+    "country": "KZ",
+    "lat": 46.942027,
+    "lon": 53.98525,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     53.98525,
+     46.942027
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_316",
+    "name": "Дамба елді мекені, балық инспекциясының аумағы",
+    "city": "Damba vil.",
+    "region": null,
+    "country": "KZ",
+    "lat": 46.953111,
+    "lon": 51.735194,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.735194,
+     46.953111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_318",
+    "name": "Балықшы, А. Байжігітов к-сі, 59, «Судоремонтник» стадионы",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.083833,
+    "lon": 51.875083,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.875083,
+     47.083833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_319",
+    "name": "Водниково-2 ықм., 5 көше, 27 учаскесі",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.051999,
+    "lon": 51.900666,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.900666,
+     47.051999
     ]
    }
   },
@@ -6172,6 +6484,54 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_386",
+    "name": "Т. Нысанов көшесі, 96",
+    "city": "Zhanbai vil.",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.049283,
+    "lon": 50.871267,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.871267,
+     47.049283
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_388",
+    "name": "Гагарин көшесі 216",
+    "city": "Taldykorgan",
+    "region": null,
+    "country": "KZ",
+    "lat": 45.006943,
+    "lon": 78.360648,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.360648,
+     45.006943
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_39",
     "name": "PCP #1",
     "city": "Chu",
@@ -6190,6 +6550,54 @@
     "coordinates": [
      73.748418,
      43.610837
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_391",
+    "name": "Индербор ауданының МҮ Н. Меңдіғалиев көшесі 47",
+    "city": "Inderborsky vil.",
+    "region": null,
+    "country": "KZ",
+    "lat": 48.555999,
+    "lon": 51.735083,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.735083,
+     48.555999
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_399",
+    "name": "Затон к-сі, 39",
+    "city": "Pavlodar",
+    "region": null,
+    "country": "KZ",
+    "lat": 52.265217,
+    "lon": 76.937731,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.937731,
+     52.265217
     ]
    }
   },
@@ -6244,6 +6652,54 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_404",
+    "name": "343 квартал көшесі, 13/2",
+    "city": "Semey",
+    "region": null,
+    "country": "KZ",
+    "lat": 50.436746,
+    "lon": 80.243556,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.243556,
+     50.436746
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_408",
+    "name": "Широкая көшесі, 44",
+    "city": "Oskemen",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.978388,
+    "lon": 82.635583,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.635583,
+     49.978388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_41",
     "name": "PCP #7",
     "city": "Aksai",
@@ -6268,6 +6724,54 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_414",
+    "name": "Бабыр би көшесі, 5",
+    "city": "Satpayev",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.89399,
+    "lon": 67.542161,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.542161,
+     47.89399
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_415",
+    "name": "Ұлытау 108",
+    "city": "Satpayev",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.900828,
+    "lon": 67.521771,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.521771,
+     47.900828
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_42",
     "name": "PCP #7",
     "city": "Yanvartsevo",
@@ -6286,6 +6790,30 @@
     "coordinates": [
      52.712399,
      51.431947
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_421",
+    "name": "Құсайынова көшесі, 9",
+    "city": "Satpayev",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.901361,
+    "lon": 67.532778,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.532778,
+     47.901361
     ]
    }
   },
@@ -6958,6 +7486,30 @@
     "coordinates": [
      68.346866,
      51.818902
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_73",
+    "name": "Набиева 26 көшесі",
+    "city": "Aksu",
+    "region": null,
+    "country": "KZ",
+    "lat": 52.46618,
+    "lon": 71.987578,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.987578,
+     52.46618
     ]
    }
   },
@@ -15014,7 +15566,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Tashkent Air Quality Monitor - US Embassy",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {

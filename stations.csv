@@ -271,8 +271,8 @@ kgmt_221,KGMT Station 221,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_222,KGMT Station 222,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_223,KGMT Station 223,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_224,KGMT Station 224,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_225,KGMT Station 225,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_226,KGMT Station 226,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_225,"Тынышпаева көшесі, 126",Oskemen,,KZ,50.009249,82.564545,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_226,"Қ. Сәтпаев даңғылы, 12",Oskemen,,KZ,49.90059,82.621932,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_227,KGMT Station 227,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_228,KGMT Station 228,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_229,PCP #1,Zharkent,,KZ,44.152841,79.991072,Asia/Almaty,reference,kgmt,KazHydroMet,True
@@ -337,17 +337,17 @@ kgmt_277,KGMT Station 277,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_278,KGMT Station 278,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_279,KGMT Station 279,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_28,PCP #30,Almaty,,KZ,43.298778,76.851498,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_280,KGMT Station 280,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_280,"Есет батыр көшесі, 109 ""А""",Aktobe,,KZ,50.294494,57.168719,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_281,KGMT Station 281,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_282,KGMT Station 282,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_283,KGMT Station 283,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_284,KGMT Station 284,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_284,"Химпоселок ауд., Сырдария №3, (арнайы.сөйлеу қабілеті бұзылған балаларға арналған мектеп)",Atyrau,,KZ,47.097383,51.944211,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_286,KGMT Station 286,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_287,KGMT Station 287,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_288,KGMT Station 288,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_289,KGMT Station 289,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_29,PCP #6,Petropavl,,KZ,54.923693,69.141221,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_290,KGMT Station 290,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_290,Школа №3,Aktau,,KZ,43.634,51.179,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_291,KGMT Station 291,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_292,KGMT Station 292,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_293,KGMT Station 293,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -365,25 +365,25 @@ kgmt_301,KGMT Station 301,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_302,KGMT Station 302,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_303,KGMT Station 303,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_30369354,KGMT Station 30369354,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_304,KGMT Station 304,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_305,KGMT Station 305,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_304,к. Б. Даумова (ауданы мәдениет және демалыс саябағының),Uralsk,,KZ,51.212034,51.348908,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_305,ПНЗ №2,Uralsk,,KZ,51.227,51.427,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_306,KGMT Station 306,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_307,KGMT Station 307,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_308,KGMT Station 308,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_308,Утвинская к-сі 17,Aksai,,KZ,51.160195,52.997264,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_309,KGMT Station 309,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_30960812,KGMT Station 30960812,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_31,PCP #6,Aktobe,,KZ,50.290375741,57.22209476,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_310,KGMT Station 310,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_311,KGMT Station 311,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_311,Шуақты көшесі 91-де,Bestobe vil.,,KZ,52.489202,73.096111,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_312,KGMT Station 312,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_313,KGMT Station 313,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_314,KGMT Station 314,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_314,"Жылыой ауданы, «МГӨБ» индустриалды аймағы ауданы",Kulsary,,KZ,46.942027,53.98525,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_315,KGMT Station 315,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_31596906,KGMT Station 31596906,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_316,KGMT Station 316,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_316,"Дамба елді мекені, балық инспекциясының аумағы",Damba vil.,,KZ,46.953111,51.735194,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_317,KGMT Station 317,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_318,KGMT Station 318,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_319,KGMT Station 319,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_318,"Балықшы, А. Байжігітов к-сі, 59, «Судоремонтник» стадионы",Atyrau,,KZ,47.083833,51.875083,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_319,"Водниково-2 ықм., 5 көше, 27 учаскесі",Atyrau,,KZ,47.051999,51.900666,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_32,PCP #8,Atyrau,,KZ,47.096617,51.942701,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_320,KGMT Station 320,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_32009929,KGMT Station 32009929,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -468,14 +468,14 @@ kgmt_381,KGMT Station 381,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_382,KGMT Station 382,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_383,KGMT Station 383,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_384,KGMT Station 384,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_386,KGMT Station 386,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_386,"Т. Нысанов көшесі, 96",Zhanbai vil.,,KZ,47.049283,50.871267,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_387,KGMT Station 387,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_388,KGMT Station 388,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_388,Гагарин көшесі 216,Taldykorgan,,KZ,45.006943,78.360648,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_38834077,KGMT Station 38834077,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_38918407,KGMT Station 38918407,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_39,PCP #1,Chu,,KZ,43.610837,73.748418,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_390,KGMT Station 390,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_391,KGMT Station 391,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_391,Индербор ауданының МҮ Н. Меңдіғалиев көшесі 47,Inderborsky vil.,,KZ,48.555999,51.735083,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_39168240,KGMT Station 39168240,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_392,KGMT Station 392,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_393,KGMT Station 393,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -485,31 +485,31 @@ kgmt_395,KGMT Station 395,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_396,KGMT Station 396,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_397,KGMT Station 397,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_398,KGMT Station 398,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_399,KGMT Station 399,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_399,"Затон к-сі, 39",Pavlodar,,KZ,52.265217,76.937731,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_4,PCP #7,Astana,,KZ,51.119222952,71.432335527,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_40,PCP #1,Kordai,,KZ,43.079917,74.707292,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_401,KGMT Station 401,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_402,KGMT Station 402,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_403,KGMT Station 403,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_404,KGMT Station 404,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_404,"343 квартал көшесі, 13/2",Semey,,KZ,50.436746,80.243556,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_405,KGMT Station 405,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_406,KGMT Station 406,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_407,KGMT Station 407,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_408,KGMT Station 408,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_408,"Широкая көшесі, 44",Oskemen,,KZ,49.978388,82.635583,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_409,KGMT Station 409,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_41,PCP #7,Aksai,,KZ,51.159997,52.99708,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_410,KGMT Station 410,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_411,KGMT Station 411,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_412,KGMT Station 412,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_413,KGMT Station 413,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_414,KGMT Station 414,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_415,KGMT Station 415,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_414,"Бабыр би көшесі, 5",Satpayev,,KZ,47.89399,67.542161,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_415,Ұлытау 108,Satpayev,,KZ,47.900828,67.521771,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_416,KGMT Station 416,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_418,KGMT Station 418,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_419,KGMT Station 419,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_42,PCP #7,Yanvartsevo,,KZ,51.431947,52.712399,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_420,KGMT Station 420,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_421,KGMT Station 421,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_421,"Құсайынова көшесі, 9",Satpayev,,KZ,47.901361,67.532778,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_42963368,KGMT Station 42963368,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_43,PCP #1,Zhezkazgan,,KZ,47.910901,67.530281,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_43241,KGMT Station 43241,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -585,7 +585,7 @@ kgmt_7,PCP #9,Astana,,KZ,51.123120595,71.483370959,Asia/Almaty,reference,kgmt,Ka
 kgmt_70,PCP #3,Pavlodar,,KZ,52.264598,76.964236,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_71,PCP #1,SKFM,,KZ,53.002294,70.610058,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_72,PCP #1,Atbasar,,KZ,51.818902,68.346866,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_73,KGMT Station 73,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_73,Набиева 26 көшесі,Aksu,,KZ,52.46618,71.987578,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_74,PCP #2,Burabai,,KZ,53.086033,70.301807,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_75,PCP #2,Kokshetau,,KZ,53.283171,69.425463,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_76,PCP #5,Petropavl,,KZ,54.856896,69.123008,Asia/Almaty,reference,kgmt,KazHydroMet,True
@@ -929,7 +929,7 @@ waqi_1002,Тау самал,,,KZ,43.2058,76.981,,government,waqi,AirKaz.org,Fals
 waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia realtime air quality monitoring network,False
 waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,False
 waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,False
-waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,Tashkent Air Quality Monitor - US Embassy,True
+waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
