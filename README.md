@@ -245,7 +245,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **Astana 2019**: Limited to PM2.5 only (other parameters start 2020).
 - **rest_of_kz**: Uses `pm2_5` and `pmtot` codes instead of `pm25` and `tsp` (matches KGMT national naming convention).
 - **Station coordinates**: Some historical stations lack lat/lon coordinates (shown as empty in CSV).
-- **rest_of_kz stations without a city**: KazHydroMet's API gives no station metadata, and our station list covers 97 of the 323 stations in `rest_of_kz`. The others appear in the hourly files with an empty `city`, `lat` and `lon`, and are not part of the daily files (a daily value is a per-city average).
+- **rest_of_kz stations without a city**: KazHydroMet's API gives no station metadata, and our station list covers 120 of the 323 stations in `rest_of_kz`. The others appear in the hourly files with an empty `city`, `lat` and `lon`, and are not part of the daily files (a daily value is a per-city average).
 - **KazHydroMet gap (22 Dec 2025 – 17 Mar 2026)**: KazHydroMet data was not collected in this period; it cannot be backfilled because the KazHydroMet API serves only the latest hour.
 - **Almaty OpenAQ**: since March 2026 the only OpenAQ provider left in Almaty is AirGradient, whose sensors are taken directly from AirGradient (source `airgradient`), so the `openaq` source has no Almaty rows after 18 Mar 2026.
 - **US Embassy (WAQI)**: the US Embassy feed in Almaty has reported no PM2.5 since December 2025.
@@ -256,6 +256,13 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 ---
 
 ## Data Corrections
+
+### 10 Oct 2026 — Names, cities and coordinates for 23 more KazHydroMet stations
+
+23 stations in `rest_of_kz` that had no metadata now have a name (street address), a city and coordinates, and their data enters the daily
+files: Oskemen (3), Atyrau (3), Satpayev (3), Uralsk (2), Aktobe, Aktau, Aksai, Aksu, Kulsary, Pavlodar, Semey, Taldykorgan, Bestobe,
+Damba, Zhanbai and Inderbor. The metadata comes from WAQI's copy of the KazHydroMet feed, which keeps KazHydroMet's own station ids;
+the match was checked against the measurements themselves (identical hourly values).
 
 ### 10 Oct 2026 — Dead KazHydroMet dust channels removed (PM2.5, PM10, TSP)
 
