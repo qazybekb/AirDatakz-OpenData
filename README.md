@@ -25,8 +25,8 @@ Larger historical datasets that don't fit in this repository are available on Go
 ```
 csv/
 ├── almaty/                     Almaty — 9 parameters, 2017–present
-│   ├── pm25.csv.gz                632K hourly readings
-│   ├── pm10.csv.gz                365K
+│   ├── pm25.csv.gz                616K hourly readings
+│   ├── pm10.csv.gz                358K
 │   ├── co.csv.gz                  370K
 │   ├── no2.csv.gz                 368K
 │   ├── no.csv.gz                  346K
@@ -39,17 +39,17 @@ csv/
 │       └── ...
 │
 ├── astana/                     Astana — 10 parameters, 2018–present
-│   ├── pm25.csv.gz                191K hourly readings
+│   ├── pm25.csv.gz                185K hourly readings
 │   ├── ...
 │   └── daily/
 │
 ├── karaganda/                  Karaganda city (three KazHydroMet monitors) — 12 parameters, 2018–present
-│   ├── pm25.csv.gz                 64K hourly readings
+│   ├── pm25.csv.gz                 20K hourly readings
 │   ├── ...                        (includes CH₄, THC, NH₃ for 2018–2022)
 │   └── daily/
 │
 ├── rest_of_kz/                 All other Kazakhstan cities and towns — 9 parameters, 2020–present
-│   ├── pm2_5.csv.gz               3.3M hourly readings
+│   ├── pm2_5.csv.gz               3.2M hourly readings
 │   ├── ...                        (KazHydroMet government stations)
 │   └── daily/                  One value per town per day
 │
@@ -156,8 +156,12 @@ Every measurement passes automated cleaning rules before inclusion.
 | Stuck sensor | Identical value for 6+ consecutive hours | Frozen readings |
 | Dead dust channel | PM2.5, PM10 or TSP: daily median below 2 µg/m³ on 10 or more days within 30 days | Channels that failed and keep reporting about 1 µg/m³ |
 | Duplicated dust channel | PM2.5 within 2% of PM10 in at least half of a day's hours (PM10 ≥ 10 µg/m³); also the period in which such days keep occurring (10 or more within 30 days) | A PM2.5 channel that repeats PM10 — only the PM2.5 values are removed |
+| Raised floor | PM2.5, PM10 or TSP: 30 days in which every day with 18 or more readings has a 10th percentile of 30 µg/m³ or more | A channel that never comes down — an offset added to every reading, or a channel stuck high. Real air has clean hours within any month |
+| Noisy channel | PM2.5, PM10 or TSP: 12 or more days within 30 on which the typical change from one hour to the next is 40% of the daily level or more | A channel that jumps at random from reading to reading |
 | Cluster outlier | Station daily average > 3 robust standard deviations from its cluster median | A station that disagrees with its neighbourhood |
 | Duplicate sources | Same station and hour from two sources | Double counting |
+
+The hourly collection (`kgmt`) and the archive (`kgmt_auto`) of KazHydroMet are two copies of the same instruments: a day on which one copy of a dust channel is found dead, duplicated, raised or noisy is not published from the other copy either.
 
 **`rest_of_kz`** (most towns have a single monitor, so a station is compared only with itself; applied from 10 Oct 2026)
 
@@ -170,6 +174,8 @@ Every measurement passes automated cleaning rules before inclusion.
 | Zero flatline | Particulates (PM2.5, PM10, PMtot) at zero for 6+ consecutive hours | Dead channel |
 | Dead dust channel | PM2.5, PM10 or PMtot: daily median below 2 µg/m³ on 10 or more days within 30 days | Channels that failed and keep reporting about 1 µg/m³ |
 | Duplicated dust channel | PM2.5 within 2% of PM10 in at least half of a day's hours (PM10 ≥ 10 µg/m³); also the period in which such days keep occurring (10 or more within 30 days) | A PM2.5 channel that repeats PM10 — only the PM2.5 values are removed |
+| Raised floor | PM2.5, PM10 or TSP: 30 days in which every day with 18 or more readings has a 10th percentile of 30 µg/m³ or more | A channel that never comes down — an offset added to every reading, or a channel stuck high. Real air has clean hours within any month |
+| Noisy channel | PM2.5, PM10 or TSP: 12 or more days within 30 on which the typical change from one hour to the next is 40% of the daily level or more | A channel that jumps at random from reading to reading |
 
 Shorter runs of identical values are kept in `rest_of_kz`: most are readings at the analyser's detection limit (e.g. H₂S 0.001 mg/m³), i.e. real "below detection" hours. One-hour peaks are kept as well — near industry they are real plumes, and a single station cannot tell an event from a glitch. Earlier versions of this page listed statistical-outlier and spike-detection stages; they were never applied to the published files.
 
@@ -235,9 +241,9 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 | City | PM2.5 since | Parameters | Hourly rows | Daily rows |
 |:-----|:------------|:-----------|:------------|:-----------|
 | Almaty | March 2017 | 9 | 2.4M | 14K |
-| Astana | January 2018 | 10 | 1.8M | 19K |
-| Karaganda (city) | January 2018 | 12 | 799K | 17K |
-| Rest of KZ | June 2020 | 9 | 22.7M | 457K |
+| Astana | January 2018 | 10 | 1.7M | 19K |
+| Karaganda (city) | January 2018 | 12 | 632K | 13K |
+| Rest of KZ | June 2020 | 9 | 22.4M | 448K |
 
 ---
 
@@ -245,7 +251,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 
 - **Almaty 2017–2020**: PM2.5 data comes primarily from AirKaz low-cost sensors (daily granularity, lower accuracy than government reference monitors). Multi-parameter hourly data starts in 2020.
 - **2018–2022 KazHydroMet archive (`kgmt_auto`)**: in the city files since 10 Oct 2026 for the 20 monitors whose archive series could be matched to a station (see Data Corrections). It has gaps: Astana has only December for 2019; Karaganda has no 2019 and only November–December for 2020; Almaty's archive covers January 2021 – April 2022. Where the archive and the hourly collection (`kgmt`) cover the same station-hour, the archive value is published. Left out: the archive series of Saran and Abay, and files in which several towns were merged under one station.
-- **Karaganda dust (PM2.5, PM10, TSP) is not reliable.** The city has three KazHydroMet monitors. Station 36 reports PM2.5 and PM10 that jump between a few and 200 µg/m³ from one hour to the next, with no seasonal cycle; station 65 reports one value of about 230 µg/m³ in all three dust channels (its PM2.5 is removed as a duplicate); station 64 stopped reporting dust in January 2023. The resulting city averages for 2021–2026 (PM2.5 68–103 µg/m³ per year, PM10 160–255, no valid PM2.5 in 2026) say more about these instruments than about the air; the archive years 2018 and 2020 give 22–29 µg/m³ for PM2.5. The gas channels are not affected. Under review.
+- **Karaganda has almost no dust data for 2022–2025.** The city has three KazHydroMet monitors. Station 36 has reported PM2.5 and PM10 that jump between a few and 200 µg/m³ from one hour to the next since 2021; station 65 has reported about 230 µg/m³ in all three dust channels since 2021 and never less than 160; station 64 stopped reporting dust in January 2023. These values are removed since 10 Oct 2026 (see Data Quality). What remains is 2018, late 2020, 2021 and a few weeks at the edges of the faulty periods (e.g. December 2025, 100–130 µg/m³), which should not be read as a city level. The gas channels are not affected.
 - **TSP repeats PM10**: at every KazHydroMet station that reports both, the two channels carry the same number in most hours, so `tsp` (`pmtot` in `rest_of_kz`) is not an independent measurement of total dust.
 - **rest_of_kz**: Uses `pm2_5` and `pmtot` codes instead of `pm25` and `tsp` (matches KGMT national naming convention).
 - **Station coordinates**: Some historical stations lack lat/lon coordinates (shown as empty in CSV).
@@ -254,12 +260,48 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **Almaty OpenAQ**: since March 2026 the only OpenAQ provider left in Almaty is AirGradient, whose sensors are taken directly from AirGradient (source `airgradient`), so the `openaq` source has no Almaty rows after 18 Mar 2026.
 - **US Embassy (WAQI)**: the US Embassy feed in Almaty has reported no PM2.5 since December 2025.
 - **KazHydroMet dust channels**: many KazHydroMet PM2.5, PM10 and TSP channels have failed over the years and report about 1 µg/m³; those periods are removed (see Data Quality and the correction of 10 Oct 2026), so fewer government monitors contribute in 2022–2025.
-- **PM2.5 equal to PM10 at some KazHydroMet stations**: such PM2.5 values are removed since 10 Oct 2026 (see Data Quality). One station (Almaty PCP #31, `kgmt_27`) reports a PM2.5 that is PM10 minus about 0.4 µg/m³; its days with higher dust levels are removed, the low-level days cannot be told from real data and remain. On the days when PM2.5 repeated PM10, the PM10 of Astana stations 12 and 4 is several times the PM10 of the other Astana monitors; PM10 has no cross-station check yet.
+- **PM2.5 equal to PM10 at some KazHydroMet stations**: such PM2.5 values are removed since 10 Oct 2026 (see Data Quality). One station (Almaty PCP #31, `kgmt_27`) reports a PM2.5 that is PM10 minus about 0.4 µg/m³; its days with higher dust levels are removed, the low-level days cannot be told from real data and remain.
+- **Station-level rules need time and cannot see everything.** A new fault is published until it has lasted long enough to be recognised (20 days for a raised floor, 12 days for a noisy channel, 10 for a dead or duplicated one) and is withdrawn then. A monitor that reads too low or too high by a steady factor looks like any other monitor: in Astana, stations 12 and 4 report 2–3 times the PM10 of the other monitors, and the KazHydroMet PM2.5 of 2026 is 7–15 µg/m³ where four OpenAQ sensors show 45–64. Outside Almaty there is no independent network to compare with.
 - **Collection gap (25 Apr – 8 Oct 2026)**: the pipeline was offline. Almaty, Astana and Karaganda have no data for this period; `rest_of_kz` has data up to 21 Aug 2026. Collection resumed on 8 Oct 2026; the gap is not backfilled.
 
 ---
 
 ## Data Corrections
+
+### 10 Oct 2026 — Dust channels that never come down or jump from hour to hour removed
+
+Please re-download the `pm25`, `pm10` and `tsp` files of `astana` and `karaganda`, `almaty/pm25` and `almaty/pm10`, and the
+`pm2_5`, `pm10` and `pmtot` files of `rest_of_kz`.
+
+- **Raised floor.** Some KazHydroMet dust channels add a constant offset or sit on a high plateau: Karaganda station 65 has read
+  175 / 220 / 700 µg/m³ (5th percentile / median / 95th) in every half-year since 2021 — in PM2.5, PM10 and TSP alike — and
+  0.7 / 7 / 31 in the two months of 2020 when it worked; Astana station 4 sat at 135–162 µg/m³ for most of 2022. Real air has clean
+  hours within any month, so a channel whose daily 10th percentile stays at 30 µg/m³ or above for 30 days is not measuring air.
+  Among 9,282 thirty-day windows of independent sensors (five Almaty smog winters included) the highest such floor is 21.6 µg/m³.
+- **Noisy channel.** Karaganda station 36 has jumped between a few and 200 µg/m³ from one hour to the next since 2021
+  (2.8 → 76.7 → 117.5 → 79.8 → 12.3 → 114.3), with no seasonal cycle; Almaty station 59 does the same since September 2024, and in
+  those months it has no correlation with Almaty's independent sensors. A channel is removed while it has 12 or more such days
+  within 30; no independent sensor has more than 7.
+- **Removed** (hourly values): Karaganda PM10 96,000 → 15,000, PM2.5 64,000 → 20,000, TSP 43,000 → 1,200; Astana PM10 224,000 →
+  205,000, TSP 58,000 → 41,000, PM2.5 191,000 → 185,000; Almaty PM2.5 632,000 → 616,000, PM10 365,000 → 358,000; `rest_of_kz`
+  397,000 values at about 60 stations — half of `pmtot`, which at many stations was a flat line.
+- **Annual mean of the daily city value, before → after (µg/m³):**
+
+| | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|:--|:--|:--|:--|:--|:--|:--|
+| Astana PM10 | 39.4 → 33.4 | 48.8 → 41.5 | 68.0 → 37.5 | 35.1 → 27.3 | 47.7 → 39.4 | 19.9 → 15.8 |
+| Astana PM2.5 | 23.6 → 23.7 | 30.2 → 27.5 | 27.9 → 23.4 | 20.1 → 18.2 | 15.5 → 15.5 | 14.4 → 14.4 |
+| Karaganda PM2.5 | 29.1 → 23.0 | 98.7 → 59.9 | 67.9 → no data | 77.2 → no data | 83.5 → no data | 94.9 → 21 days only |
+| Karaganda PM10 | 57.1 → 63.2 | 141.8 → 120.8 | 161.9 → 31 days only | 185.6 → no data | 197.4 → no data | 194.5 → 42 days only |
+
+  Almaty changes by at most 1.4 µg/m³ in any year. **If you used the earlier Karaganda dust files: the values of 2021–2026 came
+  from two broken instruments.**
+- **Archive and hourly collection judged together.** The KazHydroMet archive (`kgmt_auto`) has no PM10 for most Almaty stations, so
+  its PM2.5 could not be checked against PM10 and 13,000 values were published although the hourly collection of the same
+  instrument and hours showed PM2.5 repeating PM10. A day flagged in one copy is now removed from the other as well.
+- Considered and not added, each after measuring it: a rule comparing PM10 with the rest of the city (the remaining differences
+  look like real hot spots), "PM10 equals TSP" (in Almaty the shared value behaves like the city's PM10), "PM2.5 above PM10"
+  (rare at KazHydroMet stations, common in index-converted WAQI data).
 
 ### 10 Oct 2026 — KazHydroMet's 2018–2022 archive is back in the city files
 
