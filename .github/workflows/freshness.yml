@@ -1,6 +1,6 @@
 # Independent health check for the AirData pipeline, running on GitHub (not on the Mac).
 # Fails — and GitHub emails the maintainer — only when something needs a human:
-# no new data for 48 h, a city losing more than half of its reporting stations,
+# no new data for 48 h (in any of a city's main parameters), a city losing more than half of its reporting stations,
 # a source in a city losing more than half of its usual stations, or airdata.kz
 # down / showing data older than 3 days.
 name: Data freshness
@@ -33,25 +33,41 @@ jobs:
       - name: Every city still reports from most of its usual stations
         run: |
           python3 - <<'PY'
-          import csv, gzip, io, statistics, sys, urllib.request
+          import csv, gzip, io, statistics, sys, urllib.error, urllib.request
           from datetime import date, timedelta
 
           repo, failed = "${{ github.repository }}", False
 
           for city in ("almaty", "astana", "karaganda"):
-              # Existing daily summary check: newest local daily value and city-wide station coverage.
-              url = f"https://raw.githubusercontent.com/{repo}/main/{city}/daily/pm25.csv.gz"
-              with urllib.request.urlopen(url, timeout=60) as resp:
-                  rows = list(csv.DictReader(io.TextIOWrapper(gzip.GzipFile(fileobj=io.BytesIO(resp.read())))))
+              # Newest local daily value and city-wide station coverage. Checked on PM2.5 when the city has clean
+              # PM2.5, else on the first parameter that is current: a city whose dust channels are all flagged
+              # by the quality control (Karaganda since 10 Oct 2026) is a data state, not a pipeline outage.
+              parameter = by_day = latest = None
+              newest = {}
+              for candidate in ("pm25", "pm10", "co", "so2", "no2"):
+                  url = f"https://raw.githubusercontent.com/{repo}/main/{city}/daily/{candidate}.csv.gz"
+                  try:
+                      with urllib.request.urlopen(url, timeout=60) as resp:
+                          rows = list(csv.DictReader(io.TextIOWrapper(gzip.GzipFile(fileobj=io.BytesIO(resp.read())))))
+                  except urllib.error.HTTPError:
+                      continue
+                  days = {date.fromisoformat(r["date"]): float(r["n_stations"]) for r in rows}
+                  if not days:
+                      continue
+                  newest[candidate] = max(days)
+                  if (date.today() - max(days)).days <= 3:
+                      parameter, by_day, latest = candidate, days, max(days)
+                      break
 
-              by_day = {date.fromisoformat(r["date"]): float(r["n_stations"]) for r in rows}
-              latest = max(by_day)
-              print(f"{city}: newest daily value {latest}")
-
-              if (date.today() - latest).days > 3:
-                  print(f"::error::{city}: newest daily value is {latest}")
+              if parameter is None:
+                  shown = ", ".join(f"{p} {d}" for p, d in newest.items())
+                  print(f"::error::{city}: no parameter has a daily value newer than 3 days ({shown})")
                   failed = True
                   continue
+
+              print(f"{city}: newest daily value {latest} ({parameter})")
+              if parameter != "pm25":
+                  print(f"::warning::{city}: no clean PM2.5 since {newest.get('pm25')}; freshness and coverage checked on {parameter}")
 
               # Coverage: the last complete day vs the two calendar weeks before it.
               # Skipped right after an outage/restart, when there is no recent history yet.
@@ -71,7 +87,7 @@ jobs:
 
               # Source-level coverage from the hourly file.
               # The hourly file is read once per city and used for all sources.
-              hourly_url = f"https://raw.githubusercontent.com/{repo}/main/{city}/pm25.csv.gz"
+              hourly_url = f"https://raw.githubusercontent.com/{repo}/main/{city}/{parameter}.csv.gz"
               day_hours = {}
               day_source_stations = {}
 
