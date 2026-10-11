@@ -153,6 +153,8 @@ ag_173269,Almaty Museum of Arts ,Almaty,,KZ,43.2267,76.9492,Asia/Tashkent,low_co
 ag_173630,Medeu,Almaty,,KZ,43.1642,77.0494,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_180811,"Almaty, Dostyk 300/60",Almaty,,KZ,43.2226,76.9759,Asia/Almaty,low_cost,airgradient,Almaty Air Initiative,True
 ag_186392,Nurly-Tan 37,Almaty,,KZ,43.213101,76.7950629,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_203227,Mukanova,Karaganda,,KZ,49.786599,73.163057,Asia/Almaty,low_cost,airgradient,Arai,True
+ag_203232,Satybaldina,Karaganda,,KZ,49.780182,73.138677,Asia/Almaty,low_cost,airgradient,Arai,True
 airkaz_1,Сейфуллина - Дулатова (TS225957),Almaty,,KZ,43.313,76.939,Asia/Almaty,low_cost,airkaz,AirKaz,False
 airkaz_10,Тулебаева-Джамбула,Almaty,,KZ,43.248,76.949,Asia/Almaty,low_cost,airkaz,AirKaz,False
 airkaz_104,Сатпаева-Луганского (TS485314),Almaty,,KZ,43.241,76.96,Asia/Almaty,low_cost,airkaz,AirKaz,False
@@ -853,6 +855,7 @@ waqi_-410893,Алматы санаторий,,,KZ,43.176,76.872,,government,waqi
 waqi_-464161,Жунисова улица,,,KZ,43.218,76.79,,government,waqi,Citizen Science project sensor.community,False
 waqi_-506290,Майқұдық,,,KZ,49.89696663495,73.21133762598,,government,waqi,Citizen Science project sensor.community,True
 waqi_-506392,улица Терешковой,,,KZ,49.82555957034,73.12215149403,,government,waqi,Citizen Science project sensor.community,True
+waqi_-509311,Проспект Нурсултана Назарбаева,,,KZ,49.81513369921,73.10452669859,,government,waqi,Citizen Science project sensor.community,False
 waqi_-517408,шағын аудан 32А,,,KZ,43.687244722222,51.160561111111,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517411,"Р. Зорге көшесі, 14",,,KZ,43.338122222222,76.952136111111,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517414,"«Орбита» ықшам ауданы, «Зендстрой» АҚ Дендропарк аумағында",,,KZ,43.193546388889,76.883063611111,,government,waqi,Қазгидромет - Kazhydromet,True
@@ -905,6 +908,7 @@ waqi_-525652,"Дамба елді мекені, балық инспекцияс�
 waqi_-527422,"Бородин к-сі, №144 үйдің ауданы",,,KZ,53.228382222222,63.630640277778,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-531421,"Горький көшесі, 9",,,KZ,50.249612222222,58.4366875,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-534346,"Ақтөбе облысы Темір ауданы Шұбарши ауылдық округі әкімінің аппараты"" ММ Геоллог к-сі 25д",,,KZ,48.579916666667,57.178694444444,,government,waqi,Қазгидромет - Kazhydromet,True
+waqi_-536164,Майқұдық,,,KZ,49.85318928967,73.18899750611,,government,waqi,Citizen Science project sensor.community,True
 waqi_-538447,к. Б. Даумова (ауданы мәдениет және демалыс саябағының),,,KZ,51.212033888889,51.348908333333,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_-539074," 3-ші шағын аудан, 23В құрылыс",,,KZ,52.547555,62.494832777778,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_-557107,Sodiq Azimov Street,,,UZ,41.30198058008,69.28678840399,,government,waqi,Citizen Science project sensor.community,False
@@ -918,7 +922,7 @@ waqi_1002,Тау самал,,,KZ,43.2058,76.981,,government,waqi,AirKaz.org,Fals
 waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia realtime air quality monitoring network,False
 waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,False
 waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,False
-waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,Tashkent Air Quality Monitor - US Embassy,True
+waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
@@ -1064,12 +1068,8 @@ waqi_78340,Dostyk Avenue,,,KZ,43.24740500169,76.95690894212,,government,waqi,Cit
 waqi_82475,Алматы санаторий,,,KZ,43.176,76.872,,government,waqi,Citizen Science project sensor.community,False
 waqi_82729,улица Монтажная,,,KZ,43.33317095357,76.98168933392,,government,waqi,Citizen Science project sensor.community,False
 waqi_84862,Жунисова улица,,,KZ,43.218,76.79,,government,waqi,Citizen Science project sensor.community,False
-waqi_89403,Майкудук,,,KZ,49.89694734144,73.21129202843,,government,waqi,Citizen Science project sensor.community,False
-waqi_89417,улица Терешковой,,,KZ,49.824,73.122,,government,waqi,Citizen Science project sensor.community,False
-waqi_89748,Проспект Нурсултана Назарбаева,,,KZ,49.81513369921,73.10452669859,,government,waqi,Citizen Science project sensor.community,False
 waqi_9,Ерменсай,,,KZ,43.174,76.917,,government,waqi,AirKaz.org,False
 waqi_90941,Abay avenue,,,KZ,43.226,76.862,,government,waqi,Citizen Science project sensor.community,False
-waqi_93571,Майқұдық,,,KZ,49.85318928967,73.18899750611,,government,waqi,Citizen Science project sensor.community,False
 waqi_97,"Ахметов көшесі, 50",,,KZ,43.3637,77.004377222222,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_97584,улица Таджикская,,,KZ,43.26,76.878,,government,waqi,Citizen Science project sensor.community,False
 waqi_999,Звездная поляна,,,KZ,43.1333,76.8695,,government,waqi,AirKaz.org,False

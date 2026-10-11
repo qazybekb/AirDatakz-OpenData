@@ -3700,6 +3700,54 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "ag_203227",
+    "name": "Mukanova",
+    "city": "Karaganda",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.786599,
+    "lon": 73.163057,
+    "timezone": "Asia/Almaty",
+    "station_type": "low_cost",
+    "source": "airgradient",
+    "operator": "Arai",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.163057,
+     49.786599
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "ag_203232",
+    "name": "Satybaldina",
+    "city": "Karaganda",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.780182,
+    "lon": 73.138677,
+    "timezone": "Asia/Almaty",
+    "station_type": "low_cost",
+    "source": "airgradient",
+    "operator": "Arai",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.138677,
+     49.780182
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "airkaz_1",
     "name": "Сейфуллина - Дулатова (TS225957)",
     "city": "Almaty",
@@ -14428,6 +14476,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "waqi_-509311",
+    "name": "Проспект Нурсултана Назарбаева",
+    "city": null,
+    "region": null,
+    "country": "KZ",
+    "lat": 49.81513369921,
+    "lon": 73.10452669859,
+    "timezone": null,
+    "station_type": "government",
+    "source": "waqi",
+    "operator": "Citizen Science project sensor.community",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.10452669859,
+     49.81513369921
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "waqi_-517408",
     "name": "шағын аудан 32А",
     "city": null,
@@ -15676,6 +15748,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "waqi_-536164",
+    "name": "Майқұдық",
+    "city": null,
+    "region": null,
+    "country": "KZ",
+    "lat": 49.85318928967,
+    "lon": 73.18899750611,
+    "timezone": null,
+    "station_type": "government",
+    "source": "waqi",
+    "operator": "Citizen Science project sensor.community",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.18899750611,
+     49.85318928967
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "waqi_-538447",
     "name": "к. Б. Даумова (ауданы мәдениет және демалыс саябағының)",
     "city": null,
@@ -15998,7 +16094,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Tashkent Air Quality Monitor - US Embassy",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
@@ -19492,78 +19588,6 @@
   {
    "type": "Feature",
    "properties": {
-    "station_id": "waqi_89403",
-    "name": "Майкудук",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 49.89694734144,
-    "lon": 73.21129202843,
-    "timezone": null,
-    "station_type": "government",
-    "source": "waqi",
-    "operator": "Citizen Science project sensor.community",
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     73.21129202843,
-     49.89694734144
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "waqi_89417",
-    "name": "улица Терешковой",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 49.824,
-    "lon": 73.122,
-    "timezone": null,
-    "station_type": "government",
-    "source": "waqi",
-    "operator": "Citizen Science project sensor.community",
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     73.122,
-     49.824
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "waqi_89748",
-    "name": "Проспект Нурсултана Назарбаева",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 49.81513369921,
-    "lon": 73.10452669859,
-    "timezone": null,
-    "station_type": "government",
-    "source": "waqi",
-    "operator": "Citizen Science project sensor.community",
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     73.10452669859,
-     49.81513369921
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
     "station_id": "waqi_9",
     "name": "Ерменсай",
     "city": null,
@@ -19606,30 +19630,6 @@
     "coordinates": [
      76.862,
      43.226
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "waqi_93571",
-    "name": "Майқұдық",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 49.85318928967,
-    "lon": 73.18899750611,
-    "timezone": null,
-    "station_type": "government",
-    "source": "waqi",
-    "operator": "Citizen Science project sensor.community",
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     73.18899750611,
-     49.85318928967
     ]
    }
   },
