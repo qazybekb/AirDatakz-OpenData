@@ -43,8 +43,8 @@ csv/
 │   ├── ...
 │   └── daily/
 │
-├── karaganda/                  Karaganda city (three KazHydroMet monitors) — 12 parameters, 2018–present
-│   ├── pm25.csv.gz                 20K hourly readings
+├── karaganda/                  Karaganda city (three KazHydroMet monitors; PM2.5 from citizen sensors since Oct 2025) — 12 parameters, 2018–present
+│   ├── pm25.csv.gz                 29K hourly readings
 │   ├── ...                        (includes CH₄, THC, NH₃ for 2018–2022)
 │   └── daily/
 │
@@ -137,8 +137,8 @@ Daily (`rest_of_kz/daily/{parameter}.csv.gz`), one row per city per day:
 | `kgmt` | Government reference-grade (KazHydroMet), collected hourly from its API | 420+ | All Kazakhstan |
 | `kgmt_auto` | The same KazHydroMet monitors: the hourly archive 2018–2022 that KazHydroMet delivered as Excel files | 20 | Almaty, Astana, Karaganda |
 | `openaq` | International aggregator (OpenAQ) | 22 | Almaty, Astana |
-| `waqi` | International aggregator (aqicn.org) | 11 | Almaty |
-| `airgradient` | Low-cost sensors (AirGradient) | 139 | Almaty |
+| `waqi` | International aggregator (aqicn.org); in Karaganda citizen sensors of sensor.community | 15 | Almaty, Karaganda |
+| `airgradient` | Low-cost sensors (AirGradient) | 141 | Almaty, Karaganda (two devices, from 11 Oct 2026) |
 | `airkaz` | Low-cost sensors, historical (AirKaz) | 41 | Almaty (2017–2020) |
 
 ---
@@ -260,6 +260,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **KazHydroMet gap (22 Dec 2025 – 17 Mar 2026)**: KazHydroMet data was not collected in this period; it cannot be backfilled because the KazHydroMet API serves only the latest hour.
 - **Almaty OpenAQ**: since March 2026 the only OpenAQ provider left in Almaty is AirGradient, whose sensors are taken directly from AirGradient (source `airgradient`), so the `openaq` source has no Almaty rows after 18 Mar 2026.
 - **US Embassy (WAQI)**: the US Embassy feed in Almaty has reported no PM2.5 since December 2025.
+- **Karaganda PM2.5 since October 2025 comes from citizen sensors** whose absolute level is not verified (see the correction of 11 Oct 2026); before that it comes from KazHydroMet monitors, most of whose dust channels are removed as faulty for 2022–2025.
 - **KazHydroMet dust channels**: many KazHydroMet PM2.5, PM10 and TSP channels have failed over the years and report about 1 µg/m³; those periods are removed (see Data Quality and the correction of 10 Oct 2026), so fewer government monitors contribute in 2022–2025.
 - **PM2.5 equal to PM10 at some KazHydroMet stations**: such PM2.5 values are removed since 10 Oct 2026 (see Data Quality). One station (Almaty PCP #31, `kgmt_27`) reports a PM2.5 that is PM10 minus about 0.4 µg/m³; its days with higher dust levels are removed, the low-level days cannot be told from real data and remain.
 - **Station-level rules need time and cannot see everything.** A new fault is published until it has lasted long enough to be recognised (20 days for a raised floor, 12 days for a noisy channel, 10 for a dead or duplicated one) and is withdrawn then. A monitor that reads too low or too high by a steady factor looks like any other monitor: in Astana, stations 12 and 4 report 2–3 times the PM10 of the other monitors, and the KazHydroMet PM2.5 of 2026 is 7–15 µg/m³ where four OpenAQ sensors show 45–64. Outside Almaty there is no independent network to compare with.
@@ -268,6 +269,28 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 ---
 
 ## Data Corrections
+
+### 11 Oct 2026 — Karaganda PM2.5 from independent sensors; hourly means repaired
+
+Please re-download `karaganda/pm25` (hourly and daily) and `almaty/pm25`.
+
+- **Karaganda has PM2.5 again — from citizen sensors.** Since the correction of 10 Oct every KazHydroMet dust channel in
+  Karaganda is removed as faulty, and the city had no clean PM2.5 after 22 Dec 2025. Four citizen sensors
+  (sensor.community, collected through WAQI: `waqi_-506290` Maikuduk and `waqi_-506392` Tereshkova St, both live, and two
+  that stopped in November 2025) are now in the Karaganda files with their history from October 2025: 9,058 clean hours
+  on about 200 days. Two AirGradient devices in the city are collected directly from 11 Oct 2026.
+  **Their absolute level is not verified.** The two live sensors agree with each other only moderately (daily r 0.66)
+  and average about 20 µg/m³ in winter, which is low for a coal-heated city; there is no working reference monitor
+  in Karaganda to check them against. Use them for when the air was better or worse, not for how polluted Karaganda is.
+  With these sensors in the city's cluster, 440 remaining December 2025 hours of KazHydroMet station 36 (reading
+  about 100 µg/m³ on a channel flagged as noisy up to 1 Dec) are removed as outliers.
+- **Hours built from a part of their readings.** Each run of our processing rebuilt one clock hour from the readings
+  of its last minutes only and overwrote the full hourly mean: 1,712 Almaty AirGradient station-hours since 9 Oct 2026
+  and 104 Almaty WAQI station-hours since March 2026 (median difference 2 µg/m³, 17 µg/m³ at the 95th percentile). They
+  are set to the mean of all readings of the hour, and the cause is fixed.
+- **Open question — Almaty, source `waqi`, before 17 Mar 2026.** 42,639 of these 49,744 hourly values do not equal the
+  mean of the raw readings we hold for their hour (median difference 3 µg/m³, 41 µg/m³ at the 95th percentile). They
+  come from an earlier import and are not explained yet; treat Almaty PM2.5 from `waqi` before that date with caution.
 
 ### 11 Oct 2026 — Astana cleaned of Almaty sensors; station places by period; five more towns from the archive
 
