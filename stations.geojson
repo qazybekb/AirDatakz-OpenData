@@ -15998,7 +15998,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Tashkent Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
