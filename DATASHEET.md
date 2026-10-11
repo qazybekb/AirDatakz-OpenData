@@ -30,9 +30,9 @@ Each instance is a single air quality or meteorological measurement: one paramet
 
 As of 10 October 2026, the dataset contains approximately:
 - 2.4 million cleaned hourly readings for Almaty (9 parameters)
-- 1.8 million for Astana (10 parameters)
-- 0.8 million for Karaganda city (12 parameters)
-- 22.7 million for the rest of Kazakhstan (9 parameters; 321 stations — 130 in 68 named towns, 191 without metadata)
+- 1.7 million for Astana (10 parameters)
+- 0.63 million for Karaganda city (12 parameters)
+- 22.4 million for the rest of Kazakhstan (9 parameters; 321 stations — 130 in 68 named towns, 191 without metadata)
 - 1,160 monitoring stations in the registry
 
 This includes 1.58 million values of the 2018–2022 hourly archive that KazHydroMet provided as Excel files (source `kgmt_auto`, 20 monitors in Almaty, Astana and Karaganda; each archive series was assigned to the monitor whose hourly collection it matches in the months both cover). Where the archive and the hourly collection (`kgmt`) cover the same station-hour, one value is published — the archive's.
@@ -120,10 +120,13 @@ City files (`almaty`, `astana`, `karaganda` — each holds the monitors of that 
 | Stuck sensor | Identical value for 6+ consecutive hours | Flagged suspect |
 | Dead dust channel | PM2.5, PM10 or TSP: daily median below 2 µg/m³ on 10+ days within 30 days | Flagged suspect |
 | Duplicated dust channel | PM2.5 within 2% of PM10 in at least half of a day's hours (PM10 ≥ 10 µg/m³), and the period in which such days keep occurring (10+ within 30 days) | PM2.5 flagged suspect; PM10 kept |
+| Raised floor | PM2.5, PM10 or TSP: 30 days in which every day with 18+ readings has a 10th percentile of 30 µg/m³ or more | Flagged suspect |
+| Noisy channel | PM2.5, PM10 or TSP: 12+ days within 30 on which the median hourly change is 40% of the daily median or more | Flagged suspect |
+| Twin copy | The other KazHydroMet copy (hourly collection / archive) of a dust channel flagged dead, duplicated, raised or noisy on that day | Flagged suspect |
 | Cluster outlier | Station daily average > 3 robust standard deviations from its cluster median | Flagged invalid |
 | Duplicate sources | Same station and hour from two sources | One value kept |
 
-`rest_of_kz` (single-monitor towns; applied from 10 Oct 2026): range, the same hard caps, the PM10 analyser ceiling (exactly 1,000 µg/m³), flatlines of 24+ identical consecutive hours, zero particulates for 6+ consecutive hours, and the dead and duplicated dust channel rules of the city files. Shorter runs at an analyser's detection limit and one-hour peaks are kept.
+`rest_of_kz` (single-monitor towns; applied from 10 Oct 2026): range, the same hard caps, the PM10 analyser ceiling (exactly 1,000 µg/m³), flatlines of 24+ identical consecutive hours, zero particulates for 6+ consecutive hours, and the dead, duplicated, raised-floor and noisy dust channel rules of the city files. Shorter runs at an analyser's detection limit and one-hour peaks are kept.
 
 Only measurements that pass all rules are included in these files. Earlier versions of this datasheet listed statistical-outlier (robust Z-score) and spike-detection stages; those were never applied to the published files.
 
