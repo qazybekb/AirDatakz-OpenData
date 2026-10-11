@@ -39,7 +39,7 @@ csv/
 │       └── ...
 │
 ├── astana/                     Astana — 10 parameters, 2018–present
-│   ├── pm25.csv.gz                185K hourly readings
+│   ├── pm25.csv.gz                177K hourly readings
 │   ├── ...
 │   └── daily/
 │
@@ -48,13 +48,14 @@ csv/
 │   ├── ...                        (includes CH₄, THC, NH₃ for 2018–2022)
 │   └── daily/
 │
-├── rest_of_kz/                 All other Kazakhstan cities and towns — 9 parameters, 2020–present
+├── rest_of_kz/                 All other Kazakhstan cities and towns — 12 parameters, 2018–present
 │   ├── pm2_5.csv.gz               3.2M hourly readings
 │   ├── ...                        (KazHydroMet government stations)
 │   └── daily/                  One value per town per day
 │
 ├── stations.csv                Station registry: id, name, city, coordinates, source, operator
-└── stations.geojson            Same registry as GeoJSON points (WGS84)
+├── stations.geojson            Same registry as GeoJSON points (WGS84)
+└── station_periods.csv         Where a KazHydroMet station id was before it moved (or that the place is unknown)
 ```
 
 ---
@@ -101,7 +102,7 @@ One row per day. City-wide average computed from geographic cluster averages, en
 
 Hourly (`rest_of_kz/{parameter}.csv.gz`), one row per station per hour, clean values only:
 `datetime_utc`, `station_id`, `station_name`, `city`, `lat`, `lon`, `value_ugm3`, `raw_value`, `raw_unit`
-(`station_name`, `city`, `lat`, `lon` are empty for stations we have no metadata for).
+(`station_name`, `city`, `lat`, `lon` are those of the period the hour belongs to — KazHydroMet moves station ids between posts, see `station_periods.csv` — and empty where the place is not known).
 
 Daily (`rest_of_kz/daily/{parameter}.csv.gz`), one row per city per day:
 `date`, `city`, `avg_ugm3` (mean of the clean hourly values of the city's stations), `n_stations`.
@@ -121,9 +122,9 @@ Daily (`rest_of_kz/daily/{parameter}.csv.gz`), one row per city per day:
 | `o3` | Ozone | µg/m³ | Limited stations |
 | `h2s` | Hydrogen sulfide | µg/m³ | Astana, Karaganda, rest_of_kz; Almaty in 2021 only |
 | `tsp` | Total suspended particles | µg/m³ | KGMT only; repeats PM10 at most stations (see Known Limitations) |
-| `nh3` | Ammonia | µg/m³ | Karaganda 2018–2022, Astana Oct 2021 – Apr 2022 (archive) |
-| `ch4` | Methane | µg/m³ | Karaganda 2018–2022 (archive) |
-| `thc` | Total hydrocarbons | µg/m³ | Karaganda 2018–2022 (archive) |
+| `nh3` | Ammonia | µg/m³ | Karaganda 2018–2022, Astana Oct 2021 – Apr 2022, rest_of_kz 2018–2022 (archive) |
+| `ch4` | Methane | µg/m³ | Karaganda 2018–2022, Temirtau in rest_of_kz 2018–2021 (archive) |
+| `thc` | Total hydrocarbons | µg/m³ | Karaganda 2018–2022, Temirtau in rest_of_kz 2018–2021 (archive) |
 | `pm2_5` | PM2.5 (national naming) | µg/m³ | rest_of_kz uses this code |
 | `pmtot` | Total PM (national naming) | µg/m³ | rest_of_kz only |
 
@@ -243,7 +244,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 | Almaty | March 2017 | 9 | 2.4M | 14K |
 | Astana | January 2018 | 10 | 1.7M | 19K |
 | Karaganda (city) | January 2018 | 12 | 632K | 13K |
-| Rest of KZ | June 2020 | 9 | 22.4M | 448K |
+| Rest of KZ | January 2018 | 12 | 22.8M | 477K |
 
 ---
 
@@ -255,7 +256,7 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 - **TSP repeats PM10**: at every KazHydroMet station that reports both, the two channels carry the same number in most hours, so `tsp` (`pmtot` in `rest_of_kz`) is not an independent measurement of total dust.
 - **rest_of_kz**: Uses `pm2_5` and `pmtot` codes instead of `pm25` and `tsp` (matches KGMT national naming convention).
 - **Station coordinates**: Some historical stations lack lat/lon coordinates (shown as empty in CSV).
-- **rest_of_kz stations without a city**: KazHydroMet's API gives no station metadata, and our station list covers 130 of the 321 stations in `rest_of_kz` (68 towns). The others appear in the hourly files with an empty `city`, `lat` and `lon`, and are not part of the daily files (a daily value is a per-city average).
+- **rest_of_kz stations without a city**: KazHydroMet's API gives no station metadata, and our station list covers 148 of the 321 stations in `rest_of_kz` (70 towns), checked against KazHydroMet's public map on 11 Oct 2026. The others appear in the hourly files with an empty `city`, `lat` and `lon`, and are not part of the daily files (a daily value is a per-city average).
 - **KazHydroMet gap (22 Dec 2025 – 17 Mar 2026)**: KazHydroMet data was not collected in this period; it cannot be backfilled because the KazHydroMet API serves only the latest hour.
 - **Almaty OpenAQ**: since March 2026 the only OpenAQ provider left in Almaty is AirGradient, whose sensors are taken directly from AirGradient (source `airgradient`), so the `openaq` source has no Almaty rows after 18 Mar 2026.
 - **US Embassy (WAQI)**: the US Embassy feed in Almaty has reported no PM2.5 since December 2025.
@@ -267,6 +268,50 @@ gzcat almaty/pm25.csv.gz > almaty_pm25.csv
 ---
 
 ## Data Corrections
+
+### 11 Oct 2026 — Astana cleaned of Almaty sensors; station places by period; five more towns from the archive
+
+Please re-download `astana/pm25` (hourly and daily), every `rest_of_kz` file, `stations.csv` / `stations.geojson`, and the
+city files if you use `lat`, `lon`, `cluster_id` or the station ids of the US Embassy monitors.
+
+- **Almaty sensors were published as Astana.** OpenAQ locations were filed by a substring of their name, and "nur" (for
+  Nur-Sultan) matched six sensors in Almaty — Nurmaqov street, Nurtau, Nuriddin, Nurly-Tan, Nurly street. They were in the
+  Astana files from 28 Apr 2024 to 9 Oct 2026: 8,626 clean hours, and **all** of Astana's clean PM2.5 hours in January and
+  February 2026 (2,485 and 2,613), 68 % in March 2026. They are removed; locations are now filed by their coordinates.
+  Astana has no clean PM2.5 for January and February 2026.
+- **OpenAQ station ids.** Rows that had been imported without their location carried the sensor id and a placeholder
+  coordinate. The US Embassy monitors are now `oaq_7094` (Astana, was `oaq_20512`) and `oaq_8876` (Almaty, was `oaq_25903`)
+  at their real coordinates; `oaq_8967269`, `oaq_8967421`, `oaq_14869003`, `oaq_14969444` became `oaq_2812550`,
+  `oaq_2812831`, `oaq_6161924`, `oaq_6175391`.
+- **A KazHydroMet station id is not a place.** KazHydroMet re-points the ids of its feed between posts: id 254 carried
+  Satpayev until Dec 2023, Lisakovsk from Dec 2024 and Zhetikara since 5 Jun 2025; 235 moved from Atyrau to Inderbor in
+  May 2023, 238 from Inderbor to Zhanbai, 232 and 233 (Kandyagash / Shubarshi) exchanged places in late 2022, 264 moved from
+  Shymkent to Dostyk in Aug 2026; 258, 311 and 313 changed region as well. Every row of such an id used to carry one town.
+  In `rest_of_kz` the `city`, `station_name`, `lat` and `lon` of a row are now those of the period the hour belongs to, and
+  empty where the place is not known. The periods, with the evidence for each, are in the new file
+  **`station_periods.csv`** (`station_id`, `valid_from`, `valid_to`, `name`, `city`, `lat`, `lon`, `note`; dates in UTC,
+  `valid_to` exclusive, an empty date = open). `stations.csv` gives the place of today.
+  How we know: the station's own temperature channel against ERA5 reanalysis month by month (a station that did not move
+  picks its own area for years; 100 km costs 0.3–0.6 °C of scatter, 300 km 3–5 °C), KazHydroMet's public map (a post's
+  values equal one feed id's values in the same hour), WAQI's metadata, and the address lists of KazHydroMet's bulletins.
+- **Mapping errors corrected** with the same sources. Astana stations `kgmt_7` and `kgmt_8` had each other's
+  coordinates and clusters (North ↔ South-Central) for their whole history; `kgmt_12` is at Nazarbayev University since
+  21 Oct 2025 (11 km from its earlier place; earlier hours keep the old coordinates); Karaganda `kgmt_65` was 12.7 km off,
+  Almaty `kgmt_56` 2.1 km. In `rest_of_kz`: 43 (Zhezkazgan) had the coordinates of a Satpayev post, 68 (Aksu, Pavlodar
+  region) those of the Aksu near Stepnogorsk, 346 km away — the two were one line "Aksu" in the daily files and are now
+  `Aksu` and `Aksu vil.`; 41 is the Burlin post, not Aksai; Semey 2 and 248 were exchanged.
+- **19 more stations have a town and coordinates** (Atyrau 167–170, 212–214, 216–218, 317, 320, 322; the Tengiz field
+  220–223; Ridder 325; Satpayev 313). Of the 136 mapped ids that report today, 130 are confirmed against KazHydroMet's
+  map; still without a place: 113, 215, 219, 312, 315, 321, 323, 324, and 42 and 258 (see `station_periods.csv`).
+- **Western towns: calendar days.** Daily `rest_of_kz` values of Atyrau, Aktau, Uralsk, Aktobe, Kyzylorda and the towns
+  of their regions were cut at 23:00 local time for dates before March 2024 (one time zone had been used for the whole
+  country). They are cut at local midnight now; `stations.csv` has the zone of each post.
+- **Five towns of the Karaganda region, 2018–2022.** KazHydroMet's Excel archive for Saran (station 21), Abay (255),
+  Balkhash (96), Temirtau (63) and Zhezkazgan (43) is in `rest_of_kz` now: 619,000 hourly values re-read from the
+  workbooks (each hour is the mean of the 20-minute samples), under the same quality control as the live data. Where
+  archive and live feed overlap (2021–2022) the archive value is published. New parameter files: `nh3`, `ch4`, `thc`.
+  The earlier import had merged these towns under one post number, so they could not be taken from it; months that
+  are verbatim copies of another month in the source (Saran, late 2020) are left out.
 
 ### 10 Oct 2026 — Dust channels that never come down or jump from hour to hour removed
 
