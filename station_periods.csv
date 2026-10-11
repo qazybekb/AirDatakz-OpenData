@@ -1,0 +1,23 @@
+station_id,valid_from,valid_to,name,city,lat,lon,note
+kgmt_232,,2022-07-20,PCP #1,Kandyagash,49.472571,57.422103,"Listed place of the id until 2022: temperature fits Kandyagash in 7 of 7 months 2021-12..2022-06 (ERA5) and not the sensor at Kenkiyak, 5 km from Shubarshi"
+kgmt_232,2022-07-20,2023-01-01,,,,,"Ids 232 and 233 exchanged places in this window (233 silent 2022-07-20..2022-08-18, both ids garbled in 2022-11); the day is not known"
+kgmt_233,,2022-07-20,PCP #1,Shubarshi vil.,48.580153,57.178708,Listed place of the id until 2022: temperature within 0.4-1.1 C of the sensor at Kenkiyak (5 km) in 2021-12..2022-03
+kgmt_233,2022-07-20,2023-01-01,,,,,"Ids 232 and 233 exchanged places in this window (233 silent 2022-07-20..2022-08-18, both ids garbled in 2022-11); the day is not known"
+kgmt_235,,2023-05-28,PCP #10,Atyrau,47.114687,51.860907,Listed place of the id until 2023: temperature fits Atyrau through 2023-05-17; after the gap 2023-05-17..2023-05-28 it fits Inderbor (32 months)
+kgmt_238,,2023-01-29,PCP #1,Inderborsky vil.,48.55635,51.735106,Listed place of the id until 2023: temperature fits Inderbor in 10 of 10 months 2021-12..2022-09
+kgmt_238,2023-01-29,2023-12-13,,,,,Almost no data (silent 2023-01-28..2023-11-06 and 2023-11-11..2023-12-13); the place of the few days in between is not known. Afterwards the temperature fits the Atyrau-Zhanbai area and is 2.1-2.5 C off the Atyrau city sensors; the Zhanbai address is the one WAQI lists for the id
+kgmt_254,,2023-12-29,PCP #2,Satpayev,47.899573798,67.547156701,Listed place of the id until 2023: temperature fits Satpayev/Zhezkazgan in 22 of 22 clean months 2021-12..2023-12
+kgmt_254,2023-12-29,2024-12-01,,,,,"Silent 2023-12-28..2024-10-23, then five weeks of sparse data with garbled temperature"
+kgmt_254,2024-12-01,2025-06-05,"Microdistrict 3, building 23B",Lisakovsk,52.5476,62.4948,"The place WAQI lists for the id; temperature within 1.3 C of the Lisakovsk sensor 256 and 1.7-2.2 C off Zhetikara. On 2025-06-05 the levels change in one step (NO2 median 15 -> 130, SO2 18 -> 55 ug/m3): since then the id carries Zhetikara post 1, as KazHydroMet's map shows"
+kgmt_258,,2025-05-16,PCP #1,Zhetikara,52.189549855,61.197536033,Zhetikara post 1 (temperature fits Zhetikara in every clean month to 2025-05); from 2025-06-05 that post is id 254
+kgmt_258,2025-05-16,,,,,,"Left Zhetikara: silent 2025-05-15..2025-08-14, then a new channel set (O3 added), temperature 5-8 C off Zhetikara and fitting the Almaty area, daily PM2.5 follows Almaty (r 0.80, Lisakovsk 0.36); the address is not known"
+kgmt_264,,2026-08-01,PCP #4,Shymkent,42.347694,69.709302,"Kyzylsai residential area of Shymkent, Omartashy St 1, in the bulletins to July 2026"
+kgmt_264,2026-08-01,2026-09-01,,,,,Bulletin of August 2026: the Kyzylsai post was moved to Dostyk village; the day is not known
+kgmt_3,,2022-02-01,PCP #3,Oskemen,49.966638,82.614993,"Shakarim Ave 79 in KazHydroMet's bulletin of January 2022, Serikbaev St 19 from February 2022 (2 km apart)"
+kgmt_311,,2023-10-02,,,,,Before the gap 2023-09-10..2023-10-02 the temperature is 5-7 C off Bestobe and fits the Almaty-Chu area; the address is not known. In Bestobe since
+kgmt_313,,2024-03-01,,,,,Temperature fits the Almaty area 2022-05..2024-01 (20 months) and the Zhezkazgan-Satpayev area from 2024-03 (margin 0.7-1.0 C); the earlier address is not known. Satpayev post 2 since: its values equal the post's on KazHydroMet's map
+kgmt_34,,2022-03-01,PCP #3,Semey,50.420238,80.274296,Aerological station 1 in the bulletin of February 2022
+kgmt_34,2022-03-01,2023-01-01,PCP #3,Semey,,,Moved within Semey during 2022 (Dekorativnaya St 26 in the annual bulletin of 2022); the month is not known
+kgmt_38,,2024-01-01,PCP #1,Zhanatas,43.563946,69.707703,Toktarov St 27 in the annual bulletin of 2023
+kgmt_38,2024-01-01,2025-01-01,PCP #1,Zhanatas,,,Moved within Zhanatas during 2024 (annual bulletin of 2024); the month is not known
+kgmt_42,,,,,,,"Was listed as Yanvartsevo with the address of the Burlin post. KazHydroMet has had no stationary post in Yanvartsevo since 2021, and the Burlin post is id 41 (its values on KazHydroMet's map, two hours). Place not known"

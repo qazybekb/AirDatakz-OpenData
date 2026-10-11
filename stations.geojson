@@ -4737,8 +4737,8 @@
     "city": "Astana",
     "region": null,
     "country": "KZ",
-    "lat": 51.181287116,
-    "lon": 71.465806956,
+    "lat": 51.08901,
+    "lon": 71.393202,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -4748,8 +4748,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     71.465806956,
-     51.181287116
+     71.393202,
+     51.08901
     ]
    }
   },
@@ -4876,13 +4876,109 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_167",
+    "name": "Peretaska",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.068611,
+    "lon": 51.905278,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.905278,
+     47.068611
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_168",
+    "name": "Khimposelok",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.088611,
+    "lon": 51.935278,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.935278,
+     47.088611
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_169",
+    "name": "Mirny",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.075556,
+    "lon": 51.910833,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.910833,
+     47.075556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_170",
+    "name": "Proparka",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.072778,
+    "lon": 51.950833,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.950833,
+     47.072778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_2",
     "name": "PCP #1",
     "city": "Semey",
     "region": null,
     "country": "KZ",
-    "lat": 50.399262,
-    "lon": 80.201923,
+    "lat": 50.414781,
+    "lon": 80.248535,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -4892,8 +4988,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     80.201923,
-     50.399262
+     80.248535,
+     50.414781
     ]
    }
   },
@@ -5020,6 +5116,150 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_212",
+    "name": "SMKV #103",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.111686,
+    "lon": 51.922222,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.922222,
+     47.111686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_213",
+    "name": "SMKV #108",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.16402,
+    "lon": 52.02833,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     52.02833,
+     47.16402
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_214",
+    "name": "SMKV #109",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.094717,
+    "lon": 51.925,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.925,
+     47.094717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_216",
+    "name": "SMKV #111",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.098861,
+    "lon": 51.900556,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.900556,
+     47.098861
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_217",
+    "name": "SMKV #112",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.105042,
+    "lon": 51.916389,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.916389,
+     47.105042
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_218",
+    "name": "SMKV #113",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.093067,
+    "lon": 51.886944,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.886944,
+     47.093067
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_22",
     "name": "PCP #6",
     "city": "Aktau",
@@ -5027,7 +5267,7 @@
     "country": "KZ",
     "lat": 43.677764166,
     "lon": 51.174961813,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5038,6 +5278,102 @@
     "coordinates": [
      51.174961813,
      43.677764166
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_220",
+    "name": "TCO 1",
+    "city": "Tengiz field",
+    "region": null,
+    "country": "KZ",
+    "lat": 46.307446,
+    "lon": 53.434816,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     53.434816,
+     46.307446
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_221",
+    "name": "TCO 3",
+    "city": "Tengiz field",
+    "region": null,
+    "country": "KZ",
+    "lat": 46.189918,
+    "lon": 53.681316,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     53.681316,
+     46.189918
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_222",
+    "name": "TCO 4",
+    "city": "Tengiz field",
+    "region": null,
+    "country": "KZ",
+    "lat": 46.125124,
+    "lon": 53.684369,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     53.684369,
+     46.125124
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_223",
+    "name": "TCO 5",
+    "city": "Tengiz field",
+    "region": null,
+    "country": "KZ",
+    "lat": 46.066585,
+    "lon": 53.645775,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     53.645775,
+     46.066585
     ]
    }
   },
@@ -5123,7 +5459,7 @@
     "country": "KZ",
     "lat": 43.658540091,
     "lon": 51.146762,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5171,7 +5507,7 @@
     "country": "KZ",
     "lat": 50.249886,
     "lon": 58.436577,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5190,36 +5526,12 @@
    "properties": {
     "station_id": "kgmt_232",
     "name": "PCP #1",
-    "city": "Kandyagash",
-    "region": null,
-    "country": "KZ",
-    "lat": 49.472571,
-    "lon": 57.422103,
-    "timezone": "Asia/Almaty",
-    "station_type": "reference",
-    "source": "kgmt",
-    "operator": "KazHydroMet",
-    "is_active": true
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     57.422103,
-     49.472571
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "kgmt_233",
-    "name": "PCP #1",
     "city": "Shubarshi vil.",
     "region": null,
     "country": "KZ",
     "lat": 48.580153,
     "lon": 57.178708,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5236,6 +5548,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_233",
+    "name": "PCP #1",
+    "city": "Kandyagash",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.472571,
+    "lon": 57.422103,
+    "timezone": "Asia/Aqtobe",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.422103,
+     49.472571
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_234",
     "name": "PCP #1",
     "city": "Kenkiyak vil.",
@@ -5243,7 +5579,7 @@
     "country": "KZ",
     "lat": 48.604869,
     "lon": 57.116446,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5261,13 +5597,13 @@
    "type": "Feature",
    "properties": {
     "station_id": "kgmt_235",
-    "name": "PCP #10",
-    "city": "Atyrau",
+    "name": "PCP #1",
+    "city": "Inderborsky vil.",
     "region": null,
     "country": "KZ",
-    "lat": 47.114687,
-    "lon": 51.860907,
-    "timezone": "Asia/Almaty",
+    "lat": 48.55635,
+    "lon": 51.735106,
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5276,8 +5612,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     51.860907,
-     47.114687
+     51.735106,
+     48.55635
     ]
    }
   },
@@ -5291,7 +5627,7 @@
     "country": "KZ",
     "lat": 47.047536,
     "lon": 50.809153,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5315,7 +5651,7 @@
     "country": "KZ",
     "lat": 47.64487,
     "lon": 53.331825,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5334,12 +5670,12 @@
    "properties": {
     "station_id": "kgmt_238",
     "name": "PCP #1",
-    "city": "Inderborsky vil.",
+    "city": "Zhanbai vil.",
     "region": null,
     "country": "KZ",
-    "lat": 48.55635,
-    "lon": 51.735106,
-    "timezone": "Asia/Almaty",
+    "lat": 47.047536,
+    "lon": 50.809153,
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5348,8 +5684,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     51.735106,
-     48.55635
+     50.809153,
+     47.047536
     ]
    }
   },
@@ -5363,7 +5699,7 @@
     "country": "KZ",
     "lat": 46.603537,
     "lon": 49.270783,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5387,7 +5723,7 @@
     "country": "KZ",
     "lat": 50.315857,
     "lon": 57.12772,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5409,8 +5745,8 @@
     "city": "Oskemen",
     "region": null,
     "country": "KZ",
-    "lat": 49.948313,
-    "lon": 82.627857,
+    "lat": 49.978389,
+    "lon": 82.635583,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -5420,8 +5756,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     82.627857,
-     49.948313
+     82.635583,
+     49.978389
     ]
    }
   },
@@ -5601,8 +5937,8 @@
     "city": "Semey",
     "region": null,
     "country": "KZ",
-    "lat": 50.414781,
-    "lon": 80.248535,
+    "lat": 50.399177,
+    "lon": 80.201238,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -5612,8 +5948,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     80.248535,
-     50.414781
+     80.201238,
+     50.399177
     ]
    }
   },
@@ -5697,8 +6033,8 @@
     "city": "Auezov vil.",
     "region": null,
     "country": "KZ",
-    "lat": 49.716389,
-    "lon": 81.588794,
+    "lat": 49.708667,
+    "lon": 81.57325,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -5708,8 +6044,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     81.588794,
-     49.716389
+     81.57325,
+     49.708667
     ]
    }
   },
@@ -5765,13 +6101,13 @@
    "type": "Feature",
    "properties": {
     "station_id": "kgmt_254",
-    "name": "PCP #2",
-    "city": "Satpayev",
+    "name": "PCP #1",
+    "city": "Zhetikara",
     "region": null,
     "country": "KZ",
-    "lat": 47.899573798,
-    "lon": 67.547156701,
-    "timezone": "Asia/Almaty",
+    "lat": 52.189222,
+    "lon": 61.198028,
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5780,8 +6116,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     67.547156701,
-     47.899573798
+     61.198028,
+     52.189222
     ]
    }
   },
@@ -5819,7 +6155,7 @@
     "country": "KZ",
     "lat": 52.547538,
     "lon": 62.495819,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5843,7 +6179,7 @@
     "country": "KZ",
     "lat": 50.249201,
     "lon": 66.921237,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5860,30 +6196,6 @@
   {
    "type": "Feature",
    "properties": {
-    "station_id": "kgmt_258",
-    "name": "PCP #1",
-    "city": "Zhetikara",
-    "region": null,
-    "country": "KZ",
-    "lat": 52.189549855,
-    "lon": 61.197536033,
-    "timezone": "Asia/Almaty",
-    "station_type": "reference",
-    "source": "kgmt",
-    "operator": "KazHydroMet",
-    "is_active": true
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     61.197536033,
-     52.189549855
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
     "station_id": "kgmt_259",
     "name": "PCP #1",
     "city": "Aiteke-Bi vil.",
@@ -5891,7 +6203,7 @@
     "country": "KZ",
     "lat": 45.827493,
     "lon": 62.138322,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5939,7 +6251,7 @@
     "country": "KZ",
     "lat": 44.196932,
     "lon": 66.729432,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -5963,7 +6275,7 @@
     "country": "KZ",
     "lat": 46.808742,
     "lon": 61.646597,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6030,11 +6342,11 @@
    "properties": {
     "station_id": "kgmt_264",
     "name": "PCP #4",
-    "city": "Kyzylsai vil.",
+    "city": "Dostyk vil.",
     "region": null,
     "country": "KZ",
-    "lat": 42.347694,
-    "lon": 69.709302,
+    "lat": 41.614517,
+    "lon": 69.157714,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -6044,8 +6356,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     69.709302,
-     42.347694
+     69.157714,
+     41.614517
     ]
    }
   },
@@ -6131,7 +6443,7 @@
     "country": "KZ",
     "lat": 50.294494,
     "lon": 57.168719,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6155,7 +6467,7 @@
     "country": "KZ",
     "lat": 47.097383,
     "lon": 51.944211,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6203,7 +6515,7 @@
     "country": "KZ",
     "lat": 43.634,
     "lon": 51.179,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6249,8 +6561,8 @@
     "city": "Oskemen",
     "region": null,
     "country": "KZ",
-    "lat": 49.966638,
-    "lon": 82.614993,
+    "lat": 49.956987,
+    "lon": 82.592091,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -6260,8 +6572,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     82.614993,
-     49.966638
+     82.592091,
+     49.956987
     ]
    }
   },
@@ -6273,8 +6585,8 @@
     "city": "Stepnogorsk",
     "region": null,
     "country": "KZ",
-    "lat": 52.340841,
-    "lon": 71.867344,
+    "lat": 52.354671,
+    "lon": 71.89771,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -6284,8 +6596,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     71.867344,
-     52.340841
+     71.89771,
+     52.354671
     ]
    }
   },
@@ -6323,7 +6635,7 @@
     "country": "KZ",
     "lat": 51.212034,
     "lon": 51.348908,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6347,7 +6659,7 @@
     "country": "KZ",
     "lat": 51.227,
     "lon": 51.427,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6371,7 +6683,7 @@
     "country": "KZ",
     "lat": 51.160195,
     "lon": 52.997264,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6395,7 +6707,7 @@
     "country": "KZ",
     "lat": 50.290375741,
     "lon": 57.22209476,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6436,6 +6748,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_313",
+    "name": "PCP #2",
+    "city": "Satpayev",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.89897,
+    "lon": 67.54767,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.54767,
+     47.89897
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_314",
     "name": "Жылыой ауданы, «МГӨБ» индустриалды аймағы ауданы",
     "city": "Kulsary",
@@ -6443,7 +6779,7 @@
     "country": "KZ",
     "lat": 46.942027,
     "lon": 53.98525,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6467,7 +6803,7 @@
     "country": "KZ",
     "lat": 46.953111,
     "lon": 51.735194,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6484,6 +6820,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_317",
+    "name": "PCP #12",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.094444,
+    "lon": 51.891111,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.891111,
+     47.094444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_318",
     "name": "Балықшы, А. Байжігітов к-сі, 59, «Судоремонтник» стадионы",
     "city": "Atyrau",
@@ -6491,7 +6851,7 @@
     "country": "KZ",
     "lat": 47.083833,
     "lon": 51.875083,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6515,7 +6875,7 @@
     "country": "KZ",
     "lat": 47.051999,
     "lon": 51.900666,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6539,7 +6899,7 @@
     "country": "KZ",
     "lat": 47.096617,
     "lon": 51.942701,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6556,6 +6916,78 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "kgmt_320",
+    "name": "PCP #15",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.116331,
+    "lon": 51.883991,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.883991,
+     47.116331
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_322",
+    "name": "PCP #17",
+    "city": "Atyrau",
+    "region": null,
+    "country": "KZ",
+    "lat": 47.134722,
+    "lon": 51.868889,
+    "timezone": "Asia/Atyrau",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.868889,
+     47.134722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "kgmt_325",
+    "name": "PCP #6",
+    "city": "Ridder",
+    "region": null,
+    "country": "KZ",
+    "lat": 50.339919,
+    "lon": 83.498172,
+    "timezone": "Asia/Almaty",
+    "station_type": "reference",
+    "source": "kgmt",
+    "operator": "KazHydroMet",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.498172,
+     50.339919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "kgmt_33",
     "name": "PCP #9",
     "city": "Atyrau",
@@ -6563,7 +6995,7 @@
     "country": "KZ",
     "lat": 47.139138,
     "lon": 51.96226,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6585,8 +7017,8 @@
     "city": "Semey",
     "region": null,
     "country": "KZ",
-    "lat": 50.420238,
-    "lon": 80.274296,
+    "lat": 50.403379,
+    "lon": 80.28908,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -6596,8 +7028,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     80.274296,
-     50.420238
+     80.28908,
+     50.403379
     ]
    }
   },
@@ -6681,8 +7113,8 @@
     "city": "Zhanatas",
     "region": null,
     "country": "KZ",
-    "lat": 43.563946,
-    "lon": 69.707703,
+    "lat": 43.549167,
+    "lon": 69.734444,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -6692,8 +7124,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     69.707703,
-     43.563946
+     69.734444,
+     43.549167
     ]
    }
   },
@@ -6707,7 +7139,7 @@
     "country": "KZ",
     "lat": 47.049283,
     "lon": 50.871267,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6779,7 +7211,7 @@
     "country": "KZ",
     "lat": 48.555999,
     "lon": 51.735083,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6942,12 +7374,12 @@
    "properties": {
     "station_id": "kgmt_41",
     "name": "PCP #7",
-    "city": "Aksai",
+    "city": "Burlin vil.",
     "region": null,
     "country": "KZ",
-    "lat": 51.159997,
-    "lon": 52.99708,
-    "timezone": "Asia/Almaty",
+    "lat": 51.431947,
+    "lon": 52.712399,
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -6956,8 +7388,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     52.99708,
-     51.159997
+     52.712399,
+     51.431947
     ]
    }
   },
@@ -7060,30 +7492,6 @@
   {
    "type": "Feature",
    "properties": {
-    "station_id": "kgmt_42",
-    "name": "PCP #7",
-    "city": "Yanvartsevo",
-    "region": null,
-    "country": "KZ",
-    "lat": 51.431947,
-    "lon": 52.712399,
-    "timezone": "Asia/Almaty",
-    "station_type": "reference",
-    "source": "kgmt",
-    "operator": "KazHydroMet",
-    "is_active": true
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     52.712399,
-     51.431947
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
     "station_id": "kgmt_421",
     "name": "Құсайынова көшесі, 9",
     "city": "Satpayev",
@@ -7113,8 +7521,8 @@
     "city": "Zhezkazgan",
     "region": null,
     "country": "KZ",
-    "lat": 47.910901,
-    "lon": 67.530281,
+    "lat": 47.806431,
+    "lon": 67.716283,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -7124,8 +7532,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     67.530281,
-     47.910901
+     67.716283,
+     47.806431
     ]
    }
   },
@@ -7139,7 +7547,7 @@
     "country": "KZ",
     "lat": 53.749503,
     "lon": 62.051874,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7163,7 +7571,7 @@
     "country": "KZ",
     "lat": 45.323674,
     "lon": 55.17715,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7307,7 +7715,7 @@
     "country": "KZ",
     "lat": 44.847099,
     "lon": 65.486961,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7331,7 +7739,7 @@
     "country": "KZ",
     "lat": 44.794887,
     "lon": 65.530228,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7355,7 +7763,7 @@
     "country": "KZ",
     "lat": 50.294165115,
     "lon": 57.168480685,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtobe",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7401,8 +7809,8 @@
     "city": "Almaty",
     "region": null,
     "country": "KZ",
-    "lat": 43.237859,
-    "lon": 76.93394,
+    "lat": 43.220247,
+    "lon": 76.926401,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -7412,8 +7820,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     76.93394,
-     43.237859
+     76.926401,
+     43.220247
     ]
    }
   },
@@ -7617,8 +8025,8 @@
     "city": "Karagandy",
     "region": null,
     "country": "KZ",
-    "lat": 49.795306,
-    "lon": 73.165822,
+    "lat": 49.897955,
+    "lon": 73.086706,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -7628,8 +8036,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     73.165822,
-     49.795306
+     73.086706,
+     49.897955
     ]
    }
   },
@@ -7641,8 +8049,8 @@
     "city": "Aksu",
     "region": null,
     "country": "KZ",
-    "lat": 52.340368,
-    "lon": 71.867612,
+    "lat": 52.03908,
+    "lon": 76.920433,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -7652,8 +8060,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     71.867612,
-     52.340368
+     76.920433,
+     52.03908
     ]
    }
   },
@@ -7685,12 +8093,12 @@
    "type": "Feature",
    "properties": {
     "station_id": "kgmt_7",
-    "name": "PCP #9",
+    "name": "PCP #8",
     "city": "Astana",
     "region": null,
     "country": "KZ",
-    "lat": 51.123120595,
-    "lon": 71.483370959,
+    "lat": 51.185365,
+    "lon": 71.345104,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -7700,8 +8108,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     71.483370959,
-     51.123120595
+     71.345104,
+     51.185365
     ]
    }
   },
@@ -7782,7 +8190,7 @@
    "properties": {
     "station_id": "kgmt_73",
     "name": "Набиева 26 көшесі",
-    "city": "Aksu",
+    "city": "Aksu vil.",
     "region": null,
     "country": "KZ",
     "lat": 52.46618,
@@ -7883,7 +8291,7 @@
     "country": "KZ",
     "lat": 53.228479,
     "lon": 63.630099,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7907,7 +8315,7 @@
     "country": "KZ",
     "lat": 53.176555,
     "lon": 63.607241,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7925,12 +8333,12 @@
    "type": "Feature",
    "properties": {
     "station_id": "kgmt_8",
-    "name": "PCP #8",
+    "name": "PCP #9",
     "city": "Astana",
     "region": null,
     "country": "KZ",
-    "lat": 51.18611299,
-    "lon": 71.343722851,
+    "lat": 51.123245,
+    "lon": 71.484431,
     "timezone": "Asia/Almaty",
     "station_type": "reference",
     "source": "kgmt",
@@ -7940,8 +8348,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     71.343722851,
-     51.18611299
+     71.484431,
+     51.123245
     ]
    }
   },
@@ -7955,7 +8363,7 @@
     "country": "KZ",
     "lat": 52.964293,
     "lon": 63.114487,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -7979,7 +8387,7 @@
     "country": "KZ",
     "lat": 52.97374,
     "lon": 63.122865,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qostanay",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8003,7 +8411,7 @@
     "country": "KZ",
     "lat": 51.160033,
     "lon": 52.99712,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8027,7 +8435,7 @@
     "country": "KZ",
     "lat": 51.212015,
     "lon": 51.350379,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8051,7 +8459,7 @@
     "country": "KZ",
     "lat": 51.205502,
     "lon": 51.383467,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8075,7 +8483,7 @@
     "country": "KZ",
     "lat": 51.227619,
     "lon": 51.427589,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Oral",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8099,7 +8507,7 @@
     "country": "KZ",
     "lat": 47.156821,
     "lon": 51.982406,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8123,7 +8531,7 @@
     "country": "KZ",
     "lat": 46.960532,
     "lon": 54.006221,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Atyrau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8147,7 +8555,7 @@
     "country": "KZ",
     "lat": 43.35065,
     "lon": 52.846661,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8171,7 +8579,7 @@
     "country": "KZ",
     "lat": 43.33982,
     "lon": 52.854448,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Aqtau",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8219,7 +8627,7 @@
     "country": "KZ",
     "lat": 45.644234,
     "lon": 63.306769,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8243,7 +8651,7 @@
     "country": "KZ",
     "lat": 45.609656,
     "lon": 63.282165,
-    "timezone": "Asia/Almaty",
+    "timezone": "Asia/Qyzylorda",
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
@@ -8398,198 +8806,6 @@
     "coordinates": [
      77.006407,
      43.360683
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_14869003",
-    "name": "Almaty Arena (new)",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 43.301,
-    "lon": 76.925,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     76.925,
-     43.301
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_14969424",
-    "name": "Jambyl-Nurmaqov",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 51.128,
-    "lon": 71.43,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     71.43,
-     51.128
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_14969429",
-    "name": "Qazybek bi-Nurmaqov",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 51.128,
-    "lon": 71.43,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     71.43,
-     51.128
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_14969444",
-    "name": "Almaty 2 t/zh vokzaly",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 43.338,
-    "lon": 76.952,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     76.952,
-     43.338
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_14971240",
-    "name": "Nurtau golf club",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 51.128,
-    "lon": 71.43,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     71.43,
-     51.128
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_15151744",
-    "name": "Nuriddin",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 51.128,
-    "lon": 71.43,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     71.43,
-     51.128
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_20512",
-    "name": "Astana",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 51.128,
-    "lon": 71.43,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     71.43,
-     51.128
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_25903",
-    "name": "Almaty (US Embassy)",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 43.252855,
-    "lon": 76.93118,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     76.93118,
-     43.252855
     ]
    }
   },
@@ -13732,78 +13948,6 @@
   {
    "type": "Feature",
    "properties": {
-    "station_id": "oaq_8967269",
-    "name": "Almaty Arena",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 43.301,
-    "lon": 76.925,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     76.925,
-     43.301
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_8967421",
-    "name": "Road, Almaty Industrial Zone",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 43.353,
-    "lon": 76.999,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     76.999,
-     43.353
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "station_id": "oaq_9012318",
-    "name": "Nurly street",
-    "city": null,
-    "region": null,
-    "country": "KZ",
-    "lat": 51.128,
-    "lon": 71.43,
-    "timezone": null,
-    "station_type": "government",
-    "source": "openaq",
-    "operator": null,
-    "is_active": false
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     71.43,
-     51.128
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
     "station_id": "waqi_-114487",
     "name": "Розыбакиева - Байкадамова",
     "city": null,
@@ -15926,7 +16070,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Қазгидромет - Kazhydromet",
+    "operator": "Almaty Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
