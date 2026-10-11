@@ -31,7 +31,7 @@ Each instance is a single air quality or meteorological measurement: one paramet
 As of 11 October 2026, the dataset contains approximately:
 - 2.4 million cleaned hourly readings for Almaty (9 parameters)
 - 1.7 million for Astana (10 parameters)
-- 0.63 million for Karaganda city (12 parameters)
+- 0.63 million for Karaganda city (12 parameters) — PM2.5 since October 2025 from four citizen sensors whose absolute level is not verified
 - 22.8 million for the rest of Kazakhstan (12 parameters; 321 stations — 148 in 70 named towns, 173 without metadata)
 - 1,152 monitoring stations in the registry, and `station_periods.csv` with the earlier places of the 13 KazHydroMet station ids that changed post (KazHydroMet re-points the ids of its feed; a row carries the town of the period its hour belongs to)
 
@@ -89,7 +89,7 @@ Data is directly observed by physical instruments (hardware sensors and referenc
 | KazHydroMet (KGMT) | Government REST API | 141+ | 2018 |
 | AirGradient | Public sensor API | 139 | 2026 |
 | OpenAQ | Open data API (v3) | 22 | 2020 |
-| WAQI / aqicn.org | Public feeds | 11 | 2023 |
+| WAQI / aqicn.org | Public feeds | 15 | 2023 |
 | AirKaz | Historical CSV archives | 41 | 2017–2020 |
 
 Additionally, historical government data (2018–2022) was extracted from Excel spreadsheets provided directly by KazHydroMet under an official data-sharing agreement.
