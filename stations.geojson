@@ -7095,7 +7095,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -13948,6 +13948,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "oaq_6551399",
+    "name": "B.Momyshyly street",
+    "city": null,
+    "region": null,
+    "country": "KZ",
+    "lat": 51.73831,
+    "lon": 75.32793,
+    "timezone": null,
+    "station_type": "government",
+    "source": "openaq",
+    "operator": "AirGradient",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.32793,
+     51.73831
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "oaq_7094",
     "name": "Astana",
     "city": null,
@@ -16094,7 +16118,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Tashkent Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
