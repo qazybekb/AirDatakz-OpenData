@@ -3748,6 +3748,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "ag_203337",
+    "name": "Erubaeva",
+    "city": "Karaganda",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.811882547269164,
+    "lon": 73.08911947608608,
+    "timezone": "Asia/Almaty",
+    "station_type": "low_cost",
+    "source": "airgradient",
+    "operator": "Arai",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.08911947608608,
+     49.811882547269164
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "airkaz_1",
     "name": "Сейфуллина - Дулатова (TS225957)",
     "city": "Almaty",
