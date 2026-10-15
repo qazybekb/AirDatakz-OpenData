@@ -13959,7 +13959,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",

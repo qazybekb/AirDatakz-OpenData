@@ -833,7 +833,7 @@ oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,ope
 oaq_6480195,"Seguin, Ontario",,,KZ,45.3789,79.7542,,government,openaq,AirGradient,False
 oaq_6484978,Mukanova,,,KZ,49.786599,73.163057,,government,openaq,AirGradient,True
 oaq_6485121,Satybaldina,,,KZ,49.780182,73.138677,,government,openaq,AirGradient,True
-oaq_6485441,Erubaeva,,,KZ,49.811882547269164,73.08911947608608,,government,openaq,AirGradient,False
+oaq_6485441,Erubaeva,,,KZ,49.811882547269164,73.08911947608608,,government,openaq,AirGradient,True
 oaq_6551399,B.Momyshyly street,,,KZ,51.73831,75.32793,,government,openaq,AirGradient,True
 oaq_7094,Astana,,,KZ,51.125287,71.467217,,government,openaq,AirNow,False
 oaq_8876,Almaty,,,KZ,43.252855,76.93118,,government,openaq,AirNow,False
