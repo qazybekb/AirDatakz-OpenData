@@ -16214,7 +16214,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Almaty Air Quality Monitor - US Embassy",
+    "operator": "Қазгидромет - Kazhydromet",
     "is_active": true
    },
    "geometry": {
