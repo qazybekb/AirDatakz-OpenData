@@ -7479,7 +7479,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -7503,7 +7503,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -7527,7 +7527,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -7551,7 +7551,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -7575,7 +7575,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -15495,7 +15495,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",

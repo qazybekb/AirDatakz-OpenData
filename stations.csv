@@ -503,16 +503,16 @@ kgmt_409,KGMT Station 409,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_41,PCP #7,Burlin vil.,,KZ,51.431947,52.712399,Asia/Oral,reference,kgmt,KazHydroMet,True
 kgmt_410,KGMT Station 410,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_411,KGMT Station 411,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_412,"Алашахан даңғылы, 43Д",Zhezkazgan,,KZ,47.80752,67.686634,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_413,KGMT Station 413,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_414,"Бабыр би көшесі, 5",Satpayev,,KZ,47.89399,67.542161,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_415,Ұлытау 108,Satpayev,,KZ,47.900828,67.521771,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_412,"Алашахан даңғылы, 43Д",Zhezkazgan,,KZ,47.80752,67.686634,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_413,KGMT Station 413,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_414,"Бабыр би көшесі, 5",Satpayev,,KZ,47.89399,67.542161,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_415,Ұлытау 108,Satpayev,,KZ,47.900828,67.521771,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_416,KGMT Station 416,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_418,KGMT Station 418,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_419,Әуежай маңындағы дачалар,Zhezkazgan,,KZ,47.722167,67.714889,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_418,KGMT Station 418,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_419,Әуежай маңындағы дачалар,Zhezkazgan,,KZ,47.722167,67.714889,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_42,KGMT Station 42,,,KZ,,,Asia/Oral,reference,kgmt,KazHydroMet,True
 kgmt_420,KGMT Station 420,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_421,"Құсайынова көшесі, 9",Satpayev,,KZ,47.901361,67.532778,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_421,"Құсайынова көшесі, 9",Satpayev,,KZ,47.901361,67.532778,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_42963368,KGMT Station 42963368,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_43,PCP #1,Zhezkazgan,,KZ,47.806431,67.716283,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_43241,KGMT Station 43241,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -897,7 +897,7 @@ waqi_-517714,Утвинская к-сі 17,,,KZ,51.160195277778,52.997263611111,
 waqi_-517726,"К. А. Байтұрсынов, 25",,,KZ,51.123243888889,71.484431388889,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_-517732," Затон к-сі, 39",,,KZ,52.265217222222,76.937730555556,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_-517735,"343 квартал көшесі, 13/2",,,KZ,50.436745555556,80.243555833333,,government,waqi,Қазгидромет - Kazhydromet,False
-waqi_-517765,"Құсайынова көшесі, 9",,,KZ,47.901361111111,67.532777777778,,government,waqi,Қазгидромет - Kazhydromet,False
+waqi_-517765,"Құсайынова көшесі, 9",,,KZ,47.901361111111,67.532777777778,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517771,Гагарин көшесі 216,,,KZ,45.006943055556,78.360648055556,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_-517939,"Жылыой ауданы,  «МГӨБ» индустриалды аймағы ауданы",,,KZ,46.942026666667,53.98525,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-518224,"Тынышпаева көшесі, 126",,,KZ,50.009248888889,82.564545277778,,government,waqi,Қазгидромет - Kazhydromet,False
