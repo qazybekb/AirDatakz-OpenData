@@ -153,6 +153,7 @@ ag_173269,Almaty Museum of Arts ,Almaty,,KZ,43.2267,76.9492,Asia/Tashkent,low_co
 ag_173630,Medeu,Almaty,,KZ,43.1642,77.0494,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_180811,"Almaty, Dostyk 300/60",Almaty,,KZ,43.2226,76.9759,Asia/Almaty,low_cost,airgradient,Almaty Air Initiative,True
 ag_186392,Nurly-Tan 37,Almaty,,KZ,43.213101,76.7950629,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_201861,Голубые пруды,Karaganda,,KZ,49.8327441,73.1787803,Asia/Almaty,low_cost,airgradient,Arai,True
 ag_203227,Mukanova,Karaganda,,KZ,49.786599,73.163057,Asia/Almaty,low_cost,airgradient,Arai,True
 ag_203232,Satybaldina,Karaganda,,KZ,49.780182,73.138677,Asia/Almaty,low_cost,airgradient,Arai,True
 ag_203337,Erubaeva,Karaganda,,KZ,49.811882547269164,73.08911947608608,Asia/Almaty,low_cost,airgradient,Arai,True
@@ -308,7 +309,7 @@ kgmt_252,PCP #1,Shemonaiha,,KZ,50.627915,81.918053,Asia/Almaty,reference,kgmt,Ka
 kgmt_253,PCP #1,Satpayev,,KZ,47.910100001,67.529447918,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_254,PCP #1,Zhetikara,,KZ,52.189222,61.198028,Asia/Qostanay,reference,kgmt,KazHydroMet,True
 kgmt_255,PCP #1,Abay town,,KZ,49.633480901,72.854964256,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_256,PCP #1,Lisakovsk,,KZ,52.547538,62.495819,Asia/Qostanay,reference,kgmt,KazHydroMet,False
+kgmt_256,PCP #1,Lisakovsk,,KZ,52.547538,62.495819,Asia/Qostanay,reference,kgmt,KazHydroMet,True
 kgmt_257,PCP #1,Arkalyk,,KZ,50.249201,66.921237,Asia/Qostanay,reference,kgmt,KazHydroMet,True
 kgmt_258,KGMT Station 258,,,KZ,,,Asia/Qostanay,reference,kgmt,KazHydroMet,True
 kgmt_259,PCP #1,Aiteke-Bi vil.,,KZ,45.827493,62.138322,Asia/Qyzylorda,reference,kgmt,KazHydroMet,True
@@ -829,7 +830,7 @@ oaq_6439740,Saryarka,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,Fals
 oaq_6465557,Hunter shooting club,,,KZ,43.383170386230546,76.98219747156817,,government,openaq,AirGradient,True
 oaq_6465558,№82 mektep,,,KZ,43.25083615665919,76.84691125082725,,government,openaq,AirGradient,True
 oaq_6470061,Astana,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,False
-oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,False
+oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,True
 oaq_6480195,"Seguin, Ontario",,,KZ,45.3789,79.7542,,government,openaq,AirGradient,False
 oaq_6484978,Mukanova,,,KZ,49.786599,73.163057,,government,openaq,AirGradient,True
 oaq_6485121,Satybaldina,,,KZ,49.780182,73.138677,,government,openaq,AirGradient,True
@@ -912,7 +913,7 @@ waqi_-531421,"Горький көшесі, 9",,,KZ,50.249612222222,58.4366875,,g
 waqi_-534346,"Ақтөбе облысы Темір ауданы Шұбарши ауылдық округі әкімінің аппараты"" ММ Геоллог к-сі 25д",,,KZ,48.579916666667,57.178694444444,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-536164,Майқұдық,,,KZ,49.85318928967,73.18899750611,,government,waqi,Citizen Science project sensor.community,True
 waqi_-538447,к. Б. Даумова (ауданы мәдениет және демалыс саябағының),,,KZ,51.212033888889,51.348908333333,,government,waqi,Қазгидромет - Kazhydromet,False
-waqi_-539074," 3-ші шағын аудан, 23В құрылыс",,,KZ,52.547555,62.494832777778,,government,waqi,Қазгидромет - Kazhydromet,False
+waqi_-539074," 3-ші шағын аудан, 23В құрылыс",,,KZ,52.547555,62.494832777778,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-557107,Sodiq Azimov Street,,,UZ,41.30198058008,69.28678840399,,government,waqi,Citizen Science project sensor.community,False
 waqi_-561904,Маяковский және Волынов көш. Қиылысы,,,KZ,53.176315277778,63.607446944444,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-572143,Navoi,,,KZ,43.197819050850285,76.88850673561348,,government,waqi,Gaia realtime air quality monitoring network,True
@@ -927,10 +928,10 @@ waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,w
 waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
-waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
+waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_13da00ff,Microdistrict 7,,,KZ,43.22623028,76.8626019,,government,waqi,uRad Monitor,False
 waqi_14,"Тұран даңғылы 2/1, орталық құтқару станциясы",,,KZ,51.158041944444,71.415435,,government,waqi,Қазгидромет - Kazhydromet,False
-waqi_14722,"Tashkent Chilanzar, Uzbekistan",,,UZ,41.31086,69.24074,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_14722,"Tashkent Chilanzar, Uzbekistan",,,UZ,41.31086,69.24074,,government,waqi,Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan,True
 waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_155,НИИ астрофизики им. В.Г. Фесенкова,,,KZ,43.177126944444,76.966099722222,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_157,"Розыбакиева, 270",,,KZ,43.214014722222,76.893050833333,,government,waqi,Қазгидромет - Kazhydromet,False

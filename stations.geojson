@@ -3700,6 +3700,30 @@
   {
    "type": "Feature",
    "properties": {
+    "station_id": "ag_201861",
+    "name": "Голубые пруды",
+    "city": "Karaganda",
+    "region": null,
+    "country": "KZ",
+    "lat": 49.8327441,
+    "lon": 73.1787803,
+    "timezone": "Asia/Almaty",
+    "station_type": "low_cost",
+    "source": "airgradient",
+    "operator": "Arai",
+    "is_active": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.1787803,
+     49.8327441
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "station_id": "ag_203227",
     "name": "Mukanova",
     "city": "Karaganda",
@@ -6231,7 +6255,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -13863,7 +13887,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -15855,7 +15879,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -16214,7 +16238,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Almaty Air Quality Monitor - US Embassy",
+    "operator": "Қазгидромет - Kazhydromet",
     "is_active": true
    },
    "geometry": {
@@ -16286,7 +16310,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
     "is_active": true
    },
    "geometry": {
