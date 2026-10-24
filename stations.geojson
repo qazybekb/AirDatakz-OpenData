@@ -16238,7 +16238,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Қазгидромет - Kazhydromet",
+    "operator": "Almaty Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
@@ -16310,7 +16310,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
