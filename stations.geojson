@@ -3725,12 +3725,12 @@
    "type": "Feature",
    "properties": {
     "station_id": "ag_203227",
-    "name": "Mukanova",
+    "name": "Kulkibayeva",
     "city": "Karaganda",
     "region": null,
     "country": "KZ",
-    "lat": 49.786599,
-    "lon": 73.163057,
+    "lat": 49.80066628596519,
+    "lon": 73.1389544627575,
     "timezone": "Asia/Almaty",
     "station_type": "low_cost",
     "source": "airgradient",
@@ -3740,8 +3740,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     73.163057,
-     49.786599
+     73.1389544627575,
+     49.80066628596519
     ]
    }
   },
@@ -14367,7 +14367,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Citizen Science project sensor.community",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -16166,7 +16166,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Tashkent Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
