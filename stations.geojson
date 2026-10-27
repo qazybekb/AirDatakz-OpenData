@@ -3729,8 +3729,8 @@
     "city": "Karaganda",
     "region": null,
     "country": "KZ",
-    "lat": 49.80066628596519,
-    "lon": 73.1389544627575,
+    "lat": 49.799822,
+    "lon": 73.135734,
     "timezone": "Asia/Almaty",
     "station_type": "low_cost",
     "source": "airgradient",
@@ -3740,8 +3740,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     73.1389544627575,
-     49.80066628596519
+     73.135734,
+     49.799822
     ]
    }
   },
@@ -16166,7 +16166,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Tashkent Air Quality Monitor - US Embassy",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
@@ -16190,7 +16190,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Dushanbe Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
