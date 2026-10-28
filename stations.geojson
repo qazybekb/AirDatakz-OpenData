@@ -16166,7 +16166,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
     "is_active": true
    },
    "geometry": {
@@ -16190,7 +16190,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Dushanbe Air Quality Monitor - US Embassy",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
