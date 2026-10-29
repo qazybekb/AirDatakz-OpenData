@@ -247,7 +247,7 @@ kgmt_196,KGMT Station 196,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_197,KGMT Station 197,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_198,KGMT Station 198,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_199,KGMT Station 199,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
-kgmt_2,PCP #1,Semey,,KZ,50.414781,80.248535,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_2,PCP #1,Semey,,KZ,50.414781,80.248535,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_200,№19 мектеп,Temirtau,,KZ,50.057988,72.956546,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_201,KGMT Station 201,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_202,KGMT Station 202,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
@@ -925,7 +925,7 @@ waqi_1002,Тау самал,,,KZ,43.2058,76.981,,government,waqi,AirKaz.org,Fals
 waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia realtime air quality monitoring network,False
 waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,False
 waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,False
-waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan,True
+waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True

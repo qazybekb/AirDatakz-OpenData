@@ -5079,7 +5079,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",
@@ -16166,7 +16166,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
