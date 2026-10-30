@@ -855,7 +855,7 @@ waqi_-366844,Звездная поляна,,,KZ,43.1333,76.8695,,government,waqi
 waqi_-370492,Dostyk Avenue,,,KZ,43.24740500169,76.95690894212,,government,waqi,Citizen Science project sensor.community,True
 waqi_-402925,Индер,,,KZ,48.5558,51.735,,government,waqi,AirKaz.org,False
 waqi_-410893,Алматы санаторий,,,KZ,43.176,76.872,,government,waqi,Citizen Science project sensor.community,False
-waqi_-464161,Жунисова улица,,,KZ,43.218,76.79,,government,waqi,Citizen Science project sensor.community,False
+waqi_-464161,Жунисова улица,,,KZ,43.218,76.79,,government,waqi,Citizen Science project sensor.community,True
 waqi_-506290,Майқұдық,,,KZ,49.89696663495,73.21133762598,,government,waqi,Citizen Science project sensor.community,True
 waqi_-506392,улица Терешковой,,,KZ,49.82555957034,73.12215149403,,government,waqi,Citizen Science project sensor.community,True
 waqi_-509311,Проспект Нурсултана Назарбаева,,,KZ,49.81513369921,73.10452669859,,government,waqi,Citizen Science project sensor.community,False
@@ -932,7 +932,7 @@ waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшіліг�
 waqi_13da00ff,Microdistrict 7,,,KZ,43.22623028,76.8626019,,government,waqi,uRad Monitor,False
 waqi_14,"Тұран даңғылы 2/1, орталық құтқару станциясы",,,KZ,51.158041944444,71.415435,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_14722,"Tashkent Chilanzar, Uzbekistan",,,UZ,41.31086,69.24074,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
-waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan,True
 waqi_155,НИИ астрофизики им. В.Г. Фесенкова,,,KZ,43.177126944444,76.966099722222,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_157,"Розыбакиева, 270",,,KZ,43.214014722222,76.893050833333,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_159,"Карасу, 6-я, 122",,,KZ,43.338995555556,76.903238611111,,government,waqi,Қазгидромет - Kazhydromet,False
