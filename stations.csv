@@ -514,12 +514,39 @@ kgmt_419,Әуежай маңындағы дачалар,Zhezkazgan,,KZ,47.722167
 kgmt_42,KGMT Station 42,,,KZ,,,Asia/Oral,reference,kgmt,KazHydroMet,True
 kgmt_420,KGMT Station 420,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_421,"Құсайынова көшесі, 9",Satpayev,,KZ,47.901361,67.532778,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_422,KGMT Station 422,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_423,KGMT Station 423,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_424,KGMT Station 424,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_425,KGMT Station 425,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_426,KGMT Station 426,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_427,KGMT Station 427,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_428,KGMT Station 428,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_42963368,KGMT Station 42963368,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_43,PCP #1,Zhezkazgan,,KZ,47.806431,67.716283,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_430,KGMT Station 430,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_431,KGMT Station 431,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_432,KGMT Station 432,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_43241,KGMT Station 43241,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_433,KGMT Station 433,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_434,KGMT Station 434,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_435,KGMT Station 435,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_436,KGMT Station 436,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_437,KGMT Station 437,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_439,KGMT Station 439,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_44,PCP #13,Karabalyk,,KZ,53.749503,62.051874,Asia/Qostanay,reference,kgmt,KazHydroMet,True
+kgmt_440,KGMT Station 440,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_441,KGMT Station 441,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_442,KGMT Station 442,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_443,KGMT Station 443,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_444,KGMT Station 444,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_445,KGMT Station 445,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_44593049,KGMT Station 44593049,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_446,KGMT Station 446,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_447,KGMT Station 447,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_448,KGMT Station 448,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_449,KGMT Station 449,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_45,PCP #7,Beyneu,,KZ,45.323674,55.17715,Asia/Aqtau,reference,kgmt,KazHydroMet,True
+kgmt_450,KGMT Station 450,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_45968703,KGMT Station 45968703,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_46,PCP #5,Pavlodar,,KZ,52.281308,76.946696,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_47,PCP #6,Pavlodar,,KZ,52.265335,76.937616,Asia/Almaty,reference,kgmt,KazHydroMet,True
@@ -925,7 +952,7 @@ waqi_1002,Тау самал,,,KZ,43.2058,76.981,,government,waqi,AirKaz.org,Fals
 waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia realtime air quality monitoring network,False
 waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,False
 waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,False
-waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,Tashkent Air Quality Monitor - US Embassy,True
+waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
