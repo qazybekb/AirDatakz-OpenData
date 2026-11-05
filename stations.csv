@@ -287,7 +287,7 @@ kgmt_232,PCP #1,Shubarshi vil.,,KZ,48.580153,57.178708,Asia/Aqtobe,reference,kgm
 kgmt_233,PCP #1,Kandyagash,,KZ,49.472571,57.422103,Asia/Aqtobe,reference,kgmt,KazHydroMet,True
 kgmt_234,PCP #1,Kenkiyak vil.,,KZ,48.604869,57.116446,Asia/Aqtobe,reference,kgmt,KazHydroMet,True
 kgmt_235,PCP #1,Inderborsky vil.,,KZ,48.55635,51.735106,Asia/Atyrau,reference,kgmt,KazHydroMet,True
-kgmt_236,PCP #1,Zhanbai vil.,,KZ,47.047536,50.809153,Asia/Atyrau,reference,kgmt,KazHydroMet,False
+kgmt_236,PCP #1,Zhanbai vil.,,KZ,47.047536,50.809153,Asia/Atyrau,reference,kgmt,KazHydroMet,True
 kgmt_237,PCP #1,Makat vil.,,KZ,47.64487,53.331825,Asia/Atyrau,reference,kgmt,KazHydroMet,True
 kgmt_238,PCP #1,Zhanbai vil.,,KZ,47.047536,50.809153,Asia/Atyrau,reference,kgmt,KazHydroMet,True
 kgmt_239,PCP #1,Ganyushkino vil.,,KZ,46.603537,49.270783,Asia/Atyrau,reference,kgmt,KazHydroMet,True
@@ -894,7 +894,7 @@ waqi_-517420,"Жанкожа батыр көшесі, 89",,,KZ,50.290383055556,5
 waqi_-517423,"Мұқанов көшесі,57/3",,,KZ,49.786533888889,73.168150833333,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_-517426,Шуя қалалық ауруханасынан 10 метр. Макаренко,,,KZ,43.612483055556,73.744909444444,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517441,"Түрксіб ауданы, ауданы, №32 жалпы білім беретін мектеп",,,KZ,43.373304166667,76.992638888889,,government,waqi,Қазгидромет - Kazhydromet,False
-waqi_-517444,"Алатау ауданы, Момышұлы көшесіндегі «Алматы аренасы» мұз айдыны",,,KZ,43.263798333333,76.8147375,,government,waqi,Қазгидромет - Kazhydromet,False
+waqi_-517444,"Алатау ауданы, Момышұлы көшесіндегі «Алматы аренасы» мұз айдыны",,,KZ,43.263798333333,76.8147375,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517447,"Жетісу ауданы, аум. Жетісу ауданының ""Құлагер""ықшам ауданы",,,KZ,43.3007925,76.925219444444,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517456,Набиева 26 көшесі,,,KZ,52.46618,71.987578055556,,government,waqi,Қазгидромет - Kazhydromet,True
 waqi_-517459,"Бурабай кенті, Кенесары көшесі, 45 (мектеп аумағы. С. Сейфуллин)",,,KZ,53.085925,70.301633055556,,government,waqi,Қазгидромет - Kazhydromet,True
@@ -952,7 +952,7 @@ waqi_1002,Тау самал,,,KZ,43.2058,76.981,,government,waqi,AirKaz.org,Fals
 waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia realtime air quality monitoring network,False
 waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,False
 waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,False
-waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,Tashkent Air Quality Monitor - US Embassy,True
+waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan,True
 waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
