@@ -3749,12 +3749,12 @@
    "type": "Feature",
    "properties": {
     "station_id": "ag_203232",
-    "name": "Satybaldina",
+    "name": "Erzhanova ",
     "city": "Karaganda",
     "region": null,
     "country": "KZ",
-    "lat": 49.780182,
-    "lon": 73.138677,
+    "lat": 49.7964731,
+    "lon": 73.0798604,
     "timezone": "Asia/Almaty",
     "station_type": "low_cost",
     "source": "airgradient",
@@ -3764,8 +3764,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     73.138677,
-     49.780182
+     73.0798604,
+     49.7964731
     ]
    }
   },
@@ -16166,7 +16166,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
     "is_active": true
    },
    "geometry": {
@@ -16310,7 +16310,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
     "is_active": true
    },
    "geometry": {
