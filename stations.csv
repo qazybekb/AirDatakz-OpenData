@@ -865,7 +865,7 @@ oaq_6485441,Erubaeva,,,KZ,49.811882547269164,73.08911947608608,,government,opena
 oaq_6551399,B.Momyshyly street,,,KZ,51.73831,75.32793,,government,openaq,AirGradient,True
 oaq_7094,Astana,,,KZ,51.125287,71.467217,,government,openaq,AirNow,False
 oaq_8876,Almaty,,,KZ,43.252855,76.93118,,government,openaq,AirNow,False
-waqi_-114487,Розыбакиева - Байкадамова,,,KZ,43.214,76.893,,government,waqi,AirKaz.org,True
+waqi_-114487,Розыбакиева - Байкадамова,,,KZ,43.214,76.893,,government,waqi,AirKaz.org,False
 waqi_-114496,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_-114514,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,True
 waqi_-114523,Темиртау (СШ 16),,,KZ,50.052,72.942,,government,waqi,AirKaz.org,False
@@ -953,7 +953,7 @@ waqi_1003,Almaty,,,KZ,43.21888062732633,76.93365433699681,,government,waqi,Gaia 
 waqi_108,Жана Кайрат,,,KZ,43.312,77.001,,government,waqi,AirKaz.org,False
 waqi_109,Тулебаева-Курмангазы,,,KZ,43.245,76.95,,government,waqi,AirKaz.org,False
 waqi_11219,"Tashkent US Embassy, Uzbekistan",,,UZ,41.3672,69.2725,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
-waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_11895,"Dushanbe US Embassy, Tajikistan",,,UZ,38.55767,68.77592,,government,waqi,Dushanbe Air Quality Monitor - US Embassy,True
 waqi_12,Каменское плато,,,KZ,43.177,76.966,,government,waqi,AirKaz.org,False
 waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшілігі)",,,KZ,43.222,76.851,,government,waqi,Almaty Air Quality Monitor - US Embassy,True
 waqi_13da00ff,Microdistrict 7,,,KZ,43.22623028,76.8626019,,government,waqi,uRad Monitor,False

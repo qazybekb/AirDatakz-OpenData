@@ -14079,7 +14079,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16190,7 +16190,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Dushanbe Air Quality Monitor - US Embassy",
     "is_active": true
    },
    "geometry": {
