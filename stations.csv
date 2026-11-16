@@ -512,7 +512,7 @@ kgmt_416,KGMT Station 416,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_418,KGMT Station 418,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_419,Әуежай маңындағы дачалар,Zhezkazgan,,KZ,47.722167,67.714889,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_42,KGMT Station 42,,,KZ,,,Asia/Oral,reference,kgmt,KazHydroMet,True
-kgmt_420,KGMT Station 420,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
+kgmt_420,KGMT Station 420,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_421,"Құсайынова көшесі, 9",Satpayev,,KZ,47.901361,67.532778,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_422,KGMT Station 422,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
 kgmt_423,KGMT Station 423,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
