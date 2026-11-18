@@ -14127,7 +14127,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -14391,7 +14391,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "AirKaz.org",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16166,7 +16166,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
@@ -16190,7 +16190,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Dushanbe Air Quality Monitor - US Embassy",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
