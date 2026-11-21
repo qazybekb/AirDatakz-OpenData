@@ -2631,7 +2631,7 @@
     "station_type": "low_cost",
     "source": "airgradient",
     "operator": "Almaty Air Initiative",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -3207,7 +3207,7 @@
     "station_type": "low_cost",
     "source": "airgradient",
     "operator": "Almaty Air Initiative",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -3543,7 +3543,7 @@
     "station_type": "low_cost",
     "source": "airgradient",
     "operator": "Almaty Air Initiative",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -11943,7 +11943,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -12591,7 +12591,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -12639,7 +12639,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",

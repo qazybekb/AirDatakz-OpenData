@@ -108,7 +108,7 @@ ag_167662,"Ötegen Batyr, №24 litsei",Almaty,,KZ,43.4143,77.0315,Asia/Tashkent
 ag_167663,№17 mektep,Almaty,,KZ,43.3144,76.9657,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167664,№44 mektep-gimnaziya,Almaty,,KZ,43.3439,77.0072,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167665,№112 mektep,Almaty,,KZ,43.2937,76.9154,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_167667,Aqjar (Medeubekov k-si),Almaty,,KZ,43.1826,76.7916,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167667,Aqjar (Medeubekov k-si),Almaty,,KZ,43.1826,76.7916,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_167668,№157 mektep,Almaty,,KZ,43.2197,76.8015,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167669,№156 mektep ,Almaty,,KZ,43.3224,76.8863,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167670,Sūltan-Qorǵan (Bespaqov k-si),Almaty,,KZ,43.3167,76.9266,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
@@ -132,7 +132,7 @@ ag_167690,Alma City 5,Almaty,,KZ,43.2167,76.7743,Asia/Tashkent,low_cost,airgradi
 ag_167691,Zhas Qanat aud. (Khmelnitskiy k-si.),Almaty,,KZ,43.3177,76.9839,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167693,Jetisu 2,Almaty,,KZ,43.2227,76.8467,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167694,Aport Mall East,Almaty,,KZ,43.3148,77.0216,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_167695,"Abaı auyly, №2 mektep",Almaty,,KZ,43.2015,76.7636,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167695,"Abaı auyly, №2 mektep",Almaty,,KZ,43.2015,76.7636,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_167700,Qarağaily (Nadirov k-si),Almaty,,KZ,43.1833,76.8416,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167701,"Isaevo auyly, Isaeva atyndaǵy mektep",Almaty,,KZ,43.4012,76.7513,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167702,Bögenbai Batyr – Vereŝagin,Almaty,,KZ,43.2487,76.887,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
@@ -146,7 +146,7 @@ ag_171445,Samal 1,Almaty,,KZ,43.2358,76.9518,Asia/Tashkent,low_cost,airgradient,
 ag_171446,Baitursynov k-si,Almaty,,KZ,43.231494,76.934146,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_171447,Zharokov - Mynbayev st.,Almaty,,KZ,43.2374,76.8995,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_171448,Almalybaq,Almaty,,KZ,43.222398,76.678183,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_171449,Zhambyl,Almaty,,KZ,43.2734,76.6685,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_171449,Zhambyl,Almaty,,KZ,43.2734,76.6685,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_173261,"Aqbulak, 7",Almaty,,KZ,43.2427,76.8175,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_173265,№107 mektep,Almaty,,KZ,43.2958,76.9374,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_173269,Almaty Museum of Arts ,Almaty,,KZ,43.2267,76.9492,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
@@ -778,7 +778,7 @@ oaq_6175528,Samal 1,,,KZ,43.2358,76.9518,,government,openaq,AirGradient,True
 oaq_6175529,Baitursynov k-si,,,KZ,43.231494,76.934146,,government,openaq,AirGradient,True
 oaq_6175530,Zharokov - Mynbayev st.,,,KZ,43.2374,76.8995,,government,openaq,AirGradient,True
 oaq_6175531,Almalybaq,,,KZ,43.222398,76.678183,,government,openaq,AirGradient,True
-oaq_6175532,Zhambyl,,,KZ,43.2734,76.6685,,government,openaq,AirGradient,True
+oaq_6175532,Zhambyl,,,KZ,43.2734,76.6685,,government,openaq,AirGradient,False
 oaq_6175533,Medeu,,,KZ,43.1642,77.0494,,government,openaq,AirGradient,True
 oaq_6175707,Orbita 1 (Navoi k-si) ,,,KZ,43.2035,76.8869,,government,openaq,AirGradient,True
 oaq_6175708,№170 Böbekjai balabaqşasy,,,KZ,43.3115,76.9015,,government,openaq,AirGradient,True
@@ -805,9 +805,9 @@ oaq_6199784,Almağül (Serkebaev – Strauss),,,KZ,43.2049,76.8999,,government,o
 oaq_6199785,5-şi şağyn audan ,,,KZ,43.2337,76.8642,,government,openaq,AirGradient,True
 oaq_6199786,Aqbulaq (Baiqonyrov k-si) ,,,KZ,43.2636,76.8336,,government,openaq,AirGradient,True
 oaq_6199787,Äskeri qalaşıq,,,KZ,43.3615,76.9653,,government,openaq,AirGradient,True
-oaq_6199788,Aqjar (Medeubekov k-si),,,KZ,43.1826,76.7916,,government,openaq,AirGradient,True
+oaq_6199788,Aqjar (Medeubekov k-si),,,KZ,43.1826,76.7916,,government,openaq,AirGradient,False
 oaq_6199789,Aport Mall East,,,KZ,43.3148,77.0216,,government,openaq,AirGradient,True
-oaq_6199790,"Abaı auyly, №2 mektep",,,KZ,43.2015,76.7636,,government,openaq,AirGradient,True
+oaq_6199790,"Abaı auyly, №2 mektep",,,KZ,43.2015,76.7636,,government,openaq,AirGradient,False
 oaq_6199865,№193 mektep,,,KZ,43.373,76.9431,,government,openaq,AirGradient,True
 oaq_6199866,Maqataev – Muratbaev,,,KZ,43.2618,76.9186,,government,openaq,AirGradient,True
 oaq_6199867,Bekmahanov – Süyinbai,,,KZ,43.3461,76.971271,,government,openaq,AirGradient,True
