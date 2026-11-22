@@ -95,7 +95,7 @@ ag_167649,Nurtau golf club,Almaty,,KZ,43.1934,76.8186,Asia/Tashkent,low_cost,air
 ag_167650,№200 mektep-gimnaziya,Almaty,,KZ,43.198,76.7905,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167651,Saiyalı (Avtotsón) ,Almaty,,KZ,43.3038,76.837,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167652,Saudakent (Kazakov k-si),Almaty,,KZ,43.2668,76.8949,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_167653, Qurylys bazary (Taraz k-si) ,Almaty,,KZ,43.3052,77.0062,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
+ag_167653, Qurylys bazary (Taraz k-si) ,Almaty,,KZ,43.3052,77.0062,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,False
 ag_167654,№31 orta mektep,Almaty,,KZ,43.3253,76.9676,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167655,Jumysşy kenti (Krylov k-si),Almaty,,KZ,43.2735,76.8904,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_167656,№162 mektep,Almaty,,KZ,43.3118,76.9557,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
@@ -379,7 +379,7 @@ kgmt_30960812,KGMT Station 30960812,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMe
 kgmt_31,PCP #6,Aktobe,,KZ,50.290375741,57.22209476,Asia/Aqtobe,reference,kgmt,KazHydroMet,True
 kgmt_310,KGMT Station 310,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_311,Шуақты көшесі 91-де,Bestobe vil.,,KZ,52.489202,73.096111,Asia/Almaty,reference,kgmt,KazHydroMet,True
-kgmt_312,KGMT Station 312,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
+kgmt_312,KGMT Station 312,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_313,PCP #2,Satpayev,,KZ,47.89897,67.54767,Asia/Almaty,reference,kgmt,KazHydroMet,False
 kgmt_314,"Жылыой ауданы, «МГӨБ» индустриалды аймағы ауданы",Kulsary,,KZ,46.942027,53.98525,Asia/Atyrau,reference,kgmt,KazHydroMet,True
 kgmt_315,KGMT Station 315,,,KZ,,,Asia/Almaty,reference,kgmt,KazHydroMet,True
@@ -854,7 +854,7 @@ oaq_6253643,Nurly-Tan 37,,,KZ,43.213101,76.7950629,,government,openaq,AirGradien
 oaq_6255304,Duisenova 25,,,KZ,43.25586,76.88555,,government,openaq,AirGradient,True
 oaq_6353999,Alma City 5,,,KZ,43.2167,76.7743,,government,openaq,AirGradient,True
 oaq_6367666,Malaya Stanitsa (Bestujev k-si),,,KZ,43.281123,76.970665,,government,openaq,AirGradient,True
-oaq_6398066, Qurylys bazary (Taraz k-si) ,,,KZ,43.3052,77.0062,,government,openaq,AirGradient,True
+oaq_6398066, Qurylys bazary (Taraz k-si) ,,,KZ,43.3052,77.0062,,government,openaq,AirGradient,False
 oaq_6439740,Saryarka,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,False
 oaq_6465557,Hunter shooting club,,,KZ,43.383170386230546,76.98219747156817,,government,openaq,AirGradient,True
 oaq_6465558,№82 mektep,,,KZ,43.25083615665919,76.84691125082725,,government,openaq,AirGradient,True
@@ -961,7 +961,7 @@ waqi_12774,"Almaty, US Embassy, Kazakhstan (Алматы, АҚШ елшіліг�
 waqi_13da00ff,Microdistrict 7,,,KZ,43.22623028,76.8626019,,government,waqi,uRad Monitor,False
 waqi_14,"Тұран даңғылы 2/1, орталық құтқару станциясы",,,KZ,51.158041944444,71.415435,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_14722,"Tashkent Chilanzar, Uzbekistan",,,UZ,41.31086,69.24074,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
-waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,World Meteorological Organization - surface synoptic observations (WMO-SYNOP),True
+waqi_14723,"Tashkent Yunusabad, Uzbekistan",,,UZ,41.328069,69.294476,,government,waqi,Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan,True
 waqi_155,НИИ астрофизики им. В.Г. Фесенкова,,,KZ,43.177126944444,76.966099722222,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_157,"Розыбакиева, 270",,,KZ,43.214014722222,76.893050833333,,government,waqi,Қазгидромет - Kazhydromet,False
 waqi_159,"Карасу, 6-я, 122",,,KZ,43.338995555556,76.903238611111,,government,waqi,Қазгидромет - Kazhydromet,False

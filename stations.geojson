@@ -2319,7 +2319,7 @@
     "station_type": "low_cost",
     "source": "airgradient",
     "operator": "Almaty Air Initiative",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13767,7 +13767,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16334,7 +16334,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
+    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
     "is_active": true
    },
    "geometry": {
