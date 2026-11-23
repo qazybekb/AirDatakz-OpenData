@@ -6255,7 +6255,7 @@
     "station_type": "reference",
     "source": "kgmt",
     "operator": "KazHydroMet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -13887,7 +13887,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -15879,7 +15879,7 @@
     "station_type": "government",
     "source": "waqi",
     "operator": "Қазгидромет - Kazhydromet",
-    "is_active": true
+    "is_active": false
    },
    "geometry": {
     "type": "Point",
@@ -16334,7 +16334,7 @@
     "timezone": null,
     "station_type": "government",
     "source": "waqi",
-    "operator": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+    "operator": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)",
     "is_active": true
    },
    "geometry": {
