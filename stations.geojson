@@ -3701,12 +3701,12 @@
    "type": "Feature",
    "properties": {
     "station_id": "ag_201861",
-    "name": "Голубые пруды",
+    "name": "TSS",
     "city": "Karaganda",
     "region": null,
     "country": "KZ",
-    "lat": 49.8327441,
-    "lon": 73.1787803,
+    "lat": 49.81778108177264,
+    "lon": 73.1057446623018,
     "timezone": "Asia/Almaty",
     "station_type": "low_cost",
     "source": "airgradient",
@@ -3716,8 +3716,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     73.1787803,
-     49.8327441
+     73.1057446623018,
+     49.81778108177264
     ]
    }
   },
@@ -13887,7 +13887,7 @@
     "station_type": "government",
     "source": "openaq",
     "operator": "AirGradient",
-    "is_active": false
+    "is_active": true
    },
    "geometry": {
     "type": "Point",

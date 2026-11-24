@@ -153,7 +153,7 @@ ag_173269,Almaty Museum of Arts ,Almaty,,KZ,43.2267,76.9492,Asia/Tashkent,low_co
 ag_173630,Medeu,Almaty,,KZ,43.1642,77.0494,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
 ag_180811,"Almaty, Dostyk 300/60",Almaty,,KZ,43.2226,76.9759,Asia/Almaty,low_cost,airgradient,Almaty Air Initiative,True
 ag_186392,Nurly-Tan 37,Almaty,,KZ,43.213101,76.7950629,Asia/Tashkent,low_cost,airgradient,Almaty Air Initiative,True
-ag_201861,Голубые пруды,Karaganda,,KZ,49.8327441,73.1787803,Asia/Almaty,low_cost,airgradient,Arai,True
+ag_201861,TSS,Karaganda,,KZ,49.81778108177264,73.1057446623018,Asia/Almaty,low_cost,airgradient,Arai,True
 ag_203227,Kulkibayeva,Karaganda,,KZ,49.799822,73.135734,Asia/Almaty,low_cost,airgradient,Arai,True
 ag_203232,Erzhanova ,Karaganda,,KZ,49.7964731,73.0798604,Asia/Almaty,low_cost,airgradient,Arai,True
 ag_203337,Erubaeva,Karaganda,,KZ,49.811882547269164,73.08911947608608,Asia/Almaty,low_cost,airgradient,Arai,True
@@ -859,7 +859,7 @@ oaq_6439740,Saryarka,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,Fals
 oaq_6465557,Hunter shooting club,,,KZ,43.383170386230546,76.98219747156817,,government,openaq,AirGradient,True
 oaq_6465558,№82 mektep,,,KZ,43.25083615665919,76.84691125082725,,government,openaq,AirGradient,True
 oaq_6470061,Astana,,,KZ,51.180124,71.40586,,government,openaq,AirGradient,False
-oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,False
+oaq_6471162,Голубые пруды,,,KZ,49.8327441,73.1787803,,government,openaq,AirGradient,True
 oaq_6480195,"Seguin, Ontario",,,KZ,45.3789,79.7542,,government,openaq,AirGradient,False
 oaq_6484978,Mukanova,,,KZ,49.786599,73.163057,,government,openaq,AirGradient,True
 oaq_6485121,Satybaldina,,,KZ,49.780182,73.138677,,government,openaq,AirGradient,True
